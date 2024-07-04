@@ -1,8 +1,8 @@
 {
-  "acc": 55.10204081632652,
-  "correct": 27,
-  "wrong": 22,
-  "count": 49,
+  "acc": 80.0,
+  "correct": 40,
+  "wrong": 10,
+  "count": 50,
   "args": {
     "data_root": "../data/geospatial",
     "output_root": "../results",
@@ -10,7 +10,7 @@
     "label": "chameleon_chatgpt",
     "task_name": "geospatial_v2",
     "test_split": "minitest",
-    "test_number": 49,
+    "test_number": 50,
     "seed": 0,
     "modules": null,
     "policy_engine": "gpt-3.5-turbo",

@@ -65,7 +65,7 @@ Information: {
 
 
 Read the following question and metadata, then extract information about query, location, region and type and current_location and give as 
-json format.
+json format. Put only the five fields: query, location, region, type and current_location.
 """
 
 # prompt for question and using the information find the

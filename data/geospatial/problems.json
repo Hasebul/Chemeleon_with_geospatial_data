@@ -11,9 +11,9 @@
   },
 
   "2":{
-    "question":"Which is the closest low-cost hospital to Pan Pacific Sonargaon Hotel, Dhaka?",
-    "choices": ["United Hospital", "Apollo Hospitals", "Abeer General Hospital", "Square Hospital"],
-    "answer":"Abeer General Hospital",
+    "question":"What is the nearest restaurant to the Tower Bridge, London?",
+    "choices": ["Amber Restaurant", "Emilia's Crafted Pasta", "Burger King", "Legare"],
+    "answer":"Legare",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -22,9 +22,9 @@
   },
 
   "3":{
-    "question":"Can you suggest a budget-friendly medical facility near Dhaka Regency Hotel & Resort?",
-    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
+    "question":"Which hotel is closest to the Hollywood Walk of Fame, Los Angeles?",
+    "choices": ["Hollywood Le Bon Hotel", "The Godfrey Hotel Hollywood", "The Beverly Hilton", "Tommie Hollywood"],
+    "answer":"Hollywood Le Bon Hotel",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -45,8 +45,8 @@
 
   "5":{
     "question":"Which restaurant is closest to Marina Bay Sands, Singapore?",
-    "choices": ["Lau Pa Sat", "The Quay", "Jumbo Seafood", "Cé La Vi"],
-    "answer":"Cé La Vi",
+    "choices": ["Lau Pa Sat", "The Quay", "Jumbo Seafood", "Ming Kitchen Seafood Restaurant"],
+    "answer":"Ming Kitchen Seafood Restaurant",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -57,7 +57,7 @@
   "6":{
     "question":"What is the nearest beach from Burj Al Arab, Dubai?",
     "choices": ["Kite Beach", "Jumeirah Beach", "Al Mamzar Beach Park", "La Mer Beach"],
-    "answer":"La Mer Beach",
+    "answer":"Jumeirah Beach",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -67,8 +67,8 @@
 
   "7":{
     "question":"Which museum is closest to the Eiffel Tower, Paris?",
-    "choices": ["Musée d'Orsay", "Louvre Museum", "Musée de l'Armée", "Centre Georges Pompidou"],
-    "answer":"Musée de l'Armée",
+    "choices": ["Musée d'Orsay", "Louvre Museum", "Musée du quai Branly", "Centre Georges Pompidou"],
+    "answer":"Musée du quai Branly",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -99,9 +99,9 @@
   },
 
   "10":{
-    "question":"Which is the most close hospital near the Bangladesh National Museum?",
-    "choices": ["United Hospital", "Apollo Hospitals", "BSMMU-Bangabandhu Sheikh Mujib Medical University", "Square Hospital"],
-    "answer":"BSMMU-Bangabandhu Sheikh Mujib Medical University",
+    "question":"What is the nearest pharmacy to the Sydney Opera House?",
+    "choices": ["Priceline Pharmacy", "Quay Pharmacy", "TerryWhite Chemmart", "Pyrmont Pharmacy"],
+    "answer":"Quay Pharmacy",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -112,12 +112,12 @@
   "11":{
     "question":"What is the nearest mosque from Duck Lake, Doha Qater?",
       "choices": [
-        "1.Hamad Bin Jassim Bin Jaber Bin Mohamed Al Thani Mosque | Mosque, Via, Doha",
-        "9G9G+RXM, Doha",
-        "Inside small Grand Hyatt Mosque | 9GGH+Q3H, Doha",
-        "The Golden Masjid | 9G6G+9M2, Doha"
+        "Hamad Bin Jassim Bin Jaber Bin Mohamed Al Thani Mosque",
+        "The Pearl Mosque",
+        "Inside small Grand Hyatt Mosque",
+        "The Golden Masjid"
       ],
-    "answer":"9G9G+RXM, Doha",
+    "answer":"The Pearl Mosque",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -128,12 +128,12 @@
   "12":{
     "question":"I'm in Edinburgh and want to go burger tasting. Which distillery or burger shop nearby is highly recommended?",
       "choices": [
-        "Restaurant Percil",
+        "Five Guys St. James Quarter",
         "operation sea",
         "Shrimp Shack",
         "Saudi Fisheries Company"
       ],
-    "answer":"Restaurant Percil",
+    "answer":"Five Guys St. James Quarter",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -159,8 +159,8 @@
 
   "14":{
     "question":"I'm in Bangkok and want to visit some temples. Which nearby temple is the most renowned?",
-      "choices": ["Mariamman Temple","Mahakan Fort","Mezquita de Las Tornerías","Temple archaeological Ruah"],
-    "answer":"Mahakan Fort",
+      "choices": ["Mariamman Temple","Wat Arun Ratchawararam Ratchawaramahawihan","Mezquita de Las Tornerías","Temple archaeological Ruah"],
+    "answer":"Wat Arun Ratchawararam Ratchawaramahawihan",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -219,8 +219,8 @@
 
   "19":{
     "question":"I'm in Barcelona and want to catch a football game. Where is the nearest and best place to watch a live match?",
-    "choices": ["Tottenham Hotspur Stadium","Twickenham Stadium","Emirates Stadium","Lluís Companys Olympic Stadium"],
-    "answer":"Lluís Companys Olympic Stadium",
+    "choices": ["Tottenham Hotspur Stadium","Twickenham Stadium","Emirates Stadium","Belushi's Barcelona"],
+    "answer":"Belushi's Barcelona",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -230,8 +230,8 @@
 
   "20":{
     "question":"I'm in Toronto and want to try some winter spots. Where can I find the best facilities or spots for this nearby?",
-    "choices": ["Little Canada","Winter wonderland bedford","Hyde Park Winter Wonderland","Kingdom of Winter"],
-    "answer":"Little Canada",
+    "choices": ["Nathan Phillips Square","Winter wonderland bedford","Hyde Park Winter Wonderland","Kingdom of Winter"],
+    "answer":"Nathan Phillips Square",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -241,8 +241,8 @@
 
   "21":{
     "question":"I'm in London and interested in visiting a museum. Which nearby museum is the highest-rated?",
-    "choices": ["Natural History Museum","Uffizi Galleries","Doge's Palace","Galleria Borghese"],
-    "answer":"Natural History Museum",
+    "choices": ["Natural History Museum","The National Gallery","Doge's Palace","Galleria Borghese"],
+    "answer":"The National Gallery",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -252,8 +252,8 @@
 
   "22":{
     "question":"I'm in Rome and want to try authentic Italian cuisine. Which restaurant nearby is considered the best for this?",
-    "choices": ["The Ledbury","Ristorante Ad hoc","Dinner by Heston Blumenthal","Francatelli"],
-    "answer":"Ristorante Ad hoc",
+    "choices": ["The Ledbury","Hedera - Osteria Contemporanea","Dinner by Heston Blumenthal","Francatelli"],
+    "answer":"Hedera - Osteria Contemporanea",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -263,8 +263,8 @@
 
   "23": {
     "question":"What is the closest airport to Machu Picchu, Peru?",
-    "choices": ["Jorge Chavez International Airport", "El Alto International Airport", "Velazco Astete Airport", "Alejandro Velasco Astete International Airport"],
-    "answer":"Alejandro Velasco Astete International Airport",
+    "choices": ["Jorge Chavez International Airport", "El Alto International Airport", "Velazco Astete Airport", "Helipuerto de Machupicchu"],
+    "answer":"Helipuerto de Machupicchu",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -274,8 +274,8 @@
 
   "24": {
     "question":"Which is the nearest aquarium to Tokyo Tower, Japan?",
-    "choices": ["Osaka Aquarium Kaiyukan", "Okichan Theater", "Sunshine Aquarium", "Enoshima Aquarium"],
-    "answer":"Sunshine Aquarium",
+    "choices": ["Osaka Aquarium Kaiyukan", "Okichan Theater", "Maxell Aqua Park Shinagawa", "Enoshima Aquarium"],
+    "answer":"Maxell Aqua Park Shinagawa",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -285,8 +285,8 @@
 
   "25": {
     "question":"What is the nearest ski resort to Innsbruck, Austria?",
-    "choices": ["Ischgl Ski Resort", "Kitzbühel Ski Resort", "Mayrhofen Ski Resort", "St. Anton am Arlberg Ski Resort"],
-    "answer":"Mayrhofen Ski Resort",
+    "choices": ["Ischgl Ski Resort", "Kitzbühel Ski Resort", "SKI plus CITY Pass Stubai Innsbruck", "St. Anton am Arlberg Ski Resort"],
+    "answer":"SKI plus CITY Pass Stubai Innsbruck",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -363,8 +363,8 @@
 
   "32": {
     "question":"Which is the nearest museum to the Great Wall of China?",
-    "choices": ["The Palace Museum", "The National Museum of China", "The China National Film Museum", "The Military Museum of the Chinese People's Revolution"],
-    "answer":"The China National Film Museum",
+    "choices": ["The Palace Museum", "The National Museum of China", "怀柔长城文化博物馆", "The Military Museum of the Chinese People's Revolution"],
+    "answer":"怀柔长城文化博物馆",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -375,8 +375,8 @@
 
   "33": {
     "question":"What is the nearest airport to the Colosseum, Italy?",
-    "choices": ["Rome Ciampino Airport", "Rome Fiumicino Airport", "Naples International Airport", "Florence Airport"],
-    "answer":"Rome Ciampino Airport",
+    "choices": ["Airport Shuttle Italy - Rome Airport Transfer", "Rome Fiumicino Airport", "Naples International Airport", "Florence Airport"],
+    "answer":"Airport Shuttle Italy - Rome Airport Transfer",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI", "solution":"To find the answer, You have to choose one POI name",
@@ -461,8 +461,8 @@
 
   "41": {
     "question":"Which is the closest ski resort to Chamonix-Mont-Blanc, France?",
-    "choices": ["Val Thorens Ski Resort", "Les Deux Alpes Ski Resort", "Courchevel Ski Resort", "Verbier Ski Resort"],
-    "answer":"Verbier Ski Resort",
+    "choices": ["Domaine Skiable des Contamines Montjoie", "Les Deux Alpes Ski Resort", "Courchevel Ski Resort", "Chamonix Ski Passes"],
+    "answer":"Chamonix Ski Passes",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -472,8 +472,8 @@
 
   "42": {
     "question": "What is the closest museum to the Eiffel Tower, France?",
-    "choices": ["The Louvre Museum", "The Musée d'Orsay", "The Pompidou Centre", "The Rodin Museum"],
-    "answer": "The Rodin Museum",
+    "choices": ["The Louvre Museum", "The Musée d'Orsay", "The Pompidou Centre", "Musée du quai Branly - Jacques Chirac"],
+    "answer": "Musée du quai Branly - Jacques Chirac",
     "hint": "",
     "image": "",
     "skill": "Fetch information from map and mention the POI",
@@ -538,8 +538,8 @@
 
   "48": {
     "question":"Which is the closest beach to the Colosseum, Italy?",
-    "choices": ["Ostia Beach", "Santa Marinella Beach", "Anzio Beach", "Sabaudia Beach"],
-    "answer":"Ostia Beach",
+    "choices": ["Gelateria Baja Beach", "Santa Marinella Beach", "Anzio Beach", "Sabaudia Beach"],
+    "answer":"Gelateria Baja Beach",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -547,15 +547,10 @@
     "split":"test"
   },
 
-  "49":{
-    "question":"I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
-    "choices": [
-      "Hotel miraparque",
-      "operation sea",
-      "Shrimp Shack",
-      "Saudi Fisheries Company"
-      ],
-    "answer":"Hotel miraparque",
+  "49": {
+    "question":"What is the nearest hospital to the Golden Gate Bridge, San Francisco?",
+    "choices": ["California Pacific Medical Center", "UCSF Medical Center", "Turk Health", "Van Ness Hospital"],
+    "answer":"Turk Health",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -563,10 +558,10 @@
     "split":"test"
   },
 
-  "50":{
-    "question":"I'm in Rome and want to try authentic Italian cuisine. Which restaurant nearby is considered the best for this?",
-    "choices": ["The Ledbury","Ristorante Ad hoc","Dinner by Heston Blumenthal","Francatelli"],
-    "answer":"Ristorante Ad hoc",
+  "50": {
+    "question":"What is the nearest coffee shop to the Tower of London?",
+    "choices": ["Starbucks", "Costa Coffee", "Caffè Nero", "BRICK LANE COFFEE"],
+    "answer":"Costa Coffee",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",

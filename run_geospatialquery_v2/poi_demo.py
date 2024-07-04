@@ -25,13 +25,13 @@ def distance(loc1, loc2):
 
 
 def place():
-    cur_location = geocode("West End School, Lalbagh, Dhaka")
+    cur_location = geocode("Tower of London")
     print(cur_location)
     places_results = gmaps.places(
-        query="Find all the Restaurant",
+        query="Find all the coffee shop",
         location=cur_location,
         # region="BD",
-        type="Restaurant")
+        type="coffee shop")
     all_poi = places_results["results"]
 
     for poi in all_poi:
