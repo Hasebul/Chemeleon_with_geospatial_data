@@ -14,53 +14,43 @@ from model import solver
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_root', type=str, default='../data/tabmwp')
+    parser.add_argument('--data_root', type=str, default='../data/geospatial')
     parser.add_argument('--output_root', type=str, default='../results')
-    parser.add_argument('--model', type=str, default='chameleon', choices=['cot', 'pot', 'chameleon'])
+    parser.add_argument('--model', type=str, default='chameleon', choices=['cot', 'chameleon'])
     parser.add_argument('--label', type=str, default='chameleon_chatgpt')
-    parser.add_argument('--task_name', type=str, default='tabmwp')
-    parser.add_argument('--test_split', type=str, default='test1k', 
-                        choices=['dev', 'dev1k', 'test', 'test1k'])
-    parser.add_argument('--test_number', type=int, default=100)
+    parser.add_argument('--task_name', type=str, default='geospatial_v2')
+    parser.add_argument('--test_split', type=str, default='minitest', 
+                        choices=['train', 'val', 'test', 'minitrain', 'minival', 'minitest'])
+    parser.add_argument('--test_number', type=int, default=48)
     parser.add_argument('--seed', type=int, default=0)
     # module prediction
     parser.add_argument('--modules', nargs='+', default=None, help='default modules')
     parser.add_argument('--policy_engine', type=str, default="gpt-3.5-turbo", help='engine for module prediction')
     parser.add_argument('--policy_temperature', type=float, default=0., help='temperature for module prediction')
     parser.add_argument('--policy_max_tokens', type=int, default=128, help='max tokens for module prediction')
-    # row lookup
-    parser.add_argument('--rl_engine', type=str, default="gpt-3.5-turbo", help='engine for row lookup')
-    parser.add_argument('--rl_temperature', type=float, default=0., help='temperature for row lookup')
-    parser.add_argument('--rl_max_tokens', type=int, default=256, help='max tokens for row lookup')
-    parser.add_argument('--rl_cand', type=int, default=1, help='candidates for row lookup')
-    parser.add_argument('--rl_row_threshold', type=int, default=3, help='row number threshold for row lookup')
-    parser.add_argument('--rl_cell_threshold', type=int, default=12, help='cell number threshold for row lookup')
-    # column lookup
-    parser.add_argument('--cl_engine', type=str, default="gpt-3.5-turbo", help='engine for column lookup')
-    parser.add_argument('--cl_temperature', type=float, default=0., help='temperature for column lookup')
-    parser.add_argument('--cl_max_tokens', type=int, default=256, help='max tokens for column lookup')
-    parser.add_argument('--cl_cand', type=int, default=1, help='candidates for column lookup')
-    parser.add_argument('--cl_col_threshold', type=int, default=2, help='column number threshold for column lookup')
-    parser.add_argument('--cl_cell_threshold', type=int, default=12, help='cell number threshold for column lookup')
-    # table verbalizer
-    parser.add_argument('--tv_engine', type=str, default="gpt-3.5-turbo", help='engine for table verbalizer')
-    parser.add_argument('--tv_temperature', type=float, default=0., help='temperature for table verbalizer')
-    parser.add_argument('--tv_max_tokens', type=int, default=512, help='max tokens for table verbalizer')
     # knowledge retrieval
     parser.add_argument('--kr_engine', type=str, default="gpt-3.5-turbo", help='engine for knowledge retrieval')
     parser.add_argument('--kr_temperature', type=float, default=0., help='temperature for knowledge retrieval')
     parser.add_argument('--kr_max_tokens', type=int, default=512, help='max tokens for knowledge retrieval')
+    # query generator
+    parser.add_argument('--qg_engine', type=str, default="gpt-3.5-turbo", help='engine for query generator')
+    parser.add_argument('--qg_temperature', type=float, default=0., help='temperature for query generator')
+    parser.add_argument('--qg_max_tokens', type=int, default=64, help='max tokens for query generator')
+    parser.add_argument('--qg_patience', type=int, default=5, help='patience for query generator')
+    # bing search
+    parser.add_argument('--bing_file', type=str, default='../data/scienceqa/bing_responses.json')
+    parser.add_argument('--endpoint', type=str, default='https://api.bing.microsoft.com/v7.0/search')
+    parser.add_argument('--search_count', type=int, default=1, help='search number for bing search')
+    # image captioner
+    parser.add_argument('--use_caption', action='store_true', help='use image captions or not')
+    parser.add_argument('--caption_file', type=str, default='../data/scienceqa/captions.json')
+    # text detector
+    parser.add_argument('--ocr_file', type=str, default='../data/scienceqa/ocrs.json')
     # solution_generator
-    parser.add_argument('--sg_engine', type=str, default="gpt-3.5-turbo", help='engine for solution_generator')
-    parser.add_argument('--sg_temperature', type=float, default=0., help='temperature for solution_generator')
-    parser.add_argument('--sg_max_tokens', type=int, default=512, help='max tokens for solution_generator')
-    parser.add_argument('--sg_patience', type=int, default=20, help='patience for solution_generator')
-    # program generation
-    parser.add_argument('--pg_engine', type=str, default="gpt-3.5-turbo", help='engine for program generation')
-    parser.add_argument('--pg_temperature', type=float, default=0.0, help='temperature for program generation')
-    parser.add_argument('--pg_max_tokens', type=int, default=256, help='max tokens for program generation')
-    # program verifier
-    parser.add_argument('--pv_patience', type=int, default=20, help='patience for program verifier')
+    parser.add_argument('--sg_engine', type=str, default="gpt-3.5-turbo", help='engine for solution generator')
+    parser.add_argument('--sg_temperature', type=float, default=0., help='temperature for solution generator')
+    parser.add_argument('--sg_max_tokens', type=int, default=512, help='max tokens for solution generator')
+    parser.add_argument('--sg_patience', type=int, default=5, help='patience for solution generator')
     # debug
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
@@ -115,8 +105,6 @@ if __name__ == "__main__":
         else:
             if args.model == 'cot':
                 modules = ["solution_generator", "answer_generator"]
-            elif args.model == 'pot':
-                modules = ["program_generator", "program_executor", "answer_generator"]
             elif args.model == 'chameleon':    
                 modules = solver.predict_modules()
         modules = [f"solver.{module}" for module in modules]
@@ -126,7 +114,7 @@ if __name__ == "__main__":
             print(f"# [Modules]\n{modules}\n")
             
         for module in modules:
-            input, output = eval(module)()  # eval the module and update the cache
+            input, output = eval(module)() # eval the module and update the cache
             if args.debug or count < 10:
                 print(f"======== [Module]: {module} ========\n")
                 print(f"# [Input]\n{input}\n")
@@ -135,28 +123,23 @@ if __name__ == "__main__":
         # [3] Evaluate the results
         # normalize the number in the text
         answer = solver.cache["example"]["answer"]
-        unit = solver.cache["example"]["unit"]
-        ans_type = solver.cache["example"]["ans_type"]
         options = solver.cache["example"]["choices"]
+        # answer = options[answer]
         prediction = solver.cache["prediction"]
 
-        answer_norm = normalize_ground_tabmwp(answer, ans_type)
-        prediction_norm = normalize_prediction_tabmwp(prediction, options, unit)
-
-        if safe_equal(prediction_norm, answer_norm):
+        if safe_equal(prediction, answer):
             correct += 1
             true_false = True
         else:
             wrong += 1
             true_false = False
 
-        solver.cache["prediction_norm"] = prediction_norm
-        solver.cache["answer_norm"] = answer_norm
+        solver.cache["prediction"] = prediction
         solver.cache["true_false"] = true_false
 
         if args.debug or count < 10:
-            print(f"# [Answer]: {answer_norm}\n")
-            print(f"# [Prediction]\n{prediction_norm}\n")
+            print(f"# [Answer]\n{answer}\n")
+            print(f"# [Prediction]\n{prediction}\n")
             print(f"# [true_false]\n{true_false}\n")
 
         acc = correct / count * 100
@@ -183,3 +166,75 @@ if __name__ == "__main__":
         result = {'acc': acc, 'correct': correct, 'wrong':wrong, 'count': count, 'args': vars(args)}
         with open(result_file, 'w') as f:
             json.dump(result, f, indent=2, separators=(',', ': '))
+
+
+""""
+"4":{
+    "question":"Where is the nearest hospital that offers affordable services around Hotel Bengal Canary Park?",
+       "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "5":{
+    "question":"Can you recommend a low-priced medical center close to The Westin Dhaka?",
+        "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "6":{
+    "question":"Which is the closest budget-friendly hospital to the Embassy of the United States, Dhaka?",
+        "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "7":{
+    "question":"Can you suggest an affordable medical facility near the International Convention City Bashundhara?",
+        "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "8":{
+    "question":"Where is the closest low-cost hospital to the Hazrat Shahjalal International Airport?",
+    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "9":{
+    "question":"Can you recommend a budget-friendly medical center near the Dhaka University?",
+    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+
+
+"""

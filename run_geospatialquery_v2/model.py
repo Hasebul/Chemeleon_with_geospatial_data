@@ -8,7 +8,7 @@ import openai
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from utilities import *
-from demos import prompt_policy, prompt_kr, prompt_sg, prompt_qg
+from demos import prompt_policy, prompt_kr, prompt_sg, prompt_qg, prompt_gm
 
 # OpenAI
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -17,6 +17,7 @@ print(openai.api_key)
 # OpenAI
 bing_api_key = os.getenv("BING_API_KEY")
 print(bing_api_key)
+
 
 class solver:
 
@@ -92,7 +93,7 @@ class solver:
             question_text = f"{question}\n\nContext: {context}\n\nOptions: {option}"
         else:
             question_text = f"{question}\n\nOptions: {option}"
-
+        # question_text = question
         self.cache["question_text"] = question_text
         return question_text
 
@@ -103,12 +104,13 @@ class solver:
         # extract metadata
         metadata = {}
         example = self.cache["example"]
-        metadata["has_image"] = True if example["image"] else False
-        metadata["grade"] = int(example["grade"].replace("grade", ""))
-        metadata["subject"] = example["subject"]
-        metadata["topic"] = example["topic"]
-        metadata["category"] = example["category"]
+        # metadata["has_image"] = True if example["image"] else False
+        # metadata["grade"] = int(example["grade"].replace("grade", ""))
+        # metadata["subject"] = example["subject"]
+        # metadata["topic"] = example["topic"]
+        # metadata["category"] = example["category"]
         metadata["skill"] = example["skill"]
+        metadata["solution"] = example["solution"]
 
         self.cache["metadata"] = metadata
         return metadata
@@ -297,6 +299,45 @@ class solver:
         self.cache["bing_search:output"] = responses
         return query, responses
 
+    def google_maps(self):
+        # get the example
+        question_text = self.get_question_text()
+        metadata = self.get_metadata()
+        response = self.cache["response"] if "response" in self.cache else ""
+
+        # demo prompt
+        demo_prompt = prompt_gm.prompt_1.strip()
+        # test prompt
+        if response != "":
+            test_prompt = f"Question: {question_text}\n\nMetadata: {metadata}\n\n{response}\n\nSearch Query: "
+        else:
+            test_prompt = f"Question: {question_text}\n\nMetadata: {metadata}\n\nSearch Query: "
+        # full prompt
+        full_prompt = demo_prompt + "\n\n" + test_prompt
+        messages = [
+            {"role": "user", "content": full_prompt},
+        ]
+
+        # find the input of Google Maps
+        information = get_chat_response(messages, self.api_key, self.qg_engine, self.qg_temperature, self.qg_max_tokens)
+
+        information= json.loads(information)
+        # find the current poi location lat, lon
+        cur_location = geocode(information['current_location'])
+        # now call the Google Maps api and fetch information documentation
+        extract_information = place(query=information['query'], location=cur_location, region=information['region'], type=information['type'])
+
+        # FIXME: fetch the information for budget friendly poi and best one
+
+        if extract_information == "" or extract_information == None:
+            extract_information = None
+
+        # update the cache
+        self.cache["query"] = extract_information
+        self.cache["query_generator:input"] = test_prompt
+        self.cache["query_generator:output"] = extract_information
+        return test_prompt, extract_information
+
     def build_prompt_for_sg_chameleon(self):
         # get the input
         question_text = self.get_question_text()
@@ -394,7 +435,8 @@ class solver:
                     prediction = options[inds.index(ans)]
 
         if not success:
-            prediction = normalize_prediction_scienceqa(output, options)
+            # prediction = normalize_prediction_scienceqa(output, options)
+            prediction = "Not able to answer the question"
 
         # update the cache
         self.cache["prediction"] = prediction

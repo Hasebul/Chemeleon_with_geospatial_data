@@ -1,0 +1,551 @@
+{
+  "1":{
+    "question":"Can you suggest to me the nearest hospital from Radisson Blu Water Garden Hotel, dhaka?",
+    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "2":{
+    "question":"Which is the closest low-cost hospital to Pan Pacific Sonargaon Hotel, Dhaka?",
+    "choices": ["United Hospital", "Apollo Hospitals", "BSMMU-Bangabandhu Sheikh Mujib Medical University", "Square Hospital"],
+    "answer":"BSMMU-Bangabandhu Sheikh Mujib Medical University",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "3":{
+    "question":"Can you suggest a budget-friendly medical facility near Dhaka Regency Hotel & Resort?",
+    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
+    "answer":"Kurmitola General Hospital",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "4":{
+    "question":"Where is the nearest theme park from Burj Khalifa, Dubai?",
+    "choices": ["IMG Worlds of Adventure", "Dubai Parks and Resorts", "Ferrari World Abu Dhabi", "Motiongate Dubai"],
+    "answer":"IMG Worlds of Adventure",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "5":{
+    "question":"Which restaurant is closest to Marina Bay Sands, Singapore?",
+    "choices": ["Lau Pa Sat", "The Quay", "Jumbo Seafood", "Cé La Vi"],
+    "answer":"Cé La Vi",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "6":{
+    "question":"What is the nearest beach from Burj Al Arab, Dubai?",
+    "choices": ["Kite Beach", "Jumeirah Beach", "Al Mamzar Beach Park", "La Mer Beach"],
+    "answer":"La Mer Beach",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "7":{
+    "question":"Which museum is closest to the Eiffel Tower, Paris?",
+    "choices": ["Musée d'Orsay", "Louvre Museum", "Musée de l'Armée", "Centre Georges Pompidou"],
+    "answer":"Musée de l'Armée",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "8": {
+    "question":"What is the nearest national park from Grand Canyon National Park, Arizona?",
+    "choices": ["Zion National Park", "Yellowstone National Park", "Rocky Mountain National Park", "Bryce Canyon National Park"],
+    "answer":"Zion National Park",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "9": {
+    "question":"Which is the closest ski resort to Whistler Blackcomb, British Columbia?",
+    "choices": ["Banff Ski Resort", "Big White Ski Resort", "Sun Peaks Resort", "Revelstoke Mountain Resort"],
+    "answer":"Sun Peaks Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "10":{
+    "question":"Which is the most affordable hospital near the Bangladesh National Museum?",
+    "choices": ["United Hospital", "Apollo Hospitals", "BSMMU-Bangabandhu Sheikh Mujib Medical University", "Square Hospital"],
+    "answer":"BSMMU-Bangabandhu Sheikh Mujib Medical University",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "11":{
+    "question":"What is the nearest mosque from Duck Lake, Doha Qater?",
+      "choices": [
+        "1.Hamad Bin Jassim Bin Jaber Bin Mohamed Al Thani Mosque | Mosque, Via, Doha",
+        "9G9G+RXM, Doha",
+        "Inside small Grand Hyatt Mosque | 9GGH+Q3H, Doha",
+        "The Golden Masjid | 9G6G+9M2, Doha"
+      ],
+    "answer":"9G9G+RXM, Doha",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "12":{
+    "question":"I'm in Edinburgh and want to go burger tasting. Which distillery or burger shop nearby is highly recommended?",
+      "choices": [
+        "Restaurant Percil",
+        "operation sea",
+        "Shrimp Shack",
+        "Saudi Fisheries Company"
+      ],
+    "answer":"Restaurant Percil",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "13":{
+    "question":"I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
+    "choices": [
+      "Hotel miraparque",
+      "operation sea",
+      "Shrimp Shack",
+      "Saudi Fisheries Company"
+      ],
+    "answer":"Hotel miraparque",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "14":{
+    "question":"I'm in Bangkok and want to visit some temples. Which nearby temple is the most renowned?",
+      "choices": ["Mariamman Temple","Mahakan Fort","Mezquita de Las Tornerías","Temple archaeological Ruah"],
+    "answer":"Mahakan Fort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "15":{
+    "question":" I'm in Moscow and want to see a ballet performance. Which theater or venue nearby is the best?",
+    "choices": ["Europaballett", "Dance Factory", "Imperial Russian Ballet", "Performing Arts Studios"],
+    "answer":"Imperial Russian Ballet",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "16":{
+    "question":"I'm in Mexico City and want to visit historical landmarks. Which site nearby is the most important?",
+    "choices": [
+      "Fortress Hohensalzburg",
+      "Hofburg",
+      "Schönbrunn Palace",
+      "Chapultepec Castle"
+    ],
+    "answer":"Chapultepec Castle",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "17":{
+    "question":"I'm in Berlin and eager to learn about the city's history. Which historical site or museum nearby should I visit?",
+    "choices": ["German Historical Museum","Deutsches Museum","Germanisches Nationalmuseum","Intrepid Museum"],
+    "answer":"German Historical Museum",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "18":{
+    "question":"I'm in New York City and want to experience live jazz music. Which venue nearby is considered the best for this?",
+    "choices": ["Jazzi's On 3rd","The Jazz Club at Aman New York","Uptown Jazz Lounge","Alabama Jazz Hall of Fame"],
+    "answer":"The Jazz Club at Aman New York",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "19":{
+    "question":"I'm in Barcelona and want to catch a football game. Where is the nearest and best place to watch a live match?",
+    "choices": ["Tottenham Hotspur Stadium","Twickenham Stadium","Emirates Stadium","Lluís Companys Olympic Stadium"],
+    "answer":"Lluís Companys Olympic Stadium",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "20":{
+    "question":"I'm in Toronto and want to try some winter spots. Where can I find the best facilities or spots for this nearby?",
+    "choices": ["Little Canada","Winter wonderland bedford","Hyde Park Winter Wonderland","Kingdom of Winter"],
+    "answer":"Little Canada",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "21":{
+    "question":"I'm in London and interested in visiting a museum. Which nearby museum is the highest-rated?",
+    "choices": ["Natural History Museum","Uffizi Galleries","Doge's Palace","Galleria Borghese"],
+    "answer":"Natural History Museum",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "22":{
+    "question":"I'm in Rome and want to try authentic Italian cuisine. Which restaurant nearby is considered the best for this?",
+    "choices": ["The Ledbury","Ristorante Ad hoc","Dinner by Heston Blumenthal","Francatelli"],
+    "answer":"Ristorante Ad hoc",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "23": {
+    "question":"What is the closest airport to Machu Picchu, Peru?",
+    "choices": ["Jorge Chavez International Airport", "El Alto International Airport", "Velazco Astete Airport", "Alejandro Velasco Astete International Airport"],
+    "answer":"Alejandro Velasco Astete International Airport",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "24": {
+    "question":"Which is the nearest aquarium to Tokyo Tower, Japan?",
+    "choices": ["Osaka Aquarium Kaiyukan", "Okichan Theater", "Sunshine Aquarium", "Enoshima Aquarium"],
+    "answer":"Sunshine Aquarium",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "25": {
+    "question":"What is the nearest ski resort to Innsbruck, Austria?",
+    "choices": ["Ischgl Ski Resort", "Kitzbühel Ski Resort", "Mayrhofen Ski Resort", "St. Anton am Arlberg Ski Resort"],
+    "answer":"Mayrhofen Ski Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "26": {
+    "question":"Which is the closest beach to Burj Khalifa, Dubai?",
+    "choices": ["Jumeirah Beach", "Kite Beach", "Al Mamzar Beach Park", "La Mer Beach"],
+    "answer":"La Mer Beach",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "27": {
+    "question":"What is the nearest national park from Yellowstone National Park, Wyoming?",
+    "choices": ["Glacier National Park", "Grand Teton National Park", "Yosemite National Park", "Rocky Mountain National Park"],
+    "answer":"Grand Teton National Park",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "28": {
+    "question":"Which is the closest ski resort to Vail, Colorado?",
+    "choices": ["Aspen Snowmass Ski Resort", "Breckenridge Ski Resort", "Keystone Resort", "Beaver Creek Ski Resort"],
+    "answer":"Beaver Creek Ski Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "29": {
+    "question":"What is the nearest airport to the Taj Mahal, India?",
+    "choices": ["Indira Gandhi International Airport", "Chaudhary Charan Singh International Airport", "Kempegowda International Airport", "Agra Airport"],
+    "answer":"Agra Airport",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+
+  "30": {
+    "question":"Which is the closest shopping mall to the Statue of Liberty, New York?",
+    "choices": ["East Broadway Mall", "Macy's Herald Square", "The Shops at Columbus Circle", "Brookfield Place"],
+    "answer":"Brookfield Place",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "31": {
+    "question":"What is the closest theme park to the Sydney Opera House, Australia?",
+    "choices": ["Dreamworld", "Warner Bros. Movie World", "Sea World", "Luna Park Sydney"],
+    "answer":"Luna Park Sydney",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "32": {
+    "question":"Which is the nearest museum to the Great Wall of China?",
+    "choices": ["The Palace Museum", "The National Museum of China", "The China National Film Museum", "The Military Museum of the Chinese People's Revolution"],
+    "answer":"The China National Film Museum",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+
+  "33": {
+    "question":"What is the nearest airport to the Colosseum, Italy?",
+    "choices": ["Rome Ciampino Airport", "Rome Fiumicino Airport", "Naples International Airport", "Florence Airport"],
+    "answer":"Rome Ciampino Airport",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI", "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "34": {
+    "question":"Which is the closest ski resort to Queenstown, New Zealand?",
+    "choices": ["Treble Cone Ski Resort", "Cardrona Alpine Resort", "The Remarkables Ski Resort", "Coronet Peak Ski Resort"],
+    "answer":"Coronet Peak Ski Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "35": {
+    "question":"What is the closest national park to Banff National Park, Alberta?",
+    "choices": ["Jasper National Park", "Yoho National Park", "Waterton Lakes National Park", "Kootenay National Park"],
+    "answer":"Kootenay National Park",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "36": {
+    "question":"Which is the nearest aquarium to the CN Tower, Toronto?",
+    "choices": ["Ripley's Aquarium of Canada", "Vancouver Aquarium", "Shedd Aquarium", "Georgia Aquarium"],
+    "answer":"Ripley's Aquarium of Canada",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "37": {
+    "question":"What is the nearest airport to the Louvre Museum, France?",
+    "choices": ["Charles de Gaulle Airport", "Orly Airport", "Paris Beauvais Airport", "Le Bourget Airport"],
+    "answer":"Le Bourget Airport",
+    "hint":"", "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "38": {
+    "question":"Which is the closest ski resort to St. Moritz, Switzerland?",
+    "choices": ["Davos Ski Resort", "Zermatt Ski Resort", "Gstaad Ski Resort", "Engelberg Ski Resort"],
+    "answer":"Davos Ski Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "39": {
+    "question":"Which is the closest museum to the Forbidden City, China?",
+    "choices": ["The Palace Museum", "The National Museum of China", "The China National Film Museum", "The Military Museum of the Chinese People's Revolution"],
+    "answer":"The Palace Museum",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "40": {
+    "question":"What is the nearest airport to the Christ the Redeemer statue, Brazil?",
+    "choices": ["Rio de Janeiro-Galeão International Airport", "São Paulo-Guarulhos International Airport", "Santos Dumont Airport", "Brasília International Airport"],
+    "answer":"Santos Dumont Airport",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "41": {
+    "question":"Which is the closest ski resort to Chamonix-Mont-Blanc, France?",
+    "choices": ["Val Thorens Ski Resort", "Les Deux Alpes Ski Resort", "Courchevel Ski Resort", "Verbier Ski Resort"],
+    "answer":"Verbier Ski Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "42": {
+    "question": "What is the closest museum to the Eiffel Tower, France?",
+    "choices": ["The Louvre Museum", "The Musée d'Orsay", "The Pompidou Centre", "The Rodin Museum"],
+    "answer": "The Rodin Museum",
+    "hint": "",
+    "image": "",
+    "skill": "Fetch information from map and mention the POI",
+    "solution": "To find the answer, you have to choose one POI name",
+    "split": "test"
+  },
+
+  "43": {
+    "question":"Which is the closest aquarium to the Petronas Twin Towers, Malaysia?",
+    "choices": ["Aquaria KLCC", "S.E.A. Aquarium", "Underwater World Langkawi", "Langkawi Coral"],
+    "answer":"Aquaria KLCC",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "44": {
+    "question":"What is the nearest airport to the Great Wall of China?",
+    "choices": ["Beijing Capital International Airport", "Shanghai Pudong International Airport", "Guangzhou Baiyun International Airport", "Chengdu Shuangliu International Airport"],
+    "answer":"Beijing Capital International Airport",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "45": {
+    "question":"Which is the closest ski resort to Queenstown, New Zealand?",
+    "choices": ["Treble Cone Ski Resort", "Cardrona Alpine Resort", "The Remarkables Ski Resort", "Coronet Peak Ski Resort"],
+    "answer":"Coronet Peak Ski Resort",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "46": {
+    "question":"What is the nearest beach to the Sydney Opera House, Australia?",
+    "choices": ["Bondi Beach", "Coogee Beach", "Manly Beach", "Bronte Beach"],
+    "answer":"Bondi Beach",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "47": {
+    "question":"What is the nearest airport to the CN Tower, Toronto?",
+    "choices": ["Toronto Pearson International Airport", "Billy Bishop Toronto City Airport", "Ottawa Macdonald-Cartier International Airport", "Montreal-Pierre Elliott Trudeau International Airport"],
+    "answer":"Billy Bishop Toronto City Airport",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "48": {
+    "question":"Which is the closest beach to the Colosseum, Italy?",
+    "choices": ["Ostia Beach", "Santa Marinella Beach", "Anzio Beach", "Sabaudia Beach"],
+    "answer":"Ostia Beach",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  }
+
+}
+

@@ -92,7 +92,7 @@ class solver:
             question_text = f"{question}\n\nContext: {context}\n\nOptions: {option}"
         else:
             question_text = f"{question}\n\nOptions: {option}"
-
+        # question_text = question
         self.cache["question_text"] = question_text
         return question_text
 
@@ -103,12 +103,13 @@ class solver:
         # extract metadata
         metadata = {}
         example = self.cache["example"]
-        metadata["has_image"] = True if example["image"] else False
-        metadata["grade"] = int(example["grade"].replace("grade", ""))
-        metadata["subject"] = example["subject"]
-        metadata["topic"] = example["topic"]
-        metadata["category"] = example["category"]
+        # metadata["has_image"] = True if example["image"] else False
+        # metadata["grade"] = int(example["grade"].replace("grade", ""))
+        # metadata["subject"] = example["subject"]
+        # metadata["topic"] = example["topic"]
+        # metadata["category"] = example["category"]
         metadata["skill"] = example["skill"]
+        metadata["solution"] = example["solution"]
 
         self.cache["metadata"] = metadata
         return metadata
@@ -394,7 +395,8 @@ class solver:
                     prediction = options[inds.index(ans)]
 
         if not success:
-            prediction = normalize_prediction_scienceqa(output, options)
+            # prediction = normalize_prediction_scienceqa(output, options)
+            prediction = "Not able to answer the question"
 
         # update the cache
         self.cache["prediction"] = prediction

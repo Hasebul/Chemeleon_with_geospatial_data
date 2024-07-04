@@ -1,12 +1,17 @@
 import time
 import random
 import openai
+import googlemaps
 import func_timeout
 import requests
 import numpy as np
 
 from typing import Union, Any
 from math import isclose
+from openai import AzureOpenAI
+from math import sin, cos, sqrt, atan2
+
+gmaps = googlemaps.Client(key='AIzaSyBnsinvIK8T2C8Kv5Q3gKyVWaTMgINDhVw')
 
 
 def safe_execute(code_string: str, keys=None):
@@ -20,6 +25,7 @@ def safe_execute(code_string: str, keys=None):
                 return [locals_.get(k, None) for k in keys]
         except Exception:
             return None
+
     try:
         ans = func_timeout.func_timeout(1, execute, args=(code_string,))
     except func_timeout.FunctionTimedOut:
@@ -27,7 +33,43 @@ def safe_execute(code_string: str, keys=None):
     return ans
 
 
-def get_codex_response(prompt, api_key, engine="code-davinci-002", temperature=0, max_tokens=256, top_p=1, n=1, patience=10, sleep_time=0):
+def distance(loc1, loc2):
+    # approximate radius of earth in km
+    R = 6373.0
+    lat1 = loc1['lat']
+    lon1 = loc1['lng']
+    lat2 = loc2['lat']
+    lon2 = loc2['lng']
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+    a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    distance = R * c
+    return distance
+
+
+def place(query, location, region, type):
+    places_results = gmaps.places(
+        query=query,
+        location=location,
+        region=region,
+        type=type
+    )
+    all_poi = places_results["results"]
+    extract_information = ""
+    for poi in all_poi:
+        dist = distance(loc1=poi['geometry']['location'], loc2=location)
+        extract_information = extract_information + f"{poi['name']} has {poi['rating']} rating," + f"where {poi['user_ratings_total']} people give their rating, " + f"distance from the current location is {dist} km \n"
+    return extract_information
+
+
+def geocode(address):
+    geocode_result = gmaps.geocode(address)
+    return geocode_result[0]["geometry"]["location"]
+
+
+def get_codex_response(prompt, api_key, engine="code-davinci-002", temperature=0, max_tokens=256, top_p=1, n=1,
+                       patience=10, sleep_time=0):
     while patience > 0:
         patience -= 1
         try:
@@ -51,7 +93,8 @@ def get_codex_response(prompt, api_key, engine="code-davinci-002", temperature=0
     return ""
 
 
-def get_gpt3_response(prompt, api_key, engine="text-davinci-002", temperature=0, max_tokens=256, top_p=1, n=1, patience=100, sleep_time=0):
+def get_gpt3_response(prompt, api_key, engine="text-davinci-002", temperature=0, max_tokens=256, top_p=1, n=1,
+                      patience=100, sleep_time=0):
     while patience > 0:
         patience -= 1
         try:
@@ -75,22 +118,75 @@ def get_gpt3_response(prompt, api_key, engine="text-davinci-002", temperature=0,
     return ""
 
 
-def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, max_tokens=256, n=1, patience=100, sleep_time=0):
+# def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, max_tokens=256, n=1, patience=100, sleep_time=0):
+#     while patience > 0:
+#         patience -= 1
+#         try:
+#             response = openai.ChatCompletion.create(model=model,
+#                                                 messages=messages,
+#                                                 api_key=api_key,
+#                                                 temperature=temperature,
+#                                                 max_tokens=max_tokens,
+#                                                 n=n)
+#             if n == 1:
+#                 prediction = response['choices'][0]['message']['content'].strip()
+#                 if prediction != "" and prediction != None:
+#                     return prediction
+#             else:
+#                 prediction = [choice['message']['content'].strip() for choice in response['choices']]
+#                 if prediction[0] != "" and prediction[0] != None:
+#                     return prediction
+#
+#         except Exception as e:
+#             print(e)
+#             if sleep_time > 0:
+#                 time.sleep(sleep_time)
+#     return ""
+
+
+def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, max_tokens=256, n=1, patience=100,
+                      sleep_time=0):
     while patience > 0:
         patience -= 1
         try:
-            response = openai.ChatCompletion.create(model=model,
-                                                messages=messages,
-                                                api_key=api_key,
-                                                temperature=temperature,
-                                                max_tokens=max_tokens,
-                                                n=n)
+            # their gpt
+            # response = openai.ChatCompletion.create(model=model,
+            #                                     messages=messages,
+            #                                     api_key=api_key,
+            #                                     temperature=temperature,
+            #                                     max_tokens=max_tokens,
+            #                                     n=n)
+            # if n == 1:
+            #     prediction = response['choices'][0]['message']['content'].strip()
+            #     if prediction != "" and prediction != None:
+            #         return prediction
+            # else:
+            #     prediction = [choice['message']['content'].strip() for choice in response['choices']]
+            #     if prediction[0] != "" and prediction[0] != None:
+            #         return prediction
+            # Azure
+            client = AzureOpenAI(
+                azure_endpoint="https://qcri-llm-rag-5.openai.azure.com/",
+                api_key="e7875b6823e74d4e9d6e4479a72d8067",
+                api_version="2024-02-15-preview",
+            )
+            response = client.chat.completions.create(
+                model="GPT-35-TURBO-0125",
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
+                top_p=0.95,
+                frequency_penalty=0,
+                presence_penalty=0,
+                stop=None,
+                n=n
+            )
             if n == 1:
-                prediction = response['choices'][0]['message']['content'].strip()
+                prediction = response.choices[0].message.content.strip()
                 if prediction != "" and prediction != None:
                     return prediction
             else:
-                prediction = [choice['message']['content'].strip() for choice in response['choices']]
+                prediction = [choice.message.content.strip() for choice in response.choices]
                 if prediction[0] != "" and prediction[0] != None:
                     return prediction
 
@@ -123,6 +219,7 @@ def floatify_ans(ans):
             ans = str(ans)
     return ans
 
+
 def score_string_similarity(str1, str2):
     if str1 == str2:
         return 2.0
@@ -133,7 +230,8 @@ def score_string_similarity(str1, str2):
         return len(overlap) / max(len(str1_split), len(str2_split))
     else:
         return 0.0
-        
+
+
 def normalize_prediction_tabmwp(prediction, options=None, unit=None):
     # the numerical answer
     if isinstance(prediction, float):
@@ -158,10 +256,10 @@ def normalize_prediction_tabmwp(prediction, options=None, unit=None):
                     prediction = float(prediction.split('%')[0]) / 100
                 else:
                     prediction = float(prediction)
-            except Exception:    
-                pass 
- 
-    # the string answer from choices
+            except Exception:
+                pass
+
+                # the string answer from choices
     if options:
         options = [x.lower() for x in options]
         if prediction is None:
@@ -170,11 +268,11 @@ def normalize_prediction_tabmwp(prediction, options=None, unit=None):
             if prediction not in options:
                 # find the most similar option
                 scores = [score_string_similarity(x, prediction) for x in options]
-                max_idx = int(np.argmax(scores)) # json does not recognize NumPy data types
+                max_idx = int(np.argmax(scores))  # json does not recognize NumPy data types
                 prediction = options[max_idx]
     return prediction
-    
-    
+
+
 def normalize_ground_tabmwp(gt_ans, ans_type=None):
     if ans_type in ['integer_number', 'decimal_number']:
         if '/' in gt_ans:
@@ -190,12 +288,13 @@ def normalize_ground_tabmwp(gt_ans, ans_type=None):
     else:
         raise ValueError(ans_type)
     return gt_ans
-    
+
 
 def normalize_ground_scienceqa(gt_ans):
     gt_ans = gt_ans.lower()
     return gt_ans
-    
+
+
 def normalize_prediction_scienceqa(prediction, options=None):
     # the string answer from choices
     if options:
@@ -206,21 +305,22 @@ def normalize_prediction_scienceqa(prediction, options=None):
             if prediction not in options:
                 # find the most similar option
                 scores = [score_string_similarity(x, prediction) for x in options]
-                max_idx = int(np.argmax(scores)) # json does not recognize NumPy data types
+                max_idx = int(np.argmax(scores))  # json does not recognize NumPy data types
                 prediction = options[max_idx]
     return prediction
+
 
 def get_precision(gt_ans: float) -> int:
     precision = 5
     if '.' in str(gt_ans):
         precision = len(str(gt_ans).split('.')[-1])
     return precision
-    
+
 
 def safe_equal(prediction: Union[bool, float, str],
-                reference: Union[float, str],
-                include_percentage: bool = False,
-                is_close: float = False) -> bool:
+               reference: Union[float, str],
+               include_percentage: bool = False,
+               is_close: float = False) -> bool:
     if prediction is None:
         return False
     elif type(prediction) == bool:
@@ -262,22 +362,24 @@ def _validate_server(address):
     print(f'No protocol provided, using "{PROTOCOL}"')
     return f'{PROTOCOL}{address}'
 
+
 def call_bing_search(endpoint, bing_api_key, query, count):
     headers = {'Ocp-Apim-Subscription-Key': bing_api_key}
     params = {"q": query, "textDecorations": True,
               "textFormat": "HTML", "count": count, "mkt": "en-GB"}
     try:
-        server = _validate_server(endpoint) # server address
+        server = _validate_server(endpoint)  # server address
         server_response = requests.get(server, headers=headers, params=params)
         resp_status = server_response.status_code
         if resp_status == 200:
             result = server_response.json()
-            return result 
+            return result
     except:
         pass
-    
+
     return None
-    
+
+
 def parse_bing_result(result):
     responses = []
     try:
@@ -290,5 +392,5 @@ def parse_bing_result(result):
         snippet = snippet.replace("<b>", "").replace("</b>", "").strip()
         if snippet != "":
             responses.append(snippet)
-        
+
     return responses
