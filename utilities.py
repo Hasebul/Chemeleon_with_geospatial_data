@@ -9,7 +9,7 @@ import numpy as np
 from typing import Union, Any
 from math import isclose
 from openai import AzureOpenAI
-from math import sin, cos, sqrt, atan2
+from math import sin, cos, sqrt, atan2, radians
 
 gmaps = googlemaps.Client(key='AIzaSyBnsinvIK8T2C8Kv5Q3gKyVWaTMgINDhVw')
 
@@ -36,10 +36,11 @@ def safe_execute(code_string: str, keys=None):
 def distance(loc1, loc2):
     # approximate radius of earth in km
     R = 6373.0
-    lat1 = loc1['lat']
-    lon1 = loc1['lng']
-    lat2 = loc2['lat']
-    lon2 = loc2['lng']
+    lat1 = radians(loc1['lat'])
+    lon1 = radians(loc1['lng'])
+    lat2 = radians(loc2['lat'])
+    lon2 = radians(loc2['lng'])
+
     dlon = lon2 - lon1
     dlat = lat2 - lat1
     a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
@@ -52,14 +53,16 @@ def place(query, location, region, type):
     places_results = gmaps.places(
         query=query,
         location=location,
-        region=region,
+        # region=region,
         type=type
     )
     all_poi = places_results["results"]
-    extract_information = ""
+    extract_information = f"The following location are the nearest location and all the location has a destination form the current location {location}:\n"
     for poi in all_poi:
         dist = distance(loc1=poi['geometry']['location'], loc2=location)
-        extract_information = extract_information + f"{poi['name']} has {poi['rating']} rating," + f"where {poi['user_ratings_total']} people give their rating, " + f"distance from the current location is {dist} km \n"
+        rating = poi['rating'] if 'rating' in poi.keys() else 0
+        total_user = poi['user_ratings_total'] if 'user_ratings_total' in poi.keys() else 0
+        extract_information = extract_information + f"{poi['name']} has {rating} rating," + f"where {total_user} people give their rating, " + f"the location distance from current location is {dist} kilometers\n"
     return extract_information
 
 

@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument('--task_name', type=str, default='geospatial_v2')
     parser.add_argument('--test_split', type=str, default='minitest', 
                         choices=['train', 'val', 'test', 'minitrain', 'minival', 'minitest'])
-    parser.add_argument('--test_number', type=int, default=48)
+    parser.add_argument('--test_number', type=int, default=49)
     parser.add_argument('--seed', type=int, default=0)
     # module prediction
     parser.add_argument('--modules', nargs='+', default=None, help='default modules')
@@ -52,7 +52,7 @@ def parse_args():
     parser.add_argument('--sg_max_tokens', type=int, default=512, help='max tokens for solution generator')
     parser.add_argument('--sg_patience', type=int, default=5, help='patience for solution generator')
     # debug
-    parser.add_argument('--debug', action='store_true')
+    parser.add_argument('--debug', action='store_false')
     args = parser.parse_args()
 
     print('====Input Arguments====')

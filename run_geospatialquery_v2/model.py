@@ -321,7 +321,10 @@ class solver:
         # find the input of Google Maps
         information = get_chat_response(messages, self.api_key, self.qg_engine, self.qg_temperature, self.qg_max_tokens)
 
-        information= json.loads(information)
+        if not information.endswith('}'):
+            information = information + "\"}"
+
+        information = json.loads(information) if type(information) is str else information
         # find the current poi location lat, lon
         cur_location = geocode(information['current_location'])
         # now call the Google Maps api and fetch information documentation
@@ -333,7 +336,7 @@ class solver:
             extract_information = None
 
         # update the cache
-        self.cache["query"] = extract_information
+        self.cache["response"] = extract_information
         self.cache["query_generator:input"] = test_prompt
         self.cache["query_generator:output"] = extract_information
         return test_prompt, extract_information

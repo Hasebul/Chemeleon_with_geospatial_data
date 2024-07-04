@@ -12,8 +12,8 @@
 
   "2":{
     "question":"Which is the closest low-cost hospital to Pan Pacific Sonargaon Hotel, Dhaka?",
-    "choices": ["United Hospital", "Apollo Hospitals", "BSMMU-Bangabandhu Sheikh Mujib Medical University", "Square Hospital"],
-    "answer":"BSMMU-Bangabandhu Sheikh Mujib Medical University",
+    "choices": ["United Hospital", "Apollo Hospitals", "Abeer General Hospital", "Square Hospital"],
+    "answer":"Abeer General Hospital",
     "hint":"",
     "image":"",
     "skill":"Fetch Information from map and mention the POI",
@@ -99,7 +99,7 @@
   },
 
   "10":{
-    "question":"Which is the most affordable hospital near the Bangladesh National Museum?",
+    "question":"Which is the most close hospital near the Bangladesh National Museum?",
     "choices": ["United Hospital", "Apollo Hospitals", "BSMMU-Bangabandhu Sheikh Mujib Medical University", "Square Hospital"],
     "answer":"BSMMU-Bangabandhu Sheikh Mujib Medical University",
     "hint":"",
@@ -545,7 +545,33 @@
     "skill":"Fetch Information from map and mention the POI",
     "solution":"To find the answer, You have to choose one POI name",
     "split":"test"
-  }
+  },
 
+  "49":{
+    "question":"I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
+    "choices": [
+      "Hotel miraparque",
+      "operation sea",
+      "Shrimp Shack",
+      "Saudi Fisheries Company"
+      ],
+    "answer":"Hotel miraparque",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  },
+
+  "50":{
+    "question":"I'm in Rome and want to try authentic Italian cuisine. Which restaurant nearby is considered the best for this?",
+    "choices": ["The Ledbury","Ristorante Ad hoc","Dinner by Heston Blumenthal","Francatelli"],
+    "answer":"Ristorante Ad hoc",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  }
 }
 
