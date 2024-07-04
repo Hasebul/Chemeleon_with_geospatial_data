@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument('--task_name', type=str, default='geospatial')
     parser.add_argument('--test_split', type=str, default='minitest', 
                         choices=['train', 'val', 'test', 'minitrain', 'minival', 'minitest'])
-    parser.add_argument('--test_number', type=int, default=48)
+    parser.add_argument('--test_number', type=int, default=50)
     parser.add_argument('--seed', type=int, default=0)
     # module prediction
     parser.add_argument('--modules', nargs='+', default=None, help='default modules')
