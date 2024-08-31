@@ -1,0 +1,232 @@
+{
+    "1":{
+      "question":"I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?",
+      "context" : "Information of South Wind Motel:
+                - Location: 919 S High St, Columbus, OH 43206, USA.
+                Information of Brassica in Bexley:
+                - Location: 2212 E Main St, Bexley, OH 43209, USA.
+                There are 3 routes from South Wind Motel to Brassica in Bexley on foot. They are:
+                1. Via E Main St | 1 hour 30 mins | 4.0 mi
+                - Head north on S High St toward Shumacher Alley
+                - Turn right onto E Whittier St
+                - Turn left onto Ann St
+                - Continue onto Children's Gtwy
+                - At the traffic circle, take the 1st exit onto Children's Dr
+                - Turn left
+                - Turn right
+                - Turn left toward S 18th St
+                - Turn right toward S 18th St
+                - Turn left onto S 18th St
+                - Turn right onto E Main St
+                Pass by Dollar General (on the right in 0.7 mi)
+                - Turn left onto College Ave
+                Destination will be on the right
+                2. Via Parsons Ave and E Main St | 1 hour 30 mins | 4.0 mi
+                - Head north on S High St toward Shumacher Alley
+                - Turn right onto E Whittier St
+                - Turn left onto Parsons Ave
+                Pass by Family Dollar (on the left in 0.1 mi)
+                - Turn right onto E Main St
+                Pass by Dollar General (on the right in 1.1 mi)
+                - Turn left onto College Ave
+                Destination will be on the right
+                3. Via E Whittier St and E Main St | 1 hour 30 mins | 4.0 mi
+                - Head north on S High St toward Shumacher Alley
+                - Turn right onto E Whittier St
+                - Turn left onto S Ohio Ave
+                - Turn right onto E Main St
+                Pass by Dollar General (on the right in 0.5 mi)
+                - Turn left onto College Ave
+                Destination will be on the right
+                There are 3 routes from South Wind Motel to Brassica in Bexley by car. They are:
+                1. Via I-70 E | 11 mins | 4.8 mi
+                2. Via E Whittier St | 12 mins | 4.1 mi
+                3. Via E Main St | 13 mins | 4.0 mi
+                There are 3 routes from South Wind Motel to Brassica in Bexley by cycle. They are:
+                1. Via E Main St | 23 mins | 4.0 mi
+                2. Via E Whittier St and E Main St | 23 mins | 4.0 mi
+                3. Via E Whittier St | 23 mins | 4.0 mi
+                There are 6 routes from South Wind Motel to Brassica in Bexley by public transport. They are:
+                1. Via | 38 mins | 4.1 mi
+                2. Via | 25 mins | 4.1 mi
+                3. Via | 34 mins | 4.5 mi
+                4. Via | 44 mins | 4.5 mi
+                5. Via | 26 mins | 4.1 mi
+                6. Via | 41 mins | 4.1 mi",
+
+      "choices": ["Turn left onto College Ave", "Turn right onto E Whittier St", "Turn left onto S Ohio Ave", "Turn right onto E Whittier St"],
+      "answer":"Turn left onto College Ave",
+      "hint":"",
+      "image":"",
+      "skill":"Fetch Information from map and mention the POI",
+      "solution":"To find the answer, You have to choose one POI name",
+      "split":"test"
+    },
+
+    "2":{
+        "question":"How much time will it take by car If I go from Home to Sultan's Dine and then to LABAID Specialized Hospital?",
+        "context" : "Travel time from Indira Road to Sultan's Dine, Dhanmondi Branch is:- By car: 13 mins (4.2 km). Travel time from Sultan's Dine, Dhanmondi Branch to LABAID Specialized Hospital is:- By car: 16 mins (3.3 km).",
+        "choices": ["20 mins", "9 mins", "10 mins", "18 mins"],
+        "answer":"Kurmitola General Hospital",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+      },
+
+    "3":{
+        "question":"I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine. I will have my dinner there, which will take approximately an hour. If I leave home at 8:30 pm, where should I go first? LABAID or Sultan's Dine. I will go by car.",
+        "context" : "Information of Sultan's Dine: Open: Monday: 12:00 – 10:00 PM, Tuesday: 12:00 – 10:00 PM, Wednesday: 12:00 – 10:00 PM, Thursday: 12:00 – 10:00 PM, Friday: 12:00 – 10:00 PM, Saturday: 12:00 – 10:00 PM, Sunday: 12:00 – 10:00 PM. Information of LABAID Specialized Hospital: Open: Monday: Open 24 hours, Tuesday: Open 24 hours, Wednesday: Open 24 hours, Thursday: Open 24 hours, Friday: Open 24 hours, Saturday: Open 24 hours, Sunday: Open 24 hours. DRIVING Distance from My home to LABAID Specialized Hospital is 3.2 km (9 mins). DRIVING Distance from My home to Sultan's Dine is 4.2 km (13 mins). DRIVING Distance from LABAID Specialized Hospital to Sultan's Dine is 1.1 km (5 mins). DRIVING Distance from Sultan's Dine to LABAID Specialized Hospital is 3.3 km (16 mins). Today is Monday.",
+        "choices": ["Sultan's Dine", "LABAID Specialized Hospital"],
+        "answer":"Kurmitola General Hospital",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    },
+
+    "4":{
+        "question":"What's the fastest driving route from my current location to Aster Cedars Hospital, Jebel Ali?",
+        "context" : "Context (Template)
+Information of Mittelpunkt Deutschlands:
+
+- Location: An d. Oberrothe, 99986 Vogtei, Germany.
+
+Information of Wildkatzendorf Hütscheroda:
+
+- Location: Schloßstraße 4, 99820 Hörselberg-Hainich, Germany.
+
+Information of D03 Flame Tree Ridge:
+
+- Location: 2674+M59 D32 Flame Tree Ridge - D03 - Jumeirah Golf Estates - Dubai - United Arab Emirates.
+
+Information of Aster Cedars Hospital, Jebel Ali:
+
+- Location: Street No.2 - Mina Jebel Ali - Jebel Ali Freezone - Dubai - United Arab Emirates.
+
+There are 2 routes from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali by car. They are:
+
+1. Via D57 | 18 mins | 17.9 km
+
+- Head southwest
+Restricted usage road
+
+- At the roundabout, take the 2nd exit
+
+- At the roundabout, take the 1st exit
+Go through 1 roundabout
+
+- Turn left onto Al Fay Rd
+
+- At the roundabout, take the 2nd exit
+
+- Continue onto Al Fay Rd
+
+- Take the ramp to Al Khail Rd/E44
+
+- Take the ramp to Al Khail Rd/E44
+
+- Continue onto Al Khail Rd/E44
+
+- Take the E311 S/Sh Mohammed Bin Zayed Rd exit toward DWC Airport/Abu Dhabi
+
+- Take the ramp onto Sheikh Mohammed Bin Zayed Rd/E311
+
+- Take exit 22 for Al Yalayis St/D57 W toward PJA Port
+
+- Take the ramp onto D57
+
+- Take the ramp
+
+- Take the ramp
+
+- Take the ramp
+
+- Take the exit
+
+- Slight left toward 511 Street‎
+
+- Continue onto 511 Street‎
+Destination will be on the right
+
+2. Via Garn Al Sabkha St/D59 | 26 mins | 24.1 km
+
+- Head southwest
+Restricted usage road
+
+- At the roundabout, take the 2nd exit
+
+- At the roundabout, take the 1st exit
+Go through 1 roundabout
+
+- Turn left onto Al Fay Rd
+
+- At the roundabout, take the 2nd exit
+
+- Continue onto Al Fay Rd
+
+- Take the ramp to Al Khail Rd/E44
+
+- Take the ramp to Al Khail Rd/E44
+
+- Continue onto Al Khail Rd/E44
+
+- Take the E311 S/Sh Mohammed Bin Zayed Rd exit toward DWC Airport/Abu Dhabi
+
+- Slight right onto the ramp to Garn Al Sabkha St/D59
+
+- Take the ramp to Garn Al Sabkha St/D59
+
+- Keep right at the fork to continue toward Garn Al Sabkha St/D59
+
+- Continue onto Garn Al Sabkha St/D59
+
+- Keep left to stay on Garn Al Sabkha St/D59
+
+- Merge onto Sheikh Zayed Rd/E11 via the ramp to Jebel Ali/Abu Dhabi
+
+- Continue straight to stay on Sheikh Zayed Rd/E11
+Toll road
+
+- Take exit 22 toward PJA Port Gate 1/PJA Port Gate 2
+
+- Keep right
+
+- Turn right onto 511 Street‎
+Destination will be on the right
+
+There are 3 routes from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali on foot. They are:
+
+1. Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54 | 7 hours 11 mins | 31.7 km
+
+2. Via Al Asayel St/D72 | 9 hours 41 mins | 42.4 km
+
+3. Via Hessa St/D61 | 9 hours 44 mins | 42.2 km
+
+Current location of user is D03 Flame Tree Ridge.
+
+Context (GPT)
+The Mittelpunkt Deutschlands is located at An d. Oberrothe, 99986 Vogtei, Germany. The Wildkatzendorf Hütscheroda is situated at Schloßstraße 4, 99820 Hörselberg-Hainich, Germany. D03 Flame Tree Ridge is located at 2674+M59 D32 Flame Tree Ridge - D03 - Jumeirah Golf Estates, Dubai, United Arab Emirates. Aster Cedars Hospital in Jebel Ali is located at Street No.2, Mina Jebel Ali, Jebel Ali Freezone, Dubai, United Arab Emirates.
+
+There are two car routes from D03 Flame Tree Ridge to Aster Cedars Hospital in Jebel Ali:
+1. Via D57: This route takes about 18 minutes covering a distance of 17.9 km.
+2. Via Garn Al Sabkha St/D59: This route takes approximately 26 minutes covering a distance of 24.1 km.
+
+There are three walking routes from D03 Flame Tree Ridge to Aster Cedars Hospital in Jebel Ali:
+1. Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54: This route takes about 7 hours and 11 minutes covering a distance of 31.7 km.
+2. Via Al Asayel St/D72: This route takes approximately 9 hours and 41 minutes covering a distance of 42.4 km.
+3. Via Hessa St/D61: This route takes about 9 hours and 44 minutes covering a distance of 42.2 km.
+
+The current location of the user is D03 Flame Tree Ridge.",
+
+        "choices": ["Via Hessa St/D61", "Via D57". "Via Garn Al Sabkha St/D59", "Via Al Asayel St/D72"],
+        "answer":"Via D57",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "1":{
+      "question":"I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine. I will have my dinner there, which will take approximately an hour. If I leave home at 8:30 pm, where should I go first? LABAID or Sultan's Dine. I will go by car.",
+      "context" : "Information of Sultan's Dine: Open: Monday: 12:00 – 10:00 PM, Tuesday: 12:00 – 10:00 PM, Wednesday: 12:00 – 10:00 PM, Thursday: 12:00 – 10:00 PM, Friday: 12:00 – 10:00 PM, Saturday: 12:00 – 10:00 PM, Sunday: 12:00 – 10:00 PM. Information of LABAID Specialized Hospital: Open: Monday: Open 24 hours, Tuesday: Open 24 hours, Wednesday: Open 24 hours, Thursday: Open 24 hours, Friday: Open 24 hours, Saturday: Open 24 hours, Sunday: Open 24 hours. DRIVING Distance from My home to LABAID Specialized Hospital is 3.2 km (9 mins). DRIVING Distance from My home to Sultan's Dine is 4.2 km (13 mins). DRIVING Distance from LABAID Specialized Hospital to Sultan's Dine is 1.1 km (5 mins). DRIVING Distance from Sultan's Dine to LABAID Specialized Hospital is 3.3 km (16 mins). Today is Monday.",
+      "choices": ["Sultan's Dine", "LABAID Specialized Hospital"],
+      "answer":"Kurmitola General Hospital",
+      "hint":"",
+      "image":"",
+      "skill":"Fetch Information from map and mention the POI",
+      "solution":"To find the answer, You have to choose one POI name",
+      "split":"test"
+    },
+
+    "2":{
+        "question":"How much time will it take by car If I go from Home to Sultan's Dine and then to LABAID Specialized Hospital?",
+        "context" : "Travel time from Indira Road to Sultan's Dine, Dhanmondi Branch is:- By car: 13 mins (4.2 km). Travel time from Sultan's Dine, Dhanmondi Branch to LABAID Specialized Hospital is:- By car: 16 mins (3.3 km).",
+        "choices": ["20 mins", "9 mins", "10 mins", "18 mins"],
+        "answer":"Kurmitola General Hospital",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+      },
+
+    "3":{
+        "question":"I am planning a visit to Paris and want to maximize my time. If I spend 2 hours at the Louvre Museum in the morning, 1 hour at the Notre-Dame Cathedral around noon, and 1 hour at the Eiffel Tower in the afternoon, how much time should I allocate for travel between these places using public transport?",
+        "context" : "Information of Paris:
+
+            - Location: Paris, France.
+
+            Information of Louvre Museum:
+
+            - Location: 75001 Paris, France.
+
+            Information of Cathédrale Notre-Dame de Paris:
+
+            - Location: 6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France.
+
+            Information of Eiffel Tower:
+
+            - Location: Av. Gustave Eiffel, 75007 Paris, France.
+
+            Distance from Cathédrale Notre-Dame de Paris to Eiffel Tower by public transport is 5.4 km (20 mins).
+
+            Distance from Louvre Museum to Cathédrale Notre-Dame de Paris by public transport is 2.2 km (12 mins).",
+        "choices": ["32 minutes", "20 minutes", "12 minutes", "30 minutes"],
+        "answer":"Kurmitola General Hospital",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    },
+
+    "4":{
+        "question":"I have a full day to explore Sydney and want to visit the Sydney Opera House for a 1-hour tour, spend 2 hours at Bondi Beach, and end with a 1-hour walk in the Royal Botanic Garden Sydney. If I start my day at 9 AM, what is the best itinerary to follow using public transport to finish my journey as early as possible?",
+        "context" : "Information of Sydney:- Location: Sydney NSW, Australia.
+            Information of Sydney Opera House:
+            - Location: Bennelong Point, Sydney NSW 2000, Australia.
+            Information of Bondi Beach:
+            - Location: Bondi Beach, NSW 2026, Australia.
+            Information of Royal Botanic Garden Sydney:
+            - Location: Mrs Macquaries Rd, Sydney NSW 2000, Australia.
+            Travel Time from Sydney Opera House to Bondi Beach by public transport is 43 mins (10.4 km).
+            Travel Time from Bondi Beach to Sydney Opera House by public transport is 47 mins (10.5 km).
+            Travel Time from Bondi Beach to Royal Botanic Garden Sydney by public transport is 43 mins (10.2 km).
+            Travel Time from Royal Botanic Garden Sydney to Bondi Beach by public transport is 38 mins (10.0 km).",
+
+        "choices": ["Sydney Opera House -> Bondi Beach -> Royal Botanic Garden Sydney", "Bondi Beach -> Sydney Opera House -> Royal Botanic Garden Sydney", "Royal Botanic Garden Sydney -> Bondi Beach -> Sydney Opera House", "Bondi Beach -> Royal Botanic Garden Sydney -> Sydney Opera House"],
+        "answer":"Sydney Opera House -> Bondi Beach -> Royal Botanic Garden Sydney",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    },
+
+    "5":{
+        "question":"In Rome, I plan to visit the Colosseum for 2 hours in the morning, then spend 1.5 hours at the Roman Forum, and finish with a 1-hour visit to the Pantheon. What is the latest time to start my journey so that I can finish by 2.00pm?",
+        "context" : "Information of Rome:
+
+        - Location: Rome, Metropolitan City of Rome Capital, Italy.
+
+        Information of Colosseum:
+
+        - Location: Piazza del Colosseo, 1, 00184 Roma RM, Italy.
+
+        - Open: Monday: 8:30 AM – 7:15 PM, Tuesday: 8:30 AM – 7:15 PM, Wednesday: 8:30 AM – 7:15 PM, Thursday: 8:30 AM – 7:15 PM, Friday: 8:30 AM – 7:15 PM, Saturday: 8:30 AM – 7:15 PM, Sunday: 8:30 AM – 7:15 PM.
+
+        Information of Roman Forum:
+
+        - Location: 00186 Rome, Metropolitan City of Rome Capital, Italy.
+
+        - Open: Monday: 9:00 AM – 7:15 PM, Tuesday: 9:00 AM – 7:15 PM, Wednesday: 9:00 AM – 7:15 PM, Thursday: 9:00 AM – 7:15 PM, Friday: 9:00 AM – 7:15 PM, Saturday: 9:00 AM – 5:30 PM, Sunday: 9:00 AM – 7:15 PM.
+
+        Information of Pantheon:
+
+        - Location: Piazza della Rotonda, 00186 Roma RM, Italy.
+
+        - Open: Monday: 9:00 AM – 6:30 PM, Tuesday: 9:00 AM – 6:30 PM, Wednesday: 9:00 AM – 6:30 PM, Thursday: 9:00 AM – 6:30 PM, Friday: 9:00 AM – 6:30 PM, Saturday: 9:00 AM – 6:30 PM, Sunday: 9:00 AM – 6:30 PM.
+
+        Travel Time from Colosseum to Roman Forum by car is 4 mins (1.5 km).
+
+        Travel Time from Roman Forum to Pantheon by car is 17 mins (4.6 km).",
+
+        "choices": ["8.39 am", "9.09 am", "9.39 am", "8.09 am"],
+        "answer":"9.09 am",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    },
+
+    "6":{
+        "question":"From my current location, I will first drive to Victoria University of Wellington by car, then cycle to Kelburn Park, and finally return to my starting point by car. How much time will the entire journey take?",
+        "context" : "Information of Rydges Wellington:
+
+            - Location: 75 Featherston Street, Pipitea, Wellington 6011, New Zealand.
+
+            Information of Kelburn Park:
+
+            - Location: Salamanca Road, Kelburn, Wellington 6012, New Zealand.
+
+            Information of Victoria University of Wellington:
+
+            - Location: Kelburn Parade, Kelburn, Wellington 6012, New Zealand.
+
+            Information of Lady Norwood Rose Garden:
+
+            - Location: 101 Glenmore Street, Kelburn, Wellington 6012, New Zealand.
+
+            Distance from Rydges Wellington to Kelburn Park on foot is 1.0 km (16 mins).
+
+            Distance from Rydges Wellington to Kelburn Park by car is 1.5 km (4 mins).
+
+            Distance from Rydges Wellington to Kelburn Park by cycle is 1.9 km (9 mins).
+
+            Distance from Rydges Wellington to Kelburn Park by public transport is 0.9 km (11 mins).
+
+            Distance from Rydges Wellington to Victoria University of Wellington on foot is 1.6 km (26 mins).
+
+            Distance from Rydges Wellington to Victoria University of Wellington by car is 1.6 km (4 mins).
+
+            Distance from Rydges Wellington to Victoria University of Wellington by cycle is 2.4 km (14 mins).
+
+            Distance from Rydges Wellington to Victoria University of Wellington by public transport is 2.4 km (13 mins).
+
+            Distance from Rydges Wellington to Lady Norwood Rose Garden on foot is 1.1 km (18 mins).
+
+            Distance from Rydges Wellington to Lady Norwood Rose Garden by car is 1.5 km (5 mins).
+
+            Distance from Rydges Wellington to Lady Norwood Rose Garden by cycle is 1.5 km (9 mins).
+
+            Distance from Rydges Wellington to Lady Norwood Rose Garden by public transport is 1.3 km (10 mins).
+
+            Distance from Kelburn Park to Victoria University of Wellington on foot is 60 m (1 min).
+
+            Distance from Kelburn Park to Victoria University of Wellington by car is 0.2 km (1 min).
+
+            Distance from Kelburn Park to Victoria University of Wellington by cycle is 74 m (1 min).
+
+            Distance from Kelburn Park to Victoria University of Wellington by public transport is 60 m (1 min).
+
+            Distance from Kelburn Park to Lady Norwood Rose Garden on foot is 0.7 km (10 mins).
+
+            Distance from Kelburn Park to Lady Norwood Rose Garden by car is 2.1 km (5 mins).
+
+            Distance from Kelburn Park to Lady Norwood Rose Garden by cycle is 1.1 km (4 mins).
+
+            Distance from Kelburn Park to Lady Norwood Rose Garden by public transport is 0.7 km (10 mins).
+
+            Distance from Kelburn Park to Rydges Wellington on foot is 1.0 km (13 mins).
+
+            Distance from Kelburn Park to Rydges Wellington by car is 1.5 km (5 mins).
+
+            Distance from Kelburn Park to Rydges Wellington by cycle is 1.8 km (5 mins).
+
+            Distance from Kelburn Park to Rydges Wellington by public transport is 0.8 km (11 mins).
+
+            Distance from Victoria University of Wellington to Lady Norwood Rose Garden on foot is 0.9 km (14 mins).
+
+            Distance from Victoria University of Wellington to Lady Norwood Rose Garden by car is 2.3 km (6 mins).
+
+            Distance from Victoria University of Wellington to Lady Norwood Rose Garden by cycle is 1.3 km (5 mins).
+
+            Distance from Victoria University of Wellington to Lady Norwood Rose Garden by public transport is 0.9 km (14 mins).
+
+            Distance from Victoria University of Wellington to Rydges Wellington on foot is 1.6 km (21 mins).
+
+            Distance from Victoria University of Wellington to Rydges Wellington by car is 1.7 km (5 mins).
+
+            Distance from Victoria University of Wellington to Rydges Wellington by cycle is 2.0 km (6 mins).
+
+            Distance from Victoria University of Wellington to Rydges Wellington by public transport is 2.2 km (11 mins).
+
+            Distance from Victoria University of Wellington to Kelburn Park on foot is 60 m (1 min).
+
+            Distance from Victoria University of Wellington to Kelburn Park by car is 0.1 km (1 min).
+
+            Distance from Victoria University of Wellington to Kelburn Park by cycle is 60 m (1 min).
+
+            Distance from Victoria University of Wellington to Kelburn Park by public transport is 60 m (1 min).
+
+            Distance from Lady Norwood Rose Garden to Rydges Wellington on foot is 1.1 km (15 mins).
+
+            Distance from Lady Norwood Rose Garden to Rydges Wellington by car is 1.2 km (6 mins).
+
+            Distance from Lady Norwood Rose Garden to Rydges Wellington by cycle is 1.4 km (6 mins).
+
+            Distance from Lady Norwood Rose Garden to Rydges Wellington by public transport is 1.8 km (12 mins).
+
+            Distance from Lady Norwood Rose Garden to Kelburn Park on foot is 0.7 km (10 mins).
+
+            Distance from Lady Norwood Rose Garden to Kelburn Park by car is 1.0 km (4 mins).
+
+            Distance from Lady Norwood Rose Garden to Kelburn Park by cycle is 1.1 km (6 mins).
+
+            Distance from Lady Norwood Rose Garden to Kelburn Park by public transport is 0.7 km (10 mins).
+
+            Distance from Lady Norwood Rose Garden to Victoria University of Wellington on foot is 0.9 km (14 mins).
+
+            Distance from Lady Norwood Rose Garden to Victoria University of Wellington by car is 1.1 km (4 mins).
+
+            Distance from Lady Norwood Rose Garden to Victoria University of Wellington by cycle is 1.2 km (7 mins).
+
+            Distance from Lady Norwood Rose Garden to Victoria University of Wellington by public transport is 0.9 km (14 mins).
+
+            Current location of user is Rydges Wellington.
+
+            Context (GPT)
+            Rydges Wellington is situated at 75 Featherston Street, Pipitea, Wellington 6011, New Zealand. Kelburn Park is located on Salamanca Road in Kelburn, Wellington 6012, New Zealand. Victoria University of Wellington is found on Kelburn Parade in Kelburn, Wellington 6012, New Zealand. Lady Norwood Rose Garden is located at 101 Glenmore Street, Kelburn, Wellington 6012, New Zealand.
+
+            Here are the distances and estimated travel times between these locations:
+            - From Rydges Wellington to Kelburn Park:
+            - On foot: 1.0 km (16 mins)
+            - By car: 1.5 km (4 mins)
+            - By cycle: 1.9 km (9 mins)
+            - By public transport: 0.9 km (11 mins)
+
+            - From Rydges Wellington to Victoria University of Wellington:
+            - On foot: 1.6 km (26 mins)
+            - By car: 1.6 km (4 mins)
+            - By cycle: 2.4 km (14 mins)
+            - By public transport: 2.4 km (13 mins)
+
+            - From Rydges Wellington to Lady Norwood Rose Garden:
+            - On foot: 1.1 km (18 mins)
+            - By car: 1.5 km (5 mins)
+            - By cycle: 1.5 km (9 mins)
+            - By public transport: 1.3 km (10 mins)",
+
+        "choices": ["10 mins", "16 mins", "26 mins", "17 mins"],
+        "answer":"16 mins",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    }
+
+}
