@@ -8,10 +8,10 @@ gmaps = googlemaps.Client(key='AIzaSyBnsinvIK8T2C8Kv5Q3gKyVWaTMgINDhVw')
 def distance(loc1, loc2):
     # approximate radius of earth in km
     R = 6373.0
-    lat1= loc1['lat']
-    lon1= loc1['lng']
-    lat2= loc2['lat']
-    lon2= loc2['lng']
+    lat1 = radians(loc1['lat'])
+    lon1 = radians(loc1['lng'])
+    lat2 = radians(loc2['lat'])
+    lon2 = radians(loc2['lng'])
 
 
     dlon = lon2 - lon1
@@ -25,18 +25,19 @@ def distance(loc1, loc2):
 
 
 def place():
-    cur_location = geocode("Radisson Blu Water Garden Hotel, Dhaka")
+    cur_location = geocode("Tower of London")
+    print(cur_location)
     places_results = gmaps.places(
-        query="Find all the Hospital",
+        query="Find all the coffee shop",
         location=cur_location,
         # region="BD",
-        type="Hospital")
+        type="coffee shop")
     all_poi = places_results["results"]
 
     for poi in all_poi:
         dist = distance(loc1=poi['geometry']['location'], loc2=cur_location)
         print(f"{poi['name']} has {poi['rating']} rating, where {poi['user_ratings_total']} people give their rating, "
-        f"distance from the current location is {dist} km")
+        f"the location distance from current location is {dist} kilometers")
 
 
 def geocode(address):

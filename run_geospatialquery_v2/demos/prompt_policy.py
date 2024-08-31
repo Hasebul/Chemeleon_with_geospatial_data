@@ -117,7 +117,7 @@ Options: (A) MOHAKHALI CANCER AND GENERAL HOSPITAL (B) Square Hospitals Limited 
 
 Metadata: {"skill":"Fetch Information from map and mention the POI"}
 
-Modules: ["Text_Detector", "google_maps", "Solution_Generator", "Answer_Generator"]
+Modules: ["google_maps", "Solution_Generator", "Answer_Generator"]
 
 Question: Find the nearest police station from Bashundhara Residential Area, Dhaka?
 
@@ -125,7 +125,7 @@ Options: (A) Bashundhara Police Station (B) Gulshan Police Station (C) Banani Po
 
 Metadata: {"skill":"Fetch Information from map and mention the POI"}
 
-Modules: ["Text_Detector", "google_maps", "Solution_Generator", "Answer_Generator"]
+Modules: [ "google_maps", "Solution_Generator", "Answer_Generator"]
 
 Question: Find the nearest supermarket from Baridhara Diplomatic Zone, Dhaka?
 
@@ -133,7 +133,7 @@ Options: (A) Meena Bazar (B) Agora Super Shop (C) Shwapno (D) Unimart
 
 Metadata: {"skill":"Fetch Information from map and mention the POI"}
 
-Modules: ["Text_Detector", "google_maps", "Solution_Generator", "Answer_Generator"]
+Modules: [ "google_maps", "Solution_Generator", "Answer_Generator"]
 
 Question: Find the nearest gas station from Uttara, Dhaka?
 
@@ -141,5 +141,5 @@ Options: (A) Padma Oil Company Limited (B) Eastern Refinery Limited (C) Meghna P
 
 Metadata: {"skill":"Fetch Information from map and mention the POI"}
 
-Modules: ["Text_Detector", "google_maps", "Solution_Generator", "Answer_Generator"]
+Modules: ["google_maps", "Solution_Generator", "Answer_Generator"]
 """
