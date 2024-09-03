@@ -1,0 +1,26 @@
+{
+    "destination_addresses": [
+        "Melbourne VIC, Australia"
+    ],
+    "origin_addresses": [
+        "Sydney NSW, Australia"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "878 km",
+                        "value": 878319
+                    },
+                    "duration": {
+                        "text": "8 hours 55 mins",
+                        "value": 32129
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}

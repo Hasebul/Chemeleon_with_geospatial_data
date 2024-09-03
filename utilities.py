@@ -1,6 +1,10 @@
 import time
 import random
+import requests
+import os
 import openai
+import json
+import base64
 import googlemaps
 import func_timeout
 import requests
@@ -69,6 +73,22 @@ def place(query, location, region, type):
 def geocode(address):
     geocode_result = gmaps.geocode(address)
     return geocode_result[0]["geometry"]["location"]
+
+
+def directions(origin, destination, mode=None, waypoints=None, alternatives=True):
+    # origin = "D03 Flame Tree Ridge", destination = "Aster Cedars Hospital, Jebel Ali", mode = "driving", waypoints = None, alternatives = True
+    all_routes = gmaps.directions(
+        origin=origin, destination=destination, mode=mode, waypoints=waypoints, alternatives=alternatives
+    )
+
+    extract_information = {}
+    extract_information["number of route"] = len(all_routes)
+    counter = 0
+    for route in all_routes:
+        counter = counter + 1
+        extract_information[f"route_number_{counter}"] = route
+    print(extract_information)
+    return extract_information
 
 
 def get_codex_response(prompt, api_key, engine="code-davinci-002", temperature=0, max_tokens=256, top_p=1, n=1,
@@ -169,12 +189,12 @@ def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, m
             #         return prediction
             # Azure
             client = AzureOpenAI(
-                azure_endpoint="https://qcri-llm-rag-5.openai.azure.com/",
-                api_key="e7875b6823e74d4e9d6e4479a72d8067",
-                api_version="2024-02-15-preview",
+                azure_endpoint="https://qcri-llm-rag-3.openai.azure.com/",
+                api_key="154bfc83018f41f19341d76cefe5d95c",
+                api_version="2023-03-15-preview",
             )
             response = client.chat.completions.create(
-                model="GPT-35-TURBO-0125",
+                model="GPT35",
                 messages=messages,
                 temperature=temperature,
                 max_tokens=max_tokens,
@@ -198,6 +218,109 @@ def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, m
             if sleep_time > 0:
                 time.sleep(sleep_time)
     return ""
+
+
+# def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, max_tokens=256, n=1, patience=100,
+#                       sleep_time=0):  # gpt4
+#     while patience > 0:
+#
+#         patience -= 1
+#         try:
+#
+#             # Configuration
+#             API_KEY = "01488083a8d243e684bd48a39152d90a"
+#             # API_KEY = "YOUR_API_KEY"
+#             # IMAGE_PATH = "YOUR_IMAGE_PATH"
+#             # encoded_image = base64.b64encode(open(IMAGE_PATH, 'rb').read()).decode('ascii')
+#             headers = {
+#                 "Content-Type": "application/json",
+#                 "api-key": API_KEY,
+#             }
+#
+#             # Payload for the request
+#             payload = {
+#                 "messages": messages,
+#                 "temperature": 0.7,
+#                 "top_p": 0.95,
+#                 "max_tokens": 1000
+#             }
+#             # GPT-35-TURBO-0125
+#             ENDPOINT = "https://qcri-llm-rag-4.openai.azure.com/openai/deployments/GPT-4o/chat/completions?api-version=2024-02-15-preview"
+#
+#             # Send request
+#             try:
+#                 response = requests.post(ENDPOINT, headers=headers, json=payload)
+#                 response.raise_for_status()  # Will raise an HTTPError if the HTTP request returned an unsuccessful status code
+#             except requests.RequestException as e:
+#                 raise SystemExit(f"Failed to make the request. Error: {e}")
+#             if n == 1:
+#                 rep = response.json()
+#                 prediction = rep["choices"][0]["message"]["content"].strip()
+#                 # print(prediction)
+#                 if prediction != "" and prediction != None:
+#                     return prediction
+#             else:
+#                 prediction = [choice.message.content.strip() for choice in response.choices]
+#                 if prediction[0] != "" and prediction[0] != None:
+#                     return prediction
+#
+#         except Exception as e:
+#             print(e)
+#             if sleep_time > 0:
+#                 time.sleep(sleep_time)
+#     return ""
+
+
+# def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, max_tokens=256, n=1, patience=100,
+#                       sleep_time=0):  # gpt4
+#     while patience > 0:
+#
+#         patience -= 1
+#         try:
+#
+#
+#             # Configuration
+#             API_KEY = "154bfc83018f41f19341d76cefe5d95c"
+#             # API_KEY = "YOUR_API_KEY"
+#             # IMAGE_PATH = "YOUR_IMAGE_PATH"
+#             # encoded_image = base64.b64encode(open(IMAGE_PATH, 'rb').read()).decode('ascii')
+#             headers = {
+#                 "Content-Type": "application/json",
+#                 "api-key": API_KEY,
+#             }
+#
+#             # Payload for the request
+#             payload = {
+#                 "messages": messages,
+#                 "temperature": 0.7,
+#                 "top_p": 0.95,
+#                 "max_tokens": 1000
+#             }
+#             # GPT-35-TURBO-0125
+#             ENDPOINT = "https://qcri-llm-rag-3.openai.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2023-03-15-preview"
+#
+#             # Send request
+#             try:
+#                 response = requests.post(ENDPOINT, headers=headers, json=payload)
+#                 response.raise_for_status()  # Will raise an HTTPError if the HTTP request returned an unsuccessful status code
+#             except requests.RequestException as e:
+#                 raise SystemExit(f"Failed to make the request. Error: {e}")
+#             if n == 1:
+#                 rep = response.json()
+#                 prediction = rep["choices"][0]["message"]["content"].strip()
+#                 # print(prediction)
+#                 if prediction != "" and prediction != None:
+#                     return prediction
+#             else:
+#                 prediction = [choice.message.content.strip() for choice in response.choices]
+#                 if prediction[0] != "" and prediction[0] != None:
+#                     return prediction
+#
+#         except Exception as e:
+#             print(e)
+#             if sleep_time > 0:
+#                 time.sleep(sleep_time)
+#     return ""
 
 
 def floatify_ans(ans):

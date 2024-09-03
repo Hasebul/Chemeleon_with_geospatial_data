@@ -1,0 +1,13 @@
+{
+  "1":{
+    "question":"What is the nearest coffee shop from IQVIA Corporate, Durham, NC 27703, United States?",
+    "choices": ["Bean Traders", "Coffee Bar", "Chelsea Cafe", "New World Cafe Durham"],
+    "answer":"Chelsea Cafe",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  }
+}
+
