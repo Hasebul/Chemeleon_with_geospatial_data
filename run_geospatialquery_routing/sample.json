@@ -1,0 +1,64 @@
+{
+    "choices": [
+        {
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            },
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "[\"google_maps\", \"Solution_Generator\", \"Answer_Generator\"]",
+                "role": "assistant"
+            }
+        }
+    ],
+    "created": 1725126472,
+    "id": "chatcmpl-A2MUS409G9AyXccKqxcZ18MUllpJY",
+    "model": "gpt-4o-2024-05-13",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ],
+    "system_fingerprint": "fp_abc28019ad",
+    "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 2122,
+        "total_tokens": 2136
+    }
+}

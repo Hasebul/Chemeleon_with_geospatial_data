@@ -1,0 +1,42 @@
+{
+  "pid": "1",
+  "example": {
+    "question": "I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?",
+    "choices": [
+      "Turn left onto College Ave",
+      "Turn right onto E Whittier St",
+      "Turn left onto S Ohio Ave",
+      "Turn right onto E Whittier St"
+    ],
+    "answer": "Turn left onto College Ave",
+    "hint": "",
+    "image": "",
+    "skill": "Fetch Information from map and mention the POI",
+    "solution": "To find the answer, You have to choose one POI name",
+    "split": "test",
+    "image_file": "",
+    "caption": "An aerial view of a painting of a forest.",
+    "ocr": "[([[307, 253], [361, 253], [361, 265], [307, 265]], 'Oklahoma', 0.7105310102042172), ([[623, 261], [691, 261], [691, 275], [623, 275]], 'West Virginia', 0.9675798036138213), ([[153, 281], [193, 281], [193, 293], [153, 293]], 'Arizona', 0.9426240560831896), ([[365, 319], [419, 319], [419, 333], [365, 333]], 'Louisiana', 0.9964687228131679)]"
+  },
+  "question_text": "I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?\n\nOptions: (A) Turn left onto College Ave (B) Turn right onto E Whittier St (C) Turn left onto S Ohio Ave (D) Turn right onto E Whittier St",
+  "metadata": {
+    "skill": "Fetch Information from map and mention the POI",
+    "solution": "To find the answer, You have to choose one POI name"
+  },
+  "modules:input": "Question: I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?\n\nOptions: (A) Turn left onto College Ave (B) Turn right onto E Whittier St (C) Turn left onto S Ohio Ave (D) Turn right onto E Whittier St\n\nMetadata: {'skill': 'Fetch Information from map and mention the POI', 'solution': 'To find the answer, You have to choose one POI name'}\n\nModules: ",
+  "modules:output": [
+    "google_maps",
+    "solution_generator",
+    "answer_generator"
+  ],
+  "response": "The JSON data contains one route starting at 919 S High St, Columbus, OH 43206, USA, and ending at 2212 E Main St, Bexley, OH 43209, USA. The total route has two legs. The first leg spans 1.8 miles, taking 42 minutes from 919 S High St to E Main St & Parsons Ave, Columbus, OH, with steps as follows: Head west toward S Wall St (144 ft, 1 min), turn right onto S Wall St (82 ft, 1 min), turn right onto Shumacher Alley (246 ft, 1 min), turn left onto S High St (138 ft, 1 min), turn right onto E Whittier St (0.8 mi, 17 mins), and turn left onto Parsons Ave (1.0 mi, 22 mins). The second leg covers 2.2 miles, taking 50 minutes from E Main St & Parsons Ave to 2212 E Main St, Bexley, OH, with steps as follows: Head east on E Main St (2.2 mi, 49 mins), turn left onto College Ave (62 ft, 1 min), and slight right to the destination (16 ft, 1 min). The fastest route is the only route provided, taking a total of 92 minutes to cover 4 miles.",
+  "query_generator:input": "Question: I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?\n\nOptions: (A) Turn left onto College Ave (B) Turn right onto E Whittier St (C) Turn left onto S Ohio Ave (D) Turn right onto E Whittier St\n\nMetadata: {'skill': 'Fetch Information from map and mention the POI', 'solution': 'To find the answer, You have to choose one POI name'}\n\nSearch Query: ",
+  "query_generator:output": "The JSON data contains one route starting at 919 S High St, Columbus, OH 43206, USA, and ending at 2212 E Main St, Bexley, OH 43209, USA. The total route has two legs. The first leg spans 1.8 miles, taking 42 minutes from 919 S High St to E Main St & Parsons Ave, Columbus, OH, with steps as follows: Head west toward S Wall St (144 ft, 1 min), turn right onto S Wall St (82 ft, 1 min), turn right onto Shumacher Alley (246 ft, 1 min), turn left onto S High St (138 ft, 1 min), turn right onto E Whittier St (0.8 mi, 17 mins), and turn left onto Parsons Ave (1.0 mi, 22 mins). The second leg covers 2.2 miles, taking 50 minutes from E Main St & Parsons Ave to 2212 E Main St, Bexley, OH, with steps as follows: Head east on E Main St (2.2 mi, 49 mins), turn left onto College Ave (62 ft, 1 min), and slight right to the destination (16 ft, 1 min). The fastest route is the only route provided, taking a total of 92 minutes to cover 4 miles.",
+  "solution": "To determine the next step after reaching E Main St, we need to refer to the provided instructions for the second leg of the journey.\n\n1. The first leg ends at E Main St & Parsons Ave.\n2. The second leg starts from E Main St & Parsons Ave and continues as follows:\n   - Head east on E Main St (2.2 mi, 49 mins)\n   - Turn left onto College Ave (62 ft, 1 min)\n   - Slight right to the destination (16 ft, 1 min)\n\nFrom the options provided, the next step after reaching E Main St is to:\n- Turn left onto College Ave.\n\nTherefore, the answer is A.",
+  "solution_generator:input": "Question: I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?\n\nOptions: (A) Turn left onto College Ave (B) Turn right onto E Whittier St (C) Turn left onto S Ohio Ave (D) Turn right onto E Whittier St\n\nMetadata: {'skill': 'Fetch Information from map and mention the POI', 'solution': 'To find the answer, You have to choose one POI name'}\n\nThe JSON data contains one route starting at 919 S High St, Columbus, OH 43206, USA, and ending at 2212 E Main St, Bexley, OH 43209, USA. The total route has two legs. The first leg spans 1.8 miles, taking 42 minutes from 919 S High St to E Main St & Parsons Ave, Columbus, OH, with steps as follows: Head west toward S Wall St (144 ft, 1 min), turn right onto S Wall St (82 ft, 1 min), turn right onto Shumacher Alley (246 ft, 1 min), turn left onto S High St (138 ft, 1 min), turn right onto E Whittier St (0.8 mi, 17 mins), and turn left onto Parsons Ave (1.0 mi, 22 mins). The second leg covers 2.2 miles, taking 50 minutes from E Main St & Parsons Ave to 2212 E Main St, Bexley, OH, with steps as follows: Head east on E Main St (2.2 mi, 49 mins), turn left onto College Ave (62 ft, 1 min), and slight right to the destination (16 ft, 1 min). The fastest route is the only route provided, taking a total of 92 minutes to cover 4 miles.\n\nSolution: ",
+  "solution_generator:output": "To determine the next step after reaching E Main St, we need to refer to the provided instructions for the second leg of the journey.\n\n1. The first leg ends at E Main St & Parsons Ave.\n2. The second leg starts from E Main St & Parsons Ave and continues as follows:\n   - Head east on E Main St (2.2 mi, 49 mins)\n   - Turn left onto College Ave (62 ft, 1 min)\n   - Slight right to the destination (16 ft, 1 min)\n\nFrom the options provided, the next step after reaching E Main St is to:\n- Turn left onto College Ave.\n\nTherefore, the answer is A.",
+  "prediction": "Turn left onto College Ave",
+  "answer_generator:input": "To determine the next step after reaching E Main St, we need to refer to the provided instructions for the second leg of the journey.\n\n1. The first leg ends at E Main St & Parsons Ave.\n2. The second leg starts from E Main St & Parsons Ave and continues as follows:\n   - Head east on E Main St (2.2 mi, 49 mins)\n   - Turn left onto College Ave (62 ft, 1 min)\n   - Slight right to the destination (16 ft, 1 min)\n\nFrom the options provided, the next step after reaching E Main St is to:\n- Turn left onto College Ave.\n\nTherefore, the answer is A.",
+  "answer_generator:output": "Turn left onto College Ave",
+  "true_false": true
+}

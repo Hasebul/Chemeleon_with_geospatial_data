@@ -1,0 +1,69 @@
+{
+  "1": {
+    "question": "The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?",
+    "choices": null,
+    "answer": "13",
+    "unit": null,
+    "table_title": "Plants per garden",
+    "table": "Stem | Leaf \n3 | 3, 3, 3, 5, 5\n4 | 6\n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9",
+    "table_for_pd": {
+      "Stem": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "Leaf ": [
+        "3, 3, 3, 5, 5",
+        "6",
+        "4, 5, 7, 8",
+        "7, 8",
+        "2, 3, 7, 9",
+        "6, 8, 9"
+      ]
+    },
+    "row_num": 7,
+    "column_num": 2,
+    "solution": "Find the row with stem 4. Count all the leaves greater than or equal to 7.\n\nCount all the leaves in the rows with stems 5, 6, 7, and 8.\n\nYou counted 13 leaves, which are blue in the stem-and-leaf plots above. 13 gardens have at least 47 plants.",
+    "ques_type": "free_text",
+    "ans_type": "integer_number",
+    "grade": 4,
+    "split": "demo"
+  },
+  "2": {
+    "question": "The transportation company tracked the number of train tickets sold in the past 4 days. On which day were the fewest train tickets sold?",
+    "choices": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "answer": "Friday",
+    "unit": null,
+    "table_title": "Train tickets sold",
+    "table": "Day | Number of tickets\nFriday | 71\nSaturday | 74\nSunday | 75\nMonday | 72",
+    "table_for_pd": {
+      "Day": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "Number of tickets": [
+        "71",
+        "74",
+        "75",
+        "72"
+      ]
+    },
+    "row_num": 5,
+    "column_num": 2,
+    "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 71.\n\nNow find the corresponding day. Friday corresponds to 71.",
+    "ques_type": "multi_choice",
+    "ans_type": "extractive_text",
+    "grade": 2,
+    "split": "demo"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "pid": "1",
+  "example": {
+    "question": "The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?",
+    "choices": null,
+    "answer": "13",
+    "unit": null,
+    "table_title": "Plants per garden",
+    "table": "Stem | Leaf \n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9",
+    "table_for_pd": {
+      "Stem": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "Leaf ": [
+        "3, 3, 3, 5, 5",
+        "6",
+        "4, 5, 7, 8",
+        "7, 8",
+        "2, 3, 7, 9",
+        "6, 8, 9"
+      ]
+    },
+    "row_num": 7,
+    "column_num": 2,
+    "solution": "Find the row with stem 4. Count all the leaves greater than or equal to 7.\n\nCount all the leaves in the rows with stems 5, 6, 7, and 8.\n\nYou counted 13 leaves, which are blue in the stem-and-leaf plots above. 13 gardens have at least 47 plants.",
+    "ques_type": "free_text",
+    "ans_type": "integer_number",
+    "grade": 4,
+    "split": "demo",
+    "context": "Knowledge:\n- This is a stem-leaf plot, which is used to organize numerical data.\n- The stems represent the tens digit of the data values, while the leaves represent the ones digit.\n- To find the number of gardens with at least 47 plants, we need to look at the stems 4, 5, 6, 7, 8 and count the number of leaves that are 7 or higher in each stem."
+  },
+  "modules:input": "Table:\nStem | Leaf \n3 | 3, 3, 3, 5, 5\n4 | 6\n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9\n\nQuestion: The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?\n\nModules: ",
+  "modules:output": [
+    "row_lookup",
+    "knowledge_retrieval",
+    "program_generator_and_verifier",
+    "program_executor",
+    "answer_generator"
+  ],
+  "row_lookup:input": "Question: The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?\n\nTable:\nStem | Leaf \n3 | 3, 3, 3, 5, 5\n4 | 6\n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9\n\nSimplified Table:\n",
+  "row_lookup:output": "Stem | Leaf \n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9",
+  "knowledge_retrieval:input": "Table:\n\nStem | Leaf \n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9\n\nQuestion: The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?\n\nKnowledge:\n",
+  "knowledge_retrieval:output": "- This is a stem-leaf plot, which is used to organize numerical data.\n- The stems represent the tens digit of the data values, while the leaves represent the ones digit.\n- To find the number of gardens with at least 47 plants, we need to look at the stems 4, 5, 6, 7, 8 and count the number of leaves that are 7 or higher in each stem.",
+  "program": "stem_leaf = {5: [4, 5, 7, 8], 6: [7, 8], 7: [2, 3, 7, 9], 8: [6, 8, 9]}\nans = 0\nfor stem in stem_leaf.keys():\n    for leaf in stem_leaf[stem]:\n        if stem * 10 + leaf >= 47:\n            ans += 1\n\nans",
+  "program_generator_and_verifier:input": "Read the following table regarding Plants per garden and then write Python code to answer a question:\n\nStem | Leaf \n5 | 4, 5, 7, 8\n6 | 7, 8\n7 | 2, 3, 7, 9\n8 | 6, 8, 9\n\nKnowledge:\n- This is a stem-leaf plot, which is used to organize numerical data.\n- The stems represent the tens digit of the data values, while the leaves represent the ones digit.\n- To find the number of gardens with at least 47 plants, we need to look at the stems 4, 5, 6, 7, 8 and count the number of leaves that are 7 or higher in each stem.\n\nThe members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?\n\n# Python Code, return 'ans'. Make sure that 'ans' is a number",
+  "program_generator_and_verifier:output": "stem_leaf = {5: [4, 5, 7, 8], 6: [7, 8], 7: [2, 3, 7, 9], 8: [6, 8, 9]}\nans = 0\nfor stem in stem_leaf.keys():\n    for leaf in stem_leaf[stem]:\n        if stem * 10 + leaf >= 47:\n            ans += 1\n\nans",
+  "program_executor:output": 13,
+  "answer_generator:input": 13,
+  "answer_generator:output": 13.0,
+  "prediction": 13.0,
+  "prediction_norm": 13.0,
+  "answer_norm": 13.0,
+  "true_false": true
+}
+{
+  "pid": "2",
+  "example": {
+    "question": "The transportation company tracked the number of train tickets sold in the past 4 days. On which day were the fewest train tickets sold?",
+    "choices": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "answer": "Friday",
+    "unit": null,
+    "table_title": "Train tickets sold",
+    "table": "Day | Number of tickets\nFriday | 71\nSaturday | 74\nSunday | 75\nMonday | 72",
+    "table_for_pd": {
+      "Day": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "Number of tickets": [
+        "71",
+        "74",
+        "75",
+        "72"
+      ]
+    },
+    "row_num": 5,
+    "column_num": 2,
+    "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 71.\n\nNow find the corresponding day. Friday corresponds to 71.",
+    "ques_type": "multi_choice",
+    "ans_type": "extractive_text",
+    "grade": 2,
+    "split": "demo"
+  },
+  "modules:input": "Table:\nDay | Number of tickets\nFriday | 71\nSaturday | 74\nSunday | 75\nMonday | 72\n\nQuestion: The transportation company tracked the number of train tickets sold in the past 4 days. On which day were the fewest train tickets sold?\n\nModules: ",
+  "modules:output": [
+    "solution_generator",
+    "answer_generator"
+  ],
+  "solution_generator:input": "Read the following table regarding Train tickets sold and then answer a question:\n\nDay | Number of tickets\nFriday | 71\nSaturday | 74\nSunday | 75\nMonday | 72\n\nThe transportation company tracked the number of train tickets sold in the past 4 days. On which day were the fewest train tickets sold? Please select from the following options: ['Friday', 'Saturday', 'Sunday', 'Monday'].\n\nSolution: ",
+  "solution_generator:output": "Look at the numbers in the table. Find the smallest number of tickets sold.\n\nThe fewest tickets were sold on Friday, with 71 tickets sold. The answer is Friday.",
+  "answer_generator:input": "Friday",
+  "answer_generator:output": "Friday",
+  "prediction": "Friday",
+  "prediction_norm": "friday",
+  "answer_norm": "Friday",
+  "true_false": true
+}

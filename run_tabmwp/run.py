@@ -19,9 +19,9 @@ def parse_args():
     parser.add_argument('--model', type=str, default='chameleon', choices=['cot', 'pot', 'chameleon'])
     parser.add_argument('--label', type=str, default='chameleon_chatgpt')
     parser.add_argument('--task_name', type=str, default='tabmwp')
-    parser.add_argument('--test_split', type=str, default='test1k', 
-                        choices=['dev', 'dev1k', 'test', 'test1k'])
-    parser.add_argument('--test_number', type=int, default=100)
+    parser.add_argument('--test_split', type=str, default='demo',
+                        choices=['dev', 'dev1k', 'test', 'test1k', 'demo'])
+    parser.add_argument('--test_number', type=int, default=2)
     parser.add_argument('--seed', type=int, default=0)
     # module prediction
     parser.add_argument('--modules', nargs='+', default=None, help='default modules')
