@@ -258,6 +258,44 @@
         "skill":"Fetch Information from map and mention the POI",
         "solution":"To find the answer, You have to choose one POI name",
         "split":"test"
+    },
+
+    "7": {
+        "question":"I have a tight schedule in Rome. I plan to visit the Colosseum at 10:00 AM for 1.5 hours. Afterward, I’ll head to the Trevi Fountain, where I’ll spend 45 minutes. I have a guided tour of the Vatican Museum scheduled for 3:00 PM, and it will last 2 hours. How much free time do I have for lunch before heading to the Vatican Museum? I will travel by public transport.",
+      "context" : "The Trevi Fountain is located at Piazza di Trevi in Rome, Italy. The Vatican Museums are situated in Vatican City, and the Colosseum can be found at Piazza del Colosseo in Rome.\n\nIf you're traveling by public transport, it takes about 31 minutes to get from the Trevi Fountain to the Vatican Museums, covering a distance of 4.5 kilometers. The journey from the Trevi Fountain to the Colosseum takes around 18 minutes and is 2.4 kilometers long.\n\nFrom the Vatican Museums to the Trevi Fountain, the travel time is approximately 22 minutes over 4.2 kilometers. Going from the Vatican Museums to the Colosseum takes about 28 minutes, covering 6.2 kilometers.\n\nFinally, traveling from the Colosseum to the Trevi Fountain takes around 16 minutes, with a distance of 1.9 kilometers, and from the Colosseum to the Vatican Museums, it takes about 29 minutes over 6.2 kilometers.",
+      "choices": ["2 hour 28 minutes",  "1 hour 18 minutes", "2hour 18 minutes", "1 hour 58 minutes"],
+      "answer":"1 hour 58 minutes",
+      "hint":"",
+      "image":"",
+      "skill":"Fetch Information from map and mention the POI",
+      "solution":"To find the answer, You have to choose one POI name",
+      "split":"test"
+    },
+
+    "8": {
+        "question":"I am spending a day in Medellín and staying at The Charlee Hotel. I will leave my hotel at 9:00 AM and plan to visit three key attractions: the Plaza Botero (2 hours), Lleras Park (1.5 hours), and the Museum of Antioquia (1 hours). Schedule my day if I plan to visit these place in this order: First Lleras Park, then Plaza Botero, then Museum of Antioquia and finally come back to hotel. I will use public transport.",
+      "context" : "The Charlee Hotel is located at Cl. 9A #37-16 in the El Poblado area of Medellín, Colombia. Nearby, Lleras Park is just a short 2-minute public transport ride away, covering a distance of 0.1 km. If you're heading to Plaza Botero in La Candelaria, it takes about 28 minutes by public transport, covering 6.2 km. The Museum of Antioquia, also in La Candelaria, is similarly 28 minutes away by public transport, at a distance of 6.1 km.\n\nFrom Plaza Botero, you can reach The Charlee Hotel in about 33 minutes by public transport. Lleras Park is 32 minutes away from Plaza Botero, while the Museum of Antioquia is just a quick 1-minute walk, only 2 meters away.\n\nTraveling from Lleras Park to The Charlee Hotel takes about 3 minutes. If you're going to Plaza Botero or the Museum of Antioquia from Lleras Park, both are approximately 27 minutes away by public transport, each covering 6.1 km.\n\nFinally, from the Museum of Antioquia, it takes about 33 minutes to reach The Charlee Hotel and 32 minutes to get to Lleras Park by public transport.",
+      "choices": ["Leave hotel at 9:00 AM -> Visit Lleras Park (9:20 AM - 10:42 AM) -> Visit Plaza Botero (11:50 AM - 12:40 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 2:10 PM",  "Leave hotel at 9:00 AM -> Visit Lleras Park (10:00 AM - 11:32 AM) -> Visit Plaza Botero (12:00 PM - 1:00 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 3:00 PM", "Leave hotel at 9:00 AM -> Visit Lleras Park (9:02 AM - 10:32 AM) -> Visit Plaza Botero (11:15 AM - 1:15 PM) -> Visit Museum of Antioquia (1:16 PM - 2:16 PM) -> Come back to Hotel at 2:49 PM", "Leave hotel at 9:00 AM -> Visit Lleras Park (9:02 AM - 10:32 AM) -> Visit Plaza Botero (10:59 AM - 12:59 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 2:33 PM"],
+      "answer":"Leave hotel at 9:00 AM -> Visit Lleras Park (9:02 AM - 10:32 AM) -> Visit Plaza Botero (10:59 AM - 12:59 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 2:33 PM",
+      "hint":"",
+      "image":"",
+      "skill":"Fetch Information from map and mention the POI",
+      "solution":"To find the answer, You have to choose one POI name",
+      "split":"test"
+    },
+
+    "9": {
+        "question":"I am at The Rimrock Resort Hotel. If I want to visit Banff National Park, Lake Louise, and Moraine Lake in one day, spending 3 hours at each location, in which order I should visit this places to minimize travel time by car?",
+      "context" : "Information of Banff National Park:\n\n- Location: Improvement District No. 9, AB T0L, Canada.\n\nInformation of Lake Louise:\n\n- Location: Lake Louise, AB, Canada.\n\nInformation of Moraine Lake:\n\n- Location: Moraine Lake, Improvement District No. 9, AB T0L, Canada.\n\nInformation of The Rimrock Resort Hotel:\n\n- Location: 300 Mountain Ave, Banff, AB T1L 1J2, Canada.\n\nTravel Time from Banff National Park to Lake Louise by car is 6 mins (9.5 km).\n\nTravel Time from Banff National Park to Moraine Lake by car is 26 mins (23.7 km).\n\nTravel Time from Banff National Park to The Rimrock Resort Hotel by car is 36 mins (45.1 km).\n\nTravel Time from Lake Louise to Banff National Park by car is 11 mins (15.8 km).\n\nTravel Time from Lake Louise to Moraine Lake by car is 19 mins (14.3 km).\n\nTravel Time from Lake Louise to The Rimrock Resort Hotel by car is 45 mins (60.7 km).\n\nTravel Time from The Rimrock Resort Hotel to Lake Louise by car is 47 mins (61.1 km).\n\nTravel Time from The Rimrock Resort Hotel to Banff National Park by car is 37 mins (45.3 km).\n\nTravel Time from The Rimrock Resort Hotel to Moraine Lake by car is 1 hour 6 mins (75.4 km).",
+      "choices": ["The Rimrock Resort Hotel -> Moraine Lake -> Banff National Park -> Lake Louise","The Rimrock Resort Hotel -> Lake Louise -> Moraine Lake -> Banff National Park", "The Rimrock Resort Hotel -> Lake Louise -> Banff National Park -> Moraine Lake", "The Rimrock Resort Hotel -> Banff National Park -> Lake Louise -> Moraine Lake"],
+      "answer":"The Rimrock Resort Hotel -> Banff National Park -> Lake Louise -> Moraine Lake",
+      "hint":"",
+      "image":"",
+      "skill":"Fetch Information from map and mention the POI",
+      "solution":"To find the answer, You have to choose one POI name",
+      "split":"test"
     }
+
+
 
 }
