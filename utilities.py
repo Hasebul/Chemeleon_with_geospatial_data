@@ -189,12 +189,12 @@ def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, m
             #         return prediction
             # Azure
             client = AzureOpenAI(
-                azure_endpoint="https://qcri-llm-rag-3.openai.azure.com/",
-                api_key="154bfc83018f41f19341d76cefe5d95c",
-                api_version="2023-03-15-preview",
+                azure_endpoint="https://llms-eus2.openai.azure.com/",
+                api_key="c7d579ff57394bf98d6da39f9c96bca5",
+                api_version="2024-05-01-preview",
             )
             response = client.chat.completions.create(
-                model="GPT35",
+                model="gpt-35-turbo-0125",
                 messages=messages,
                 temperature=temperature,
                 max_tokens=max_tokens,
