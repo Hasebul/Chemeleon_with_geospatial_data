@@ -1,8 +1,8 @@
 {
-  "acc": 100.0,
-  "correct": 1,
-  "wrong": 0,
-  "count": 1,
+  "acc": 0.0,
+  "correct": 0,
+  "wrong": 2,
+  "count": 2,
   "args": {
     "data_root": "../data/routing",
     "output_root": "../results",

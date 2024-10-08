@@ -1,7 +1,7 @@
 {
-  "acc": 56.00000000000001,
-  "correct": 28,
-  "wrong": 22,
+  "acc": 57.99999999999999,
+  "correct": 29,
+  "wrong": 21,
   "count": 50,
   "args": {
     "data_root": "../data/geospatial",
@@ -33,6 +33,6 @@
     "sg_temperature": 0.0,
     "sg_max_tokens": 512,
     "sg_patience": 5,
-    "debug": false
+    "debug": true
   }
 }
