@@ -440,9 +440,10 @@ if __name__ == "__main__":
     # place_info_str= trip(current_loc, visiting_place_list)
     # print(place_info_str)
     # Run the conversation and print the result
-    print(run_conversation())
+    # print(run_conversation())
     # place = directions(origin="Obelisco de Buenos Aires", destination="Caminito in La Boca")
     # print(place)
+    print("huge pera")
 
 # Run the conversation and print the result
 # print(run_conversation())
