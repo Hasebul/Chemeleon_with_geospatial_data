@@ -294,7 +294,82 @@
       "skill":"Fetch Information from map and mention the POI",
       "solution":"To find the answer, You have to choose one POI name",
       "split":"test"
-    }
+    },
+
+    "10": {
+      "question":"I am currently staying at Khaosan Tokyo Origami in Asakusa, Tokyo. I want to visit the Sensō-ji Temple for 1 hour, Shibuya Crossing for 1.5 hours, Ueno Park for 2 hours, and the Tokyo Skytree for 1.5 hours. I have 3.5 hours available. I will leave my hostel at 7 am. How many places can I visit? I will walk between places.",
+    "context" : "Information of Khaosan Tokyo Origami:
+
+              - Location: 3-chōme-4-12 Asakusa, Taito City, Tokyo 111-0032, Japan.
+
+              Information of Sensō-ji:
+
+              - Location: 2-chōme-3-1 Asakusa, Taito City, Tokyo 111-0032, Japan.
+
+              Information of Shibuya Scramble Crossing:
+
+              - Location: 21 Udagawacho, Shibuya City, Tokyo 150-0042, Japan.
+
+              Information of Ueno Park:
+
+              - Location: 4 Uenokoen, Taito City, Tokyo 110-0007, Japan.
+
+              - Open: Monday: 5:00 AM – 11:00 PM, Tuesday: 5:00 AM – 11:00 PM, Wednesday: 5:00 AM – 11:00 PM, Thursday: 5:00 AM – 11:00 PM, Friday: 5:00 AM – 11:00 PM, Saturday: 5:00 AM – 11:00 PM, Sunday: 5:00 AM – 11:00 PM.
+
+              Information of Tokyo Skytree:
+
+              - Location: 1-chōme-1-2 Oshiage, Sumida City, Tokyo 131-0045, Japan.
+
+              - Open: Monday: 10:00 AM – 10:00 PM, Tuesday: 10:00 AM – 10:00 PM, Wednesday: 10:00 AM – 10:00 PM, Thursday: 10:00 AM – 10:00 PM, Friday: 10:00 AM – 10:00 PM, Saturday: 10:00 AM – 10:00 PM, Sunday: 9:00 AM – 10:00 PM.
+
+              Travel Time from Khaosan Tokyo Origami to Sensō-ji on foot is 4 mins (0.3 km).
+
+              Travel Time from Khaosan Tokyo Origami to Ueno Park on foot is 33 mins (2.2 km).
+
+              Travel Time from Khaosan Tokyo Origami to Shibuya Scramble Crossing on foot is 3 hours 2 mins (12.6 km).
+
+              Travel Time from Khaosan Tokyo Origami to Tokyo Skytree on foot is 20 mins (1.3 km).
+
+              Travel Time from Sensō-ji to Khaosan Tokyo Origami on foot is 4 mins (0.3 km).
+
+              Travel Time from Sensō-ji to Ueno Park on foot is 29 mins (1.9 km).
+
+              Travel Time from Sensō-ji to Shibuya Scramble Crossing on foot is 2 hours 52 mins (11.9 km).
+
+              Travel Time from Sensō-ji to Tokyo Skytree on foot is 19 mins (1.3 km).
+
+              Travel Time from Shibuya Scramble Crossing to Khaosan Tokyo Origami on foot is 3 hours 0 mins (12.6 km).
+
+              Travel Time from Shibuya Scramble Crossing to Sensō-ji on foot is 2 hours 50 mins (11.9 km).
+
+              Travel Time from Shibuya Scramble Crossing to Ueno Park on foot is 2 hours 20 mins (9.9 km).
+
+              Travel Time from Shibuya Scramble Crossing to Tokyo Skytree on foot is 3 hours 5 mins (12.9 km).
+
+              Travel Time from Ueno Park to Khaosan Tokyo Origami on foot is 32 mins (2.2 km).
+
+              Travel Time from Ueno Park to Sensō-ji on foot is 28 mins (1.9 km).
+
+              Travel Time from Ueno Park to Shibuya Scramble Crossing on foot is 2 hours 22 mins (9.9 km).
+
+              Travel Time from Ueno Park to Tokyo Skytree on foot is 51 mins (3.5 km).
+
+              Travel Time from Tokyo Skytree to Khaosan Tokyo Origami on foot is 20 mins (1.3 km).
+
+              Travel Time from Tokyo Skytree to Sensō-ji on foot is 19 mins (1.3 km).
+
+              Travel Time from Tokyo Skytree to Ueno Park on foot is 51 mins (3.5 km).
+
+              Travel Time from Tokyo Skytree to Shibuya Scramble Crossing on foot is 3 hours 7 mins (13.1 km).",
+    "choices": ["One Two Three Four"],
+    "answer":"one",
+    "hint":"",
+    "image":"",
+    "skill":"Fetch Information from map and mention the POI",
+    "solution":"To find the answer, You have to choose one POI name",
+    "split":"test"
+  }
+
 
 
 
