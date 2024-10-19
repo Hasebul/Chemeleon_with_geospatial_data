@@ -1,0 +1,23 @@
+{
+    "1":{
+      "question":"I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?",
+      "choices": ["Turn left onto College Ave", "Turn right onto E Whittier St", "Turn left onto S Ohio Ave", "Turn right onto E Whittier St"],
+      "answer":"Turn left onto College Ave",
+      "hint":"",
+      "image":"",
+      "skill":"Fetch Information from map and mention the POI",
+      "solution":"To find the answer, You have to choose one POI name",
+      "split":"test"
+    },
+
+    "2":{
+        "question":"What's the fastest driving route from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali?",
+        "choices": ["Via Hessa St/D61", "Via D57", "Via Garn Al Sabkha St/D59", "Via Al Asayel St/D72"],
+        "answer":"Via D57",
+        "hint":"",
+        "image":"",
+        "skill":"Fetch Information from map and mention the POI",
+        "solution":"To find the answer, You have to choose one POI name",
+        "split":"test"
+    }
+}

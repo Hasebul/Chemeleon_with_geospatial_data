@@ -1,0 +1,1137 @@
+{
+    "34": {
+        "question": "My office is at Agargaon ICT Tower. One of my colleagues has broken his leg accidentally. I want to take him to an orthopedic hospital near me. Suggest me an orthopedic hospital near ICT tower, Agargaon, Dhaka.",
+        "choices": [
+            "National Institute of Traumatology and Orthopaedic Rehabilitation (NITOR)",
+            " Mary Orthopedic General Hospital and Diagnosis Center",
+            "Amader Hospital Ltd",
+            "National Institute of Laboratory Medicine & Referral Center (NILMRC)"
+        ],
+        "answer": " Mary Orthopedic General Hospital and Diagnosis Center",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "35": {
+        "question": "I am staying at SUST now. I have been suffering from fever for 3 days. I want to meet a doctor nearest to campus. Suggest me a doctor near my campus",
+        "choices": [
+            "সেবা ডায়াগনষ্টিক সেন্টার",
+            "মোঃ হেলাল উদ্দিন",
+            " Shuvo Madical Hall",
+            "ডাঃ মোঃ ছমির উদ্দিন"
+        ],
+        "answer": "মোঃ হেলাল উদ্দিন",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "36": {
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
+        "choices": [
+            "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
+            "কারমাইকেল কলেজ মসজিদ",
+            "Salbon Jame Mosque",
+            "তালুক হাবু বাইতুস সালাম জামে মসজিদ"
+        ],
+        "answer": "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "39": {
+        "question": "I’m in Rajshahi and want to do some shopping. What is the best shopping mall in the city where I can find a variety of stores?",
+        "choices": [
+            "Infinity MegaMall",
+            "রাজশাহী সিটি সেন্টার",
+            "Shopnochura Tower",
+            "Theme Omor Plaza"
+        ],
+        "answer": "Theme Omor Plaza",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "53": {
+        "question": "I need a haircut and I’m in Natore. Can you recommend a reputable hair salon in the area?",
+        "choices": [
+            "Western Salon",
+            "Orjun salun & parler",
+            "হেয়ার কাটিং",
+            " Evan Rony ER "
+        ],
+        "answer": "Western Salon",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "58": {
+        "question": "I am in Sylhet’s Ambarkhana area and I need to catch a bus to Dhaka. Can you guide me to the nearest bus terminal?",
+        "choices": [
+            "Dighirpar Bus Stand",
+            "Shikpur Bus station",
+            "Airport Road Bus Stop",
+            "Sukrobari Bazar Bus Stan"
+        ],
+        "answer": "Airport Road Bus Stop",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "75": {
+        "question": "I need to catch a bus and I'm near Rajshahi University. Can you tell me where the nearest bus stop is?",
+        "choices": [
+            "Gatelock Bus Terminal-2",
+            "Rajshahi Bus Stand ,amnura",
+            "Rajshahi Bus Terminal ,Vadra.",
+            "Nawabganj Bypass Bus Stand"
+        ],
+        "answer": "Rajshahi Bus Terminal ,Vadra.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "76": {
+        "question": "I need to mail a letter and I'm in Mymensingh Town. Can you tell me where I can find the nearest post office?",
+        "choices": [
+            "পুলিশ লাইন পোস্ট অফিস",
+            "রাঘবপুর মাদ্রাসা ডিজিটাল পোস্ট ই-সেন্টার",
+            "Bangladesh Agricultural University Post Office",
+            "Mymensingh Head Post Office"
+        ],
+        "answer": "Mymensingh Head Post Office",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "97": {
+        "question": "I'm in Feni and need to get my clothes cleaned. Can you tell me where the nearest laundry service is?",
+        "choices": [
+            "Sufed laundry",
+            "Auto Clean",
+            "সুনীল লন্ড্রী এন্ড ড্রাই ক্লিনার্স",
+            "BANDBOX"
+        ],
+        "answer": "সুনীল লন্ড্রী এন্ড ড্রাই ক্লিনার্স",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "98": {
+        "question": "I'm in Narayanganj and want to work out. Can you tell me where the nearest fitness center is located?",
+        "choices": [
+            "Nirvana Fitness Center & Swimming Pool",
+            "X-Men Gym",
+            "Life Style Fitness",
+            "Fit 4 Life Gym"
+        ],
+        "answer": "Life Style Fitness",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "102": {
+        "question": "I'm in Mymensingh and want to watch a movie. Can you tell me where the nearest cinema is?",
+        "choices": [
+            "Kanan Cinema Hall",
+            "Tulshipur Cinema Hall",
+            "Purobi Cinema Hall",
+            "Hol-er Mor"
+        ],
+        "answer": "Purobi Cinema Hall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "103": {
+        "question": "I'm in Sylhet and need to withdraw some cash. Can you tell me where the nearest ATM is located?",
+        "choices": [
+            "United Commercial Bank Limited",
+            "Trust Bank ATM",
+            "ATM Booth IBBL",
+            "Pubali Bank ATM"
+        ],
+        "answer": "United Commercial Bank Limited",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "110": {
+        "question": "I'm in Sirajganj and need to buy some medicine. Can you tell me where the nearest pharmacy is?",
+        "choices": [
+            "Orin Pharmacy",
+            "Unique Pharma-Model Pharmacy",
+            "Sajeeb Medicine Center",
+            "Gulf Pharmacy"
+        ],
+        "answer": "Sajeeb Medicine Center",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "117": {
+        "question": "I'm in Rangamati and need to take my pet to the vet. Can you tell me where the nearest veterinary clinic is located?",
+        "choices": [
+            "Vet Care Plus",
+            "Vet Care Center",
+            "Vetlab",
+            "Hasan Veterinary Pharmacy"
+        ],
+        "answer": "Hasan Veterinary Pharmacy",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "118": {
+        "question": "I'm in Thakurgaon and want to buy some fresh bread and pastries. Can you tell me where the nearest bakery is located?",
+        "choices": [
+            "Sazz's Cake",
+            "Tasty Treat",
+            "Tan'z Bakery",
+            "মুক্তা বেকারী এন্ড সুইটস্ "
+        ],
+        "answer": "মুক্তা বেকারী এন্ড সুইটস্ ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "119": {
+        "question": "I'm currently in Uttara, Dhaka, and I'm having tooth pain. Can you suggest a dentist near my location?",
+        "choices": [
+            "Quick Dental Care",
+            "Bangla Dental Care",
+            "Tooth Aid Dental Zone",
+            "Holy Dental Care"
+        ],
+        "answer": "Tooth Aid Dental Zone",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "132": {
+        "question": "I'm in Bashundhara, Dhaka and my car is having issues. Can you recommend a reputable car mechanic near me",
+        "choices": [
+            "S.R Auto Electronics Engineering Workshop",
+            "Dhaka Auto Vulcanizeing Workshop ঢাকা অটো ভলকানাইজিং ওয়াকসপ",
+            "Johirul Bike Servicing ",
+            "CAR HEAVEN Workshop Vehicle Repair Shop"
+        ],
+        "answer": "CAR HEAVEN Workshop Vehicle Repair Shop",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "135": {
+        "question": "I'm in Comilla and need to see a dentist. Can you recommend a good dental clinic in the area?\"",
+        "choices": [
+            "Jannat dental care",
+            "Jahid dental",
+            "Hazari Dental Care",
+            "কমার্শিয়াল ষ্টোর"
+        ],
+        "answer": "Hazari Dental Care",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "138": {
+        "question": "\"I'm in Kushtia and want to buy some fresh bread and pastries. Can you suggest a good bakery in the area?",
+        "choices": [
+            "Mariyam cake house",
+            "Pizza and Pastry",
+            "Bonolota Sweets & Bakery",
+            "Shishir Bakery"
+        ],
+        "answer": "Shishir Bakery",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "147": {
+        "question": "I'm in Rajbari and need to buy some tools for home improvement. Can you recommend a good hardware store in the area?",
+        "choices": [
+            "মিতু মেশিনারিজ এন্ড সেনেটারি",
+            "Shaba Hardware Store & Electronics",
+            "সওদাগর হার্ডওয়্যার"
+        ],
+        "answer": "সওদাগর হার্ডওয়্যার",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "154": {
+        "question": "I'm in Habiganj,Sylhet and need to buy a new pair of shoes. Can you suggest a reputable shoe store nearby?",
+        "choices": [
+            "Bata Amin Shoe Store",
+            "আয়ান-সু ষ্টোর।",
+            "Steve Madden",
+            "চরণতল-ChoronTOL"
+        ],
+        "answer": "Bata Amin Shoe Store",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "157": {
+        "question": "I'm in Thakurgaon and need to buy flowers for an event. Can you suggest a good florist in the area?",
+        "choices": [
+            "Aparajita Pushpa Bitaan",
+            "মেঘলা তিথি পুষ্প কুঞ্জ ইভেন্ট ম্যানেজমেন্ট ",
+            "Khaja Flower Shop",
+            "Jeni Mala Badol"
+        ],
+        "answer": "মেঘলা তিথি পুষ্প কুঞ্জ ইভেন্ট ম্যানেজমেন্ট ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "176": {
+        "question": "I'm currently in Vancouver and interested in outdoor activities. What is the nearest park or nature reserve in this area ?",
+        "choices": [
+            "Portal Park",
+            "Robson Square",
+            "Bentall Centre Courtyard",
+            "Rainbow Park"
+        ],
+        "answer": "Robson Square",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "186": {
+        "question": "I'm in Cairo and want to explore Egyptian artifacts. Which museum nearby is considered the best for this?",
+        "choices": [
+            "Lama Temple",
+            "Great Wall of Badaling",
+            "The National Museum of Egyptian Civilization",
+            "Tiananmen"
+        ],
+        "answer": "The National Museum of Egyptian Civilization",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "197": {
+        "question": "I'm in Seoul and enjoy playing at casinos. Where's the best nearby casino?",
+        "choices": [
+            " PARADISE Co., Ltd.",
+            "Paradise City",
+            "Paradise City Incheon Casino Poker Room",
+            "WEZBET "
+        ],
+        "answer": " PARADISE Co., Ltd.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "217": {
+        "question": "I'm in Bangkok and want to visit some tourist attractions. Which nearby attractions are the most renowned?",
+        "choices": [
+            "Devasthan (Brahmin Shrines)",
+            "Mahakan Fort",
+            "Rattanakosin Exhibition Hall",
+            "Roongroj Tour"
+        ],
+        "answer": "Rattanakosin Exhibition Hall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "218": {
+        "question": "I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
+        "choices": [
+            " Fogo e chão ",
+            "Real colherdepau de Lisboa | Lisbon",
+            "combine your business ",
+            "Estoril"
+        ],
+        "answer": " Fogo e chão ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "224": {
+        "question": "I am at Duck Lake,what is the nearest mosque to me?",
+        "choices": [
+            "Hamad Bin Jassim Bin Jaber Bin Mohamed Al Thani Mosque - Mosque, Via, Doha",
+            "The Pearl Mosque - Masjid",
+            "Inside small Grand Hyatt Mosque - 9GGH+Q3H, Doha",
+            "The Golden Masjid - 9G6G+9M2, Doha"
+        ],
+        "answer": "The Pearl Mosque - Masjid",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "240": {
+        "question": "i am at Washington Square Park, Washington Square, New York, NY 10012, United States.",
+        "choices": [
+            "Staley-Wise Gallery | 100 Crosby Street #305, New York",
+            "The Climate Museum | 105 Wooster Street, New York",
+            " Dr. Bernard Heller Museum | 1 West 4th Street, New York",
+            "Tibet House | 22 West 15th Street, New York"
+        ],
+        "answer": " Dr. Bernard Heller Museum | 1 West 4th Street, New York",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "241": {
+        "question": "My home is located on Indira Road in Dhaka, Bangladesh. Best restaurant in 500m radius from my home.",
+        "choices": [
+            "Piccadilly Restaurant",
+            "Boishakhi Hotel And Restaurant",
+            "Bibiyana Tehari O Biryani Ghar",
+            "Food Fair"
+        ],
+        "answer": "Boishakhi Hotel And Restaurant",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "321": {
+        "question": "I am at The British Museum. It is currently 6:00 PM on Tuesday. Please suggest the best nearby restaurant to eat now. Price should be moderate.",
+        "choices": [
+            "The Pizzeria",
+            "Museum Tavern",
+            " The Blue Door Bistro",
+            "Starbucks Coffee "
+        ],
+        "answer": "Museum Tavern",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "347": {
+        "question": "I am at Louvre Museum. What is the nearest restaurant?",
+        "choices": [
+            "Bistrot Benoit",
+            "Starbucks Louvre",
+            " Le Comptoir du Louvre",
+            "Comptoir Denon & Richelieu"
+        ],
+        "answer": "Starbucks Louvre",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "356": {
+        "question": "I’m staying at the Sheraton Mexico City Maria Isabel Hotel. Can you tell me where the nearest café is?",
+        "choices": [
+            "Amorino",
+            " Boudega",
+            "Tortas, sándwiches y bagels de la calle",
+            " Pasión Café"
+        ],
+        "answer": "Amorino",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "357": {
+        "question": "I'm at Khansa Market and feeling really hungry. Where can I get something to eat quickly?",
+        "choices": [
+            "Shawarma Juha",
+            "Souq Al-Lail Al-Qadim Restaurant",
+            "Kfteraa Cham Shawarma Arabic on coal ",
+            "Torch Restaurant"
+        ],
+        "answer": "Torch Restaurant",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "359": {
+        "question": "I'm at Camping Ettelbruck. Which university is closest to me?",
+        "choices": [
+            "Lycée Ermesinde Mersch (LEM) ",
+            "Université du Luxembourg",
+            "Huberty Martine",
+            "Seck Pierre"
+        ],
+        "answer": "Lycée Ermesinde Mersch (LEM) ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "360": {
+        "question": "I'm at Camping Ettelbruck. Which Tourist Attraction is closest to me?",
+        "choices": [
+            "Wasserfall ",
+            "Panorama view over Michelau",
+            "General Patton Museum",
+            "Springbrunnen "
+        ],
+        "answer": "General Patton Museum",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "361": {
+        "question": "I am at JA The Resort Golf Course.What is the nearest hospital to me?",
+        "choices": [
+            "AL SHIFA INTERNATIONAL CLINIC ",
+            "Al Shifa International Clinicl LLC-Branch",
+            "NMC Medical Centre JAFZA",
+            " Emirates Field Hospital Entrance (SEHA) "
+        ],
+        "answer": "NMC Medical Centre JAFZA",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "362": {
+        "question": "i am at JA The Resort Golf Course. What is the nearest Mosque to me?",
+        "choices": [
+            " مسجد النور ",
+            "MASJID AL RAHMAN JEBEL ALI",
+            "DP World Terminal 3 Mosque",
+            "Emirates Station Mosque"
+        ],
+        "answer": " مسجد النور ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "363": {
+        "question": "I am at JA The Resort Golf Course. What is the nearest parking to me?",
+        "choices": [
+            "Gurjant wali parking ",
+            "Al Hesah St Parking",
+            "Jebel parking",
+            "Guest Parking Area"
+        ],
+        "answer": "Jebel parking",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "365": {
+        "question": "I am at Zayed International Airport. What is the nearest restaurant to me?",
+        "choices": [
+            "Shawarmanji",
+            "Crepe Delicious ",
+            "Capri Pizza - Masdar Park",
+            "Grab & Fly"
+        ],
+        "answer": "Grab & Fly",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "366": {
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
+        "choices": [
+            "দক্ষিণ হোসেনপুর জামে মসজিদ",
+            " Begum Rokeya University Mosque ",
+            ". Central Jame Mosque, BRUR",
+            "Alhaj Nagar Jame Masjid"
+        ],
+        "answer": " Begum Rokeya University Mosque ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "367": {
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest hindu_temple where I can go for my prayers?",
+        "choices": [
+            "Shiv Mandir",
+            "ISKCON Tajhat Temple - শ্রী শ্রী রাধাগোপীনাথ জিউ মন্দির ",
+            " Dimla Kali Temple",
+            "Shree Shree Maa Kali Temple"
+        ],
+        "answer": "Shree Shree Maa Kali Temple",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "368": {
+        "question": "I am at The University of Tokyo  What is the nearest gas_station to me?",
+        "choices": [
+            "ENEOS Yushima Service Station",
+            "ENEOS Taito Chuo Service Station",
+            "Shell ",
+            "Eneos Akihabara Service Station"
+        ],
+        "answer": "ENEOS Yushima Service Station",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "369": {
+        "question": "I am at The University of Tokyo What is the nearest hospital to me?",
+        "choices": [
+            "東大病院面会受付",
+            "東京大学医学部附属病院 管理・研究棟",
+            "Hosobe Clinics ",
+            "Tanaka Acupuncture Orthopedic Clinic"
+        ],
+        "answer": "東京大学医学部附属病院 管理・研究棟",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "370": {
+        "question": "I'm currently at the Golden Apple Boutique Hotel. Could you help me find the nearest zoo?",
+        "choices": [
+            "Marble Palace Zoo",
+            " Alipur zoo",
+            "Alipore Zoo Aquarium",
+            " Bird Walk "
+        ],
+        "answer": "Marble Palace Zoo",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "371": {
+        "question": "I'm currently at the Golden Apple Boutique Hotel. Could you help me find the nearest Stadium ?",
+        "choices": [
+            " EAST BENGAL STADIUM",
+            " MOHUN BAGAN STADIUM",
+            "Netaji Indoor Stadium",
+            "Howrah Indoor Stadium "
+        ],
+        "answer": " EAST BENGAL STADIUM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "372": {
+        "question": "I'm staying at the Golden Apple Boutique Hotel. Could you help me locate the nearest tourist attraction?",
+        "choices": [
+            " Lenin's Statue ",
+            "Smaranika Tram Museum",
+            "Indian Museum",
+            "St. Thomas Church (C.N.I.)"
+        ],
+        "answer": "St. Thomas Church (C.N.I.)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "373": {
+        "question": "I'm at Base Hospital Delhi Cantt. Could you help me locate the nearest Gym?",
+        "choices": [
+            "Outdoor Gym",
+            "GAME OF FITNESS",
+            "The Workout Zone ",
+            "Exclusive fit gym "
+        ],
+        "answer": "GAME OF FITNESS",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "413": {
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with over 2000 user ratings.",
+        "choices": [
+            "McDonald's",
+            "New York Fries",
+            "Wimpy",
+            "The GrillShack"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "414": {
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.8 rating.",
+        "choices": [
+            "McDonald's",
+            "Wimpy",
+            "New York Fries",
+            "The GrillShack"
+        ],
+        "answer": "Wimpy",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "415": {
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.7 rating and over 1000 user ratings.",
+        "choices": [
+            "Wimpy ",
+            "New York Fries",
+            "Noon & Kabab ",
+            "The GrillShack"
+        ],
+        "answer": "Wimpy ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "416": {
+        "question": "I am at Dubai Mall. Suggest a nearby moderate restaurant with at least 4.6 rating.",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "The GrillShack"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "417": {
+        "question": "I am at Dubai Mall. Suggest a nearby moderately priced restaurant with a rating of at least 4.5 that is open at 9:00 AM on Thursday.",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "The GrillShack"
+        ],
+        "answer": "Nando's Dubai Mall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "418": {
+        "question": "I am at Dubai Mall. Suggest a nearby moderate restaurant with over 2100 user ratings.",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "The GrillShack"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "419": {
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.5 rating and stays open at 9:15 AM on Tuesday.",
+        "choices": [
+            "McDonald's",
+            "Wimpy",
+            "New York Fries",
+            "Neat Burger"
+        ],
+        "answer": "New York Fries",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "429": {
+        "question": "If I visit The Metropolitan Museum of Art on Wednesday, which nearby cafes would be closed?",
+        "choices": [
+            "Starbucks and Matto Espresso",
+            "American Wing Cafe and The Great Hall Balcony Cafe",
+            "Petrie Court Café and Central Park cafe",
+            "All cafes are open on Wednesday"
+        ],
+        "answer": "American Wing Cafe and The Great Hall Balcony Cafe",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "439": {
+        "question": "Which of the following restaurants is located on Level 2 of the Dubai Mall food court?",
+        "choices": [
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "McDonald's",
+            "The GrillShack"
+        ],
+        "answer": "McDonald's",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "440": {
+        "question": "Which nearby restaurant of Dubai Mall has the highest rating?",
+        "choices": [
+            "McDonald's",
+            "The GrillShack",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "441": {
+        "question": "Which restaurant near Dubai Mall has the fewest total user ratings?",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "The GrillShack",
+            "Bikanervala Dubai Mall"
+        ],
+        "answer": "Bikanervala Dubai Mall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "448": {
+        "question": "I am at St. Lawrence Market. How many nearby restaurants have ratings at least 4.5?",
+        "choices": [
+            "4",
+            "6",
+            "7",
+            "5"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "449": {
+        "question": "I am at St. Lawrence Market. How many nearby restaurants have at least 500 total user ratings?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "450": {
+        "question": "I am at St. Lawrence Market. How many nearby restaurants have at least 4.5 ratings and 500 total user ratings?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "451": {
+        "question": "I am at St. Lawrence Market. Which of the nearby restaurants have ratings at least 4.5?",
+        "choices": [
+            "Seafront Fish Market, Buster's Sea Cove - St. Lawrence Market, Churrasco Of The St Lawrence",
+            "Yianni's Kitchen, Churrasco Of The St Lawrence, Market Street Catch, Uno Mustachio",
+            "Paddington's Pump, Quik Sushi, Big Pita, A&W Canada",
+            "Yianni's Kitchen, Bar St. Lo, Big Pita, Manotas Organics, Spanish & Latin Foods, Crepe It Up"
+        ],
+        "answer": "Yianni's Kitchen, Bar St. Lo, Big Pita, Manotas Organics, Spanish & Latin Foods, Crepe It Up",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "452": {
+        "question": "I am at St. Lawrence Market. How many nearby restaurants are open on Monday?",
+        "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "453": {
+        "question": "I am at St. Lawrence Market. How many nearby restaurants are open at 8:00 PM on Tuesday?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "6",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "454": {
+        "question": "I am at St. Lawrence Market. Which of the nearby restaurants have at least 500 total user ratings?",
+        "choices": [
+            "Bindia Indian Bistro, Paddington's Pump, Pizza Pizza, A&W Canada, Uno Mustachio",
+            "Big Pita, European Delight, Yianni's Kitchen,  Market Street Catch, Bar St. Lo",
+            "Buster's Sea Cove - St. Lawrence Market, Churrasco Of The St Lawrence, Uno Mustachio, Crepe It Up",
+            "Buster's Sea Cove - St. Lawrence Market, Big Pita, Bindia Indian Bistro, Market Street Catch, Paddington's Pump"
+        ],
+        "answer": "Buster's Sea Cove - St. Lawrence Market, Big Pita, Bindia Indian Bistro, Market Street Catch, Paddington's Pump",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "455": {
+        "question": "I am at Parliament Hill. How many  nearby restaurants are closed on Sunday?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "8",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "459": {
+        "question": "I will visit St. Lawrence Market on Monday. List the nearby restaurants that I will find open?",
+        "choices": [
+            "Market Street Catch, Paddington's Pump, Crepe It Up,  Quik Sushi",
+            "Quik Sushi, Bindia Indian Bistro, A&W Canada, Dnister Ukrainian Store",
+            "A&W Canada, European Delight, Big Pita, Bar St. Lo, Manotas Organics, Spanish & Latin Foods",
+            "Market Street Catch, A&W Canada, Quik Sushi, Big Pita, Pizza Pizza"
+        ],
+        "answer": "Market Street Catch, A&W Canada, Quik Sushi, Big Pita, Pizza Pizza",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "460": {
+        "question": "I am at St. Lawrence Market. List the nearby moderately priced restaurant with at least 4.1 rating.",
+        "choices": [
+            "Uno Mustachio, European Delight",
+            "Churrasco Of The St Lawrence, Yianni's Kitchen",
+            "Market Street Catch, Buster's Sea Cove - St. Lawrence Market",
+            "European Delight, Big Pita"
+        ],
+        "answer": "Market Street Catch, Buster's Sea Cove - St. Lawrence Market",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "461": {
+        "question": "List the nearby ATMs of Toronto Zoo that are open 24 hours.",
+        "choices": [
+            "RBC Royal Bank ATM, TD Canada Trust Branch and ATM, Localcoin Bitcoin ATM - Happy Mart",
+            "CIBC ATM, Meridian Credit Union ATM, President's Choice Financial Pavilion and ATM",
+            "TD Canada Trust ATM, Scotiabank, TD Canada Trust ATM, CoinFlip Bitcoin ATM",
+            "RBC Royal Bank ATM, CIBC ATM, TD Canada Trust ATM, Shell"
+        ],
+        "answer": "RBC Royal Bank ATM, CIBC ATM, TD Canada Trust ATM, Shell",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "462": {
+        "question": "I am at Toronto Zoo. Today is Sunday and it's currently 8:30 PM. How many nearby ATMs are open now?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "9",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    }
+}

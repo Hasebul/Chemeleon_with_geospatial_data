@@ -14,14 +14,14 @@ from model import solver
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_root', type=str, default='../data/geospatial')
+    parser.add_argument('--data_root', type=str, default='../data/trip')
     parser.add_argument('--output_root', type=str, default='../results')
     parser.add_argument('--model', type=str, default='chameleon', choices=['cot', 'chameleon'])
     parser.add_argument('--label', type=str, default='chameleon_chatgpt')
-    parser.add_argument('--task_name', type=str, default='geospatial')
+    parser.add_argument('--task_name', type=str, default='trip')
     parser.add_argument('--test_split', type=str, default='minitest',
                         choices=['train', 'val', 'test', 'minitrain', 'minival', 'minitest'])
-    parser.add_argument('--test_number', type=int, default=50)
+    parser.add_argument('--test_number', type=int, default=68)
     parser.add_argument('--seed', type=int, default=0)
     # module prediction
     parser.add_argument('--modules', nargs='+', default=None, help='default modules')
@@ -166,74 +166,3 @@ if __name__ == "__main__":
         result = {'acc': acc, 'correct': correct, 'wrong': wrong, 'count': count, 'args': vars(args)}
         with open(result_file, 'w') as f:
             json.dump(result, f, indent=2, separators=(',', ': '))
-
-""""
-"4":{
-    "question":"Where is the nearest hospital that offers affordable services around Hotel Bengal Canary Park?",
-       "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
-    "hint":"",
-    "image":"",
-    "skill":"Fetch Information from map and mention the POI",
-    "solution":"To find the answer, You have to choose one POI name",
-    "split":"test"
-  },
-
-  "5":{
-    "question":"Can you recommend a low-priced medical center close to The Westin Dhaka?",
-        "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
-    "hint":"",
-    "image":"",
-    "skill":"Fetch Information from map and mention the POI",
-    "solution":"To find the answer, You have to choose one POI name",
-    "split":"test"
-  },
-
-  "6":{
-    "question":"Which is the closest budget-friendly hospital to the Embassy of the United States, Dhaka?",
-        "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
-    "hint":"",
-    "image":"",
-    "skill":"Fetch Information from map and mention the POI",
-    "solution":"To find the answer, You have to choose one POI name",
-    "split":"test"
-  },
-
-  "7":{
-    "question":"Can you suggest an affordable medical facility near the International Convention City Bashundhara?",
-        "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
-    "hint":"",
-    "image":"",
-    "skill":"Fetch Information from map and mention the POI",
-    "solution":"To find the answer, You have to choose one POI name",
-    "split":"test"
-  },
-
-  "8":{
-    "question":"Where is the closest low-cost hospital to the Hazrat Shahjalal International Airport?",
-    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
-    "hint":"",
-    "image":"",
-    "skill":"Fetch Information from map and mention the POI",
-    "solution":"To find the answer, You have to choose one POI name",
-    "split":"test"
-  },
-
-  "9":{
-    "question":"Can you recommend a budget-friendly medical center near the Dhaka University?",
-    "choices": ["United Hospital", "Apollo Hospitals", "Popular Hospital", "Kurmitola General Hospital"],
-    "answer":"Kurmitola General Hospital",
-    "hint":"",
-    "image":"",
-    "skill":"Fetch Information from map and mention the POI",
-    "solution":"To find the answer, You have to choose one POI name",
-    "split":"test"
-  },
-
-
-
-"""

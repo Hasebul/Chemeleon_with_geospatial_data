@@ -3,6 +3,7 @@ import re
 import sys
 import json
 import openai
+import codecs
 
 # add the parent directory to the path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -37,7 +38,7 @@ class solver:
     def load_data(self):
         # load test data
         pid_splits = json.load(open(os.path.join(self.data_root, "pid_splits.json")))
-        _examples = json.load(open(os.path.join(self.data_root, "problems.json")))
+        _examples = json.load(open(file=os.path.join(self.data_root, "problems.json"), mode="r", encoding="utf-8"))
 
         examples = {pid: _examples[pid] for pid in pid_splits[self.test_split]}
         pids = list(examples.keys())

@@ -1,0 +1,3395 @@
+[
+    {
+        "id": 34,
+        "question": "My office is at Agargaon ICT Tower. One of my colleagues has broken his leg accidentally. I want to take him to an orthopedic hospital near me. Suggest me an orthopedic hospital near ICT tower, Agargaon, Dhaka.",
+        "choices": [
+            "National Institute of Traumatology and Orthopaedic Rehabilitation (NITOR)",
+            " Mary Orthopedic General Hospital and Diagnosis Center",
+            "Amader Hospital Ltd",
+            "National Institute of Laboratory Medicine & Referral Center (NILMRC)"
+        ],
+        "answer": " Mary Orthopedic General Hospital and Diagnosis Center",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 35,
+        "question": "I am staying at SUST now. I have been suffering from fever for 3 days. I want to meet a doctor nearest to campus. Suggest me a doctor near my campus",
+        "choices": [
+            "সেবা ডায়াগনষ্টিক সেন্টার",
+            "মোঃ হেলাল উদ্দিন",
+            " Shuvo Madical Hall",
+            "ডাঃ মোঃ ছমির উদ্দিন"
+        ],
+        "answer": "মোঃ হেলাল উদ্দিন",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 36,
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
+        "choices": [
+            "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
+            "কারমাইকেল কলেজ মসজিদ",
+            "Salbon Jame Mosque",
+            "তালুক হাবু বাইতুস সালাম জামে মসজিদ"
+        ],
+        "answer": "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 39,
+        "question": "I’m in Rajshahi and want to do some shopping. What is the best shopping mall in the city where I can find a variety of stores?",
+        "choices": [
+            "Infinity MegaMall",
+            "রাজশাহী সিটি সেন্টার",
+            "Shopnochura Tower",
+            "Theme Omor Plaza"
+        ],
+        "answer": "Theme Omor Plaza",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 53,
+        "question": "I need a haircut and I’m in Natore. Can you recommend a reputable hair salon in the area?",
+        "choices": [
+            "Western Salon",
+            "Orjun salun & parler",
+            "হেয়ার কাটিং",
+            " Evan Rony ER "
+        ],
+        "answer": "Western Salon",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 58,
+        "question": "I am in Sylhet’s Ambarkhana area and I need to catch a bus to Dhaka. Can you guide me to the nearest bus terminal?",
+        "choices": [
+            "Dighirpar Bus Stand",
+            "Shikpur Bus station",
+            "Airport Road Bus Stop",
+            "Sukrobari Bazar Bus Stan"
+        ],
+        "answer": "Airport Road Bus Stop",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 75,
+        "question": "I need to catch a bus and I'm near Rajshahi University. Can you tell me where the nearest bus stop is?",
+        "choices": [
+            "Gatelock Bus Terminal-2",
+            "Rajshahi Bus Stand ,amnura",
+            "Rajshahi Bus Terminal ,Vadra.",
+            "Nawabganj Bypass Bus Stand"
+        ],
+        "answer": "Rajshahi Bus Terminal ,Vadra.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 76,
+        "question": "I need to mail a letter and I'm in Mymensingh Town. Can you tell me where I can find the nearest post office?",
+        "choices": [
+            "পুলিশ লাইন পোস্ট অফিস",
+            "রাঘবপুর মাদ্রাসা ডিজিটাল পোস্ট ই-সেন্টার",
+            "Bangladesh Agricultural University Post Office",
+            "Mymensingh Head Post Office"
+        ],
+        "answer": "Mymensingh Head Post Office",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 97,
+        "question": "I'm in Feni and need to get my clothes cleaned. Can you tell me where the nearest laundry service is?",
+        "choices": [
+            "Sufed laundry",
+            "Auto Clean",
+            "সুনীল লন্ড্রী এন্ড ড্রাই ক্লিনার্স",
+            "BANDBOX"
+        ],
+        "answer": "সুনীল লন্ড্রী এন্ড ড্রাই ক্লিনার্স",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 98,
+        "question": "I'm in Narayanganj and want to work out. Can you tell me where the nearest fitness center is located?",
+        "choices": [
+            "Nirvana Fitness Center & Swimming Pool",
+            "X-Men Gym",
+            "Life Style Fitness",
+            "Fit 4 Life Gym"
+        ],
+        "answer": "Life Style Fitness",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 102,
+        "question": "I'm in Mymensingh and want to watch a movie. Can you tell me where the nearest cinema is?",
+        "choices": [
+            "Kanan Cinema Hall",
+            "Tulshipur Cinema Hall",
+            "Purobi Cinema Hall",
+            "Hol-er Mor"
+        ],
+        "answer": "Purobi Cinema Hall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 103,
+        "question": "I'm in Sylhet and need to withdraw some cash. Can you tell me where the nearest ATM is located?",
+        "choices": [
+            "United Commercial Bank Limited",
+            "Trust Bank ATM",
+            "ATM Booth IBBL",
+            "Pubali Bank ATM"
+        ],
+        "answer": "United Commercial Bank Limited",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 110,
+        "question": "I'm in Sirajganj and need to buy some medicine. Can you tell me where the nearest pharmacy is?",
+        "choices": [
+            "Orin Pharmacy",
+            "Unique Pharma-Model Pharmacy",
+            "Sajeeb Medicine Center",
+            "Gulf Pharmacy"
+        ],
+        "answer": "Sajeeb Medicine Center",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 117,
+        "question": "I'm in Rangamati and need to take my pet to the vet. Can you tell me where the nearest veterinary clinic is located?",
+        "choices": [
+            "Vet Care Plus",
+            "Vet Care Center",
+            "Vetlab",
+            "Hasan Veterinary Pharmacy"
+        ],
+        "answer": "Hasan Veterinary Pharmacy",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 118,
+        "question": "I'm in Thakurgaon and want to buy some fresh bread and pastries. Can you tell me where the nearest bakery is located?",
+        "choices": [
+            "Sazz's Cake",
+            "Tasty Treat",
+            "Tan'z Bakery",
+            "মুক্তা বেকারী এন্ড সুইটস্ "
+        ],
+        "answer": "মুক্তা বেকারী এন্ড সুইটস্ ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 119,
+        "question": "I'm currently in Uttara, Dhaka, and I'm having tooth pain. Can you suggest a dentist near my location?",
+        "choices": [
+            "Quick Dental Care",
+            "Bangla Dental Care",
+            "Tooth Aid Dental Zone",
+            "Holy Dental Care"
+        ],
+        "answer": "Tooth Aid Dental Zone",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 132,
+        "question": "I'm in Bashundhara, Dhaka and my car is having issues. Can you recommend a reputable car mechanic near me",
+        "choices": [
+            "S.R Auto Electronics Engineering Workshop",
+            "Dhaka Auto Vulcanizeing Workshop ঢাকা অটো ভলকানাইজিং ওয়াকসপ",
+            "Johirul Bike Servicing ",
+            "CAR HEAVEN Workshop Vehicle Repair Shop"
+        ],
+        "answer": "CAR HEAVEN Workshop Vehicle Repair Shop",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 135,
+        "question": "I'm in Comilla and need to see a dentist. Can you recommend a good dental clinic in the area?\"",
+        "choices": [
+            "Jannat dental care",
+            "Jahid dental",
+            "Hazari Dental Care",
+            "কমার্শিয়াল ষ্টোর"
+        ],
+        "answer": "Hazari Dental Care",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 138,
+        "question": "\"I'm in Kushtia and want to buy some fresh bread and pastries. Can you suggest a good bakery in the area?",
+        "choices": [
+            "Mariyam cake house",
+            "Pizza and Pastry",
+            "Bonolota Sweets & Bakery",
+            "Shishir Bakery"
+        ],
+        "answer": "Shishir Bakery",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 147,
+        "question": "I'm in Rajbari and need to buy some tools for home improvement. Can you recommend a good hardware store in the area?",
+        "choices": [
+            "মিতু মেশিনারিজ এন্ড সেনেটারি",
+            "Shaba Hardware Store & Electronics",
+            "সওদাগর হার্ডওয়্যার"
+        ],
+        "answer": "সওদাগর হার্ডওয়্যার",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 154,
+        "question": "I'm in Habiganj,Sylhet and need to buy a new pair of shoes. Can you suggest a reputable shoe store nearby?",
+        "choices": [
+            "Bata Amin Shoe Store",
+            "আয়ান-সু ষ্টোর।",
+            "Steve Madden",
+            "চরণতল-ChoronTOL"
+        ],
+        "answer": "Bata Amin Shoe Store",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 157,
+        "question": "I'm in Thakurgaon and need to buy flowers for an event. Can you suggest a good florist in the area?",
+        "choices": [
+            "Aparajita Pushpa Bitaan",
+            "মেঘলা তিথি পুষ্প কুঞ্জ ইভেন্ট ম্যানেজমেন্ট ",
+            "Khaja Flower Shop",
+            "Jeni Mala Badol"
+        ],
+        "answer": "মেঘলা তিথি পুষ্প কুঞ্জ ইভেন্ট ম্যানেজমেন্ট ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 176,
+        "question": "I'm currently in Vancouver and interested in outdoor activities. What is the nearest park or nature reserve in this area ?",
+        "choices": [
+            "Portal Park",
+            "Robson Square",
+            "Bentall Centre Courtyard",
+            "Rainbow Park"
+        ],
+        "answer": "Robson Square",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 186,
+        "question": "I'm in Cairo and want to explore Egyptian artifacts. Which museum nearby is considered the best for this?",
+        "choices": [
+            "Lama Temple",
+            "Great Wall of Badaling",
+            "The National Museum of Egyptian Civilization",
+            "Tiananmen"
+        ],
+        "answer": "The National Museum of Egyptian Civilization",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 197,
+        "question": "I'm in Seoul and enjoy playing at casinos. Where's the best nearby casino?",
+        "choices": [
+            " PARADISE Co., Ltd.",
+            "Paradise City",
+            "Paradise City Incheon Casino Poker Room",
+            "WEZBET "
+        ],
+        "answer": " PARADISE Co., Ltd.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 217,
+        "question": "I'm in Bangkok and want to visit some tourist attractions. Which nearby attractions are the most renowned?",
+        "choices": [
+            "Devasthan (Brahmin Shrines)",
+            "Mahakan Fort",
+            "Rattanakosin Exhibition Hall",
+            "Roongroj Tour"
+        ],
+        "answer": "Rattanakosin Exhibition Hall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 218,
+        "question": "I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
+        "choices": [
+            " Fogo e chão ",
+            "Real colherdepau de Lisboa | Lisbon",
+            "combine your business ",
+            "Estoril"
+        ],
+        "answer": " Fogo e chão ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 224,
+        "question": "I am at Duck Lake,what is the nearest mosque to me?",
+        "choices": [
+            "Hamad Bin Jassim Bin Jaber Bin Mohamed Al Thani Mosque - Mosque, Via, Doha",
+            "The Pearl Mosque - Masjid",
+            "Inside small Grand Hyatt Mosque - 9GGH+Q3H, Doha",
+            "The Golden Masjid - 9G6G+9M2, Doha"
+        ],
+        "answer": "The Pearl Mosque - Masjid",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 240,
+        "question": "i am at Washington Square Park, Washington Square, New York, NY 10012, United States.",
+        "choices": [
+            "Staley-Wise Gallery | 100 Crosby Street #305, New York",
+            "The Climate Museum | 105 Wooster Street, New York",
+            " Dr. Bernard Heller Museum | 1 West 4th Street, New York",
+            "Tibet House | 22 West 15th Street, New York"
+        ],
+        "answer": " Dr. Bernard Heller Museum | 1 West 4th Street, New York",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 241,
+        "question": "My home is located on Indira Road in Dhaka, Bangladesh. Best restaurant in 500m radius from my home.",
+        "choices": [
+            "Piccadilly Restaurant",
+            "Boishakhi Hotel And Restaurant",
+            "Bibiyana Tehari O Biryani Ghar",
+            "Food Fair"
+        ],
+        "answer": "Boishakhi Hotel And Restaurant",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 243,
+        "question": "I live at Indira Road. If I leave home at 8 pm, will I be able to reach sultan's dine and take dinner (which takes approximately 1 hour) before it closes? I will use my car.",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 245,
+        "question": "How much time will it take by car If I go from Indira Road to Sultan's Dine and then to LABAID Specialized Hospital?",
+        "choices": [
+            "20 mins",
+            "25 mins",
+            "29 mins",
+            "19 mins"
+        ],
+        "answer": "29 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 246,
+        "question": "I live on Indira Road. I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine. I will have my dinner there, which will take approximately an hour. If I leave home at 8:30 pm, where should I go first? LABAID or Sultan's Dine. I will go by car.",
+        "choices": [
+            "Sultan's Dine",
+            "LABAID Specialized Hospital"
+        ],
+        "answer": "Sultan's Dine",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 255,
+        "question": "I am looking for a restaurant in Dhanmondi named Madchef. Give me the full address.",
+        "choices": [
+            "House#8/A, Road#4, Royal Palaza (5th Floor), Mirpur Rd, Dhaka 1205, Bangladesh",
+            "House 49/A, Rangs KB Square, 4th Floor, Satmasjid Road, Dhaka 1209, Bangladesh",
+            "9/A , Rupayan Z.R Plaza, Level - 2 Road No. New 46, Satmasjid Road, Dhaka 1209, Bangladesh",
+            "Dhanmondi ADC Empire Plaza, (1st Floor), Plot 91, Road 12/A, Satmasjid Road, Opposite Pizza Hut, Dhanmondi, Dhaka 1209, Bangladesh"
+        ],
+        "answer": "House 49/A, Rangs KB Square, 4th Floor, Satmasjid Road, Dhaka 1209, Bangladesh",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 257,
+        "question": "I live in Indira Road. At tomorrow 2 pm I will leave my house. I need to go to Military Museum to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). In which order I should visit the places so that I reach there on time and come back home as early as possible. I will use public transport.",
+        "choices": [
+            "Home -> Military Museum -> Multiplan Center -> Sonali Bank -> Home",
+            "Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home",
+            "Home -> Sonali Bank -> Multiplan Center -> Military Museum -> Home",
+            "Home -> Military Museum -> Sonali Bank -> Multiplan Center -> Home"
+        ],
+        "answer": "Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 258,
+        "question": "I live in  Indira Road. Tomorrow, I plan to visit the Bangabandhu Military Museum (Bijoy Sarani, Dhaka 1215, Bangladesh) to spend 2 hours with friends, then Multiplan Center (69, 71 New Elephant Rd, Dhaka 1205, Bangladesh) to purchase a keyboard (which will take 20 minutes), and Sonali Bank PLC, BUET Branch (DSW office, BUET, Dhaka 1000, Bangladesh), to receive my checkbook (which will take 30 minutes). I intend to visit these places in the following order: Multiplan Center first, followed by Sonali Bank, and then the Military Museum. Considering this itinerary, what is the latest possible time I can leave home so that I can still depart from the Military Museum before it closes? I will use public transport.",
+        "choices": [
+            "2:55 PM",
+            "3:00 PM",
+            "3:04 PM",
+            "3:14 PM"
+        ],
+        "answer": "3:04 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 259,
+        "question": "At tomorrow 3 pm I will leave my house. I need to go to Military Museum to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). Schedule my day If I visit the places in this order: First Military Museum, then Multiplan Center, then Sonali bank and then come back home. I will use public transport.",
+        "choices": [
+            "Military Museum (3:00 PM) -> Multiplan Center (3:40 PM) -> Sonali Bank (4:30 PM) -> Home (5:20 PM)",
+            "Military Museum (3:35 PM) -> Multiplan Center (3:50 PM) -> Sonali Bank (4:30 PM) -> Home (5:15 PM)",
+            "Military Museum (3:35 PM) -> Multiplan Center (4:20 PM) -> Sonali Bank (5:45 PM) -> Home (8.10 PM)",
+            "Military Museum (3:05 PM) -> Multiplan Center (5:18 PM) -> Sonali Bank (5:45 PM) -> Home (6:31 PM)"
+        ],
+        "answer": "Military Museum (3:05 PM) -> Multiplan Center (5:18 PM) -> Sonali Bank (5:45 PM) -> Home (6:31 PM)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 260,
+        "question": "How long will it take by car to travel from Miami International Airport to Hialeah Hospital and then to Doral Legacy Park?",
+        "choices": [
+            "20 mins",
+            "38 mins",
+            "48 mins",
+            "27 mins"
+        ],
+        "answer": "38 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 261,
+        "question": "I am at the Hampton Inn & Suites Ft. Lauderdale/Miramar, and I want to go to Memorial Hospital  first, then Flamingo Gardens . How much time will it take to travel by car from my location?",
+        "choices": [
+            "32 min",
+            "33 min",
+            "31 min",
+            "34 min"
+        ],
+        "answer": "32 min",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 263,
+        "question": "I am currently at Planetshakers Church Melbourne City Campus. I want to drive to Carrot Tattoo Studio and then to Melbourne Lifestyle Apartments - Docklands Accommodation. How long will this take?",
+        "choices": [
+            "18 mins",
+            "19 mins",
+            "20 mins",
+            "21 mins"
+        ],
+        "answer": "19 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 264,
+        "question": "I am currently at Oakwood Premier Melbourne. I want to drive to Marvel Stadium and then to Melbourne Central. How long will this take?",
+        "choices": [
+            "10 mins",
+            "20 mins",
+            "15 mins",
+            "16 mins"
+        ],
+        "answer": "16 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 267,
+        "question": "Give the fastest route from Indira Road to Chillox Dhanmondi by car.",
+        "choices": [
+            "Via Satmasjid Road",
+            "Via Mirpur Rd",
+            "Via Kazi Nazrul Islam Ave"
+        ],
+        "answer": "Via Satmasjid Road",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 268,
+        "question": "I am going from Indira Road to Chillox Dhanmondi by car via mirpur road.After reaching manik mia avenue where should I go next?",
+        "choices": [
+            "Turn right onto Road no 16",
+            "Turn left onto Mirpur road",
+            "Turn left onto indira road",
+            "Turn right onto new elephant road"
+        ],
+        "answer": "Turn left onto Mirpur road",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 269,
+        "question": "Currently it's 4:15 pm. I am at Mabashi Park right now and have started driving to Nakano ZERO. After that, what time will I reach Ochiai Park?\"",
+        "choices": [
+            "4.30 pm",
+            "4.35 pm",
+            "4.40 pm",
+            "4.45 pm"
+        ],
+        "answer": "4.35 pm",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 270,
+        "question": "I'm at Mabashi Park and drove to Nakano ZERO, then to Ochiai Park. What's the total distance for the entire journey by car?",
+        "choices": [
+            "5.6 km",
+            "5.4 km",
+            "4.6 km",
+            "4.6 km"
+        ],
+        "answer": "5.6 km",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 271,
+        "question": "I'm at Luxembourg Airport right now. I drove to Kockelscheuer Ice Rink by car, took a train to Kallektuffquell, and then drove back to the airport by car. How long did it take?",
+        "choices": [
+            "\n1 hours 19 mins",
+            "\n1 hours 20 mins",
+            "\n1hours 10 mins",
+            "1hours 18 mins"
+        ],
+        "answer": "\n1 hours 19 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 274,
+        "question": "My home is in Santragachi. I walked to Unsani High School and returned by car. How long did it take?",
+        "choices": [
+            "52 mins",
+            "40 mins",
+            "45 mins",
+            "57 mins"
+        ],
+        "answer": "57 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 275,
+        "question": "I am at Hotel Saltel. From my current location, I plan to drive myself to Science City first. Then, I'll take a taxi to the Nil Ratan Sircar Medical College and Hospital. After that, I'll drive to the City Centre Salt Lake. Next, I need some grocery products, so I'll go to Nagerbazar by taxi. Finally, I'll return to my current location by car. How much time will this take?\n\n",
+        "choices": [
+            "99 mins ",
+            "98 mins",
+            "95 mins",
+            "100 mins"
+        ],
+        "answer": "99 mins ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 276,
+        "question": "I am at  Hotel Saltel. How much time will it take if I go to Science City - Kolkata from my location by car and then to the Nil Ratan Sircar Medical College and Hospital by the same car?",
+        "choices": [
+            "20 mins",
+            "22 mins",
+            "24 mins",
+            "26 mins"
+        ],
+        "answer": "24 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 277,
+        "question": "I am at Hotel Saltel. How much time will it take if I go to Science City - Kolkata from my location on foot, then to the Nil Ratan Sircar Medical College and Hospital by car, and then return to my current location on foot?",
+        "choices": [
+            "1 hour 4 mins",
+            "2 hour 13 mins",
+            "1 hour 13 mins",
+            "2 hour 14 mins"
+        ],
+        "answer": "2 hour 13 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 278,
+        "question": "I am at Hotel Saltel. From my current location, I plan to go to Science City first on foot. Then, I'll take a taxi to the Nil Ratan Sircar Medical College and Hospital. After that, I'll take a train to the lake. Next, I need some grocery products, so I'll go to Nagerbazar by taxi. Finally, I'll return to my current location by car. How much time will this take?",
+        "choices": [
+            "2 hour 13 mins",
+            "2 hour 14 mins",
+            "1 hour 13 mins",
+            "3 hour 15 mins"
+        ],
+        "answer": "2 hour 13 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 279,
+        "question": "I am at Hotel Saltel. From my current location, I plan to go to Science City first on foot. Then, I'll take a taxi to the hospital. After that, I'll take a train to the lake. Next, I need some grocery products, so I'll go to Nagerbazar by taxi. Finally, I'll return to my current location by public transport. How much time will this take?",
+        "choices": [
+            "3 hour 44 mins",
+            "3 hour 43 mins",
+            "2 hour 44 mins",
+            "2 hour 43 mins"
+        ],
+        "answer": "2 hour 43 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 280,
+        "question": "I am at Rydges Wellington. Starting from my current location, I will first go to  Kelburn Park, followed by a trip to Victoria University of Wellington, and finally return to my current location. All the travel will be done using my own car. How much time will the entire journey take?",
+        "choices": [
+            "11 mins",
+            "10 mins",
+            "12 mins",
+            "9 mins"
+        ],
+        "answer": "10 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 281,
+        "question": "I am at Rydges Wellington. Starting from my current location, I will first go to Kelburn Park, then to Victoria University of Wellington, and finally return to my starting point. All the travel will be done on foot. How much time will the entire journey take?",
+        "choices": [
+            "30 mins",
+            "32 mins",
+            "28 mins",
+            "38 mins"
+        ],
+        "answer": "38 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 282,
+        "question": "I am at Rydges Wellington. Starting from my current location, I will first go to Victoria University of Wellington by bicycle, then walk to Lady Norwood Rose Garden, and finally return to my starting point by taxi. How much time will the entire journey take?",
+        "choices": [
+            "24 mins",
+            "34 mins",
+            "44 mins",
+            "14 mins"
+        ],
+        "answer": "34 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 283,
+        "question": "I am at Rydges Wellington. Starting from my current location, I will go to Victoria University of Wellington by bicycle, walk to Lady Norwood Rose Garden, and return to my starting point by train. How much time will the entire journey take?",
+        "choices": [
+            "40 mins",
+            "42 mins",
+            "44 mins",
+            "46 mins"
+        ],
+        "answer": "40 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 284,
+        "question": "I am at Rydges Wellington. Starting from my current location, I will first go to Victoria University of Wellington, then to Lady Norwood Rose Garden, and finally return to my starting point. All the travel will be done on foot. How much time will the entire journey take?",
+        "choices": [
+            "51 mins",
+            "55 mins",
+            "56 mins",
+            "45 mins"
+        ],
+        "answer": "55 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 288,
+        "question": " I am at Rydges Wellington. I will drive to Victoria University of Wellington by car from my current location, then cycle to Kelburn Park, and finally return to my starting point by car. How much time will the entire journey take?",
+        "choices": [
+            "10 mins",
+            "16 mins",
+            "26 mins",
+            "17 mins"
+        ],
+        "answer": "10 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 289,
+        "question": "I am at Rydges Wellington. From my location, I will go to my university \"Victoria University of Wellington\"by bicycle and return on foot. How much time will the entire journey take?",
+        "choices": [
+            "32 mins",
+            "33 mins",
+            "35 mins",
+            "36 mins"
+        ],
+        "answer": "35 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 290,
+        "question": "I am driving from K J Somaiya College Of Arts And Commerce to Zynova Shalby Hospital via Mahatma Gandhi Rd. After reaching K. J. Somaiya Rd, where should I go next?",
+        "choices": [
+            "Turn left to stay on Mahatma Gandhi Rd",
+            "Turn left onto Ghatkopar - Mahul Rd",
+            "Turn left onto Karani Ln/Navroji Ln",
+            "Turn right onto Parmanand Rd"
+        ],
+        "answer": "Turn left onto Ghatkopar - Mahul Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 291,
+        "question": "I am driving from K J Somaiya College Of Arts And Commerce to Zynova Shalby Hospital via Mahatma Gandhi Rd. After reaching Parmanand Rd, where should I go next?",
+        "choices": [
+            "Turn left onto Karani Ln/Navroji Ln",
+            "Turn right onto Navroji Ln",
+            "Turn left to stay on Mahatma Gandhi Rd",
+            "Turn left onto Ghatkopar - Mahul Rd"
+        ],
+        "answer": "Turn left onto Karani Ln/Navroji Ln",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 293,
+        "question": "What's the best walking route from Ramada by Wyndham Islamabad to Bahria University - Islamabad Campus?",
+        "choices": [
+            " Via Srinagar Highway and 9th Avenue",
+            "Via Khayaban-e-Suhrwardy",
+            "Via Srinagar Hwy and Faisal Ave",
+            " Via Srinagar Hwy"
+        ],
+        "answer": "Via Khayaban-e-Suhrwardy",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 294,
+        "question": "I am at Ramada by Wyndham Islamabad. I am going from my current location to Bahria University - Islamabad Campus by car via Srinagar Hwy and Faisal Ave .After reaching 9th Ave, where should I go next?",
+        "choices": [
+            "Keep right to continue on Jinnah Avenue Underpass",
+            "Continue onto Faisal Ave",
+            "Turn right onto Main Margalla Rd",
+            "Slight left toward Jinnah Avenue"
+        ],
+        "answer": "Turn right onto Main Margalla Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 295,
+        "question": "I am going from Ramada by Wyndham Islamabad to Bahria University - Islamabad Campus by car Via Srinagar Hwy .After reaching Faisal Ave/Islamabad Expy, where should I go next?",
+        "choices": [
+            "Keep right to continue on Jinnah Avenue Underpass",
+            "Turn right onto 9th Ave",
+            "Turn right onto Main Margalla Rd",
+            "Turn left at Bahria University Gate onto Shangrilla Rd"
+        ],
+        "answer": "Keep right to continue on Jinnah Avenue Underpass",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 296,
+        "question": "I am at Duhail. What's the fastest route from my current location  to Al Khor Family Park & Zoo?",
+        "choices": [
+            "Via Al Khor Coastal Rd ",
+            "Via Al Shamal Rd",
+            "via Al Khor Coastal Rd and Al Shamal Rd",
+            "via Al Sailiya Rd"
+        ],
+        "answer": "Via Al Shamal Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 297,
+        "question": "What's the fastest route from Villa Elsewhere to  D. B. Patil International Airport, Navi Mumbai?",
+        "choices": [
+            "Via NH 48 and Uran Rd",
+            "Via Bengaluru - Mumbai Hwy/Mumbai Hwy/Mumbai - Pandharpur Rd/Mumbai - Pune Hwy/Mumbai - Pune Expy/Mumbai - Satara Hwy/Yashwantrao Chavan Expy ",
+            "Via NH 48"
+        ],
+        "answer": "Via NH 48",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 299,
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church via High Bridge Trail. After reaching S Airport Rd, where should I go next?",
+        "choices": [
+            "Turn right onto E Osborn Rd",
+            "Turn left onto High Bridge Trail",
+            "Turn right onto US-460 E",
+            "Turn right onto Plank Rd"
+        ],
+        "answer": "Turn right onto Plank Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 300,
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church via High Bridge Trail. After reaching E Osborn Rd, where should I go next?",
+        "choices": [
+            "Slight right at Early St",
+            "Head west toward Wedgewood Dr",
+            " Turn right onto S Airport Rd",
+            "Turn right onto High Rock Rd"
+        ],
+        "answer": "Slight right at Early St",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 301,
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church via High Bridge Trail. After reaching US-460 E, where should I go next?",
+        "choices": [
+            "Turn right onto E Osborn Rd",
+            "Turn left onto High Bridge Trail",
+            "Turn right onto High Rock Rd",
+            "Slight right at Early St"
+        ],
+        "answer": "Turn right onto High Rock Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 303,
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church Via Jamestown Rd and High Bridge Trail. After reaching Turn right onto S Airport Rd, where should I go next?",
+        "choices": [
+            "Turn left onto VA-45 N",
+            "Turn right onto High Rock Rd",
+            "Turn right onto Jamestown Rd",
+            "Turn right to stay on Jamestown Rd"
+        ],
+        "answer": "Turn left onto VA-45 N",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 307,
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church Via Jamestown Rd and High Bridge Trail. After reaching  River Rd, where should I go next?",
+        "choices": [
+            "Turn left onto High Bridge Trail",
+            "Turn left onto Wedgewood Dr",
+            "Turn right onto US-460 E",
+            "Turn right onto Jamestown Rd"
+        ],
+        "answer": "Turn left onto High Bridge Trail",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 310,
+        "question": "What’s the fastest walking route from Centre of Germany to Wildkatzendorf Hütscheroda?",
+        "choices": [
+            "Via L1042",
+            "Via L1042 and Hainichlandweg",
+            " Via L2104",
+            " Via L2104"
+        ],
+        "answer": " Via L2104",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 313,
+        "question": "I am driving from Mittelpunkt Deutschlands to Wildkatzendorf Hütscheroda via B84. After reaching Hohler Weg/Langensalzaer Str, where should I go next?",
+        "choices": [
+            "Continue onto Schloßstraße",
+            "Continue onto Am Alten Sportpl.",
+            "Continue straight onto L2103",
+            "Continue onto L1042"
+        ],
+        "answer": "Continue onto L1042",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 314,
+        "question": "I am driving from Mittelpunkt Deutschlands to Wildkatzendorf Hütscheroda Via L1016. After reaching Am Anger, where should I go next?",
+        "choices": [
+            "Continue onto Propelstraße",
+            "Continue onto Essener Str.",
+            "Continue onto Schlossallee/Thomas-Müntzer-Straße",
+            "Continue onto L1016"
+        ],
+        "answer": "Continue onto Schlossallee/Thomas-Müntzer-Straße",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 315,
+        "question": "I am driving from Mittelpunkt Deutschlands to Wildkatzendorf Hütscheroda Via B247 and B84. After reaching Mühlhäuser Str, where should I go next?",
+        "choices": [
+            "Turn right onto B84",
+            " Continue onto Schloßstraße",
+            "Mühlhäuser Str. turns slightly left and becomes L2104",
+            "Take the B84 ramp to A4/Eisenach/Weberstedt/Bad Langensalza"
+        ],
+        "answer": "Mühlhäuser Str. turns slightly left and becomes L2104",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 318,
+        "question": "I am driving from  D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali Via Garn Al Sabkha St/D59. After reaching Sheikh Zayed Rd/E11, where should I go next?",
+        "choices": [
+            "Take exit 22 toward PJA Port Gate 1/PJA Port Gate 2",
+            "Keep left to stay on Garn Al Sabkha St/D59",
+            "Take the ramp to Al Khail Rd/E44",
+            "Merge onto Sheikh Zayed Rd/E11 via the ramp to Jebel Ali/Abu Dhabi"
+        ],
+        "answer": "Take exit 22 toward PJA Port Gate 1/PJA Port Gate 2",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 319,
+        "question": "I am walking from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54. After reaching Hessa St/D61 (signs for E611 S/Emirates Rd), where should I go next? ",
+        "choices": [
+            "Continue onto Al Fay Rd",
+            "Turn right onto street 511",
+            "Turn right onto Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "At the roundabout, take the 3rd exit onto Golf Course Dr"
+        ],
+        "answer": "Turn right onto Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 320,
+        "question": "I am walking from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali Via Al Asayel St/D72. After reaching Hessa St/D61, where should I go next?",
+        "choices": [
+            "Turn right onto First Al Khail St/D86",
+            "Merge onto Umm Suqeim St/D63",
+            "Continue onto D57",
+            " At the roundabout, continue straight to stay on 39th St"
+        ],
+        "answer": "Turn right onto First Al Khail St/D86",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 321,
+        "question": "I am at The British Museum. It is currently 6:00 PM on Tuesday. Please suggest the best nearby restaurant to eat now. Price should be moderate.",
+        "choices": [
+            "The Pizzeria",
+            "Museum Tavern",
+            " The Blue Door Bistro",
+            "Starbucks Coffee "
+        ],
+        "answer": "Museum Tavern",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 322,
+        "question": "Today is Monday. I have an afternoon free in New York and plan to visit The Metropolitan Museum of Art for 3 hours, followed by a 30-minute coffee break at a nearby cafe, and then spend 1 hour in Central Park (New York, NY, USA). Plan a schedule to ensure I have enough time for everything.",
+        "choices": [
+            "(3.00PM - 6.00PM) Visit The Metropolitan Museum of Art -> (6.02PM - 6.32PM) Have coffee at The Great Hall Balcony Cafe -> (6.38PM - 7.38PM) Spend time in Central Park.",
+            "(3.00PM - 6.00PM) Visit The Metropolitan Museum of Art -> (6.08PM - 6.38PM) Have coffee at  Central Park cafe -> (6.42PM - 7.42PM) Spend time in Central Park.",
+            "(3.00PM - 6.00PM) Visit The Metropolitan Museum of Art -> (6.05PM - 6.35PM) Have coffee at Starbucks  -> (6.39PM - 7.39PM) Spend time in Central Park.",
+            "(2.00PM - 5.00PM) Visit The Metropolitan Museum of Art -> (5.09PM - 5.39PM) Have coffee at Matto Espresso -> (5.47PM - 6.47PM) Spend time in Central Park."
+        ],
+        "answer": "(3.00PM - 6.00PM) Visit The Metropolitan Museum of Art -> (6.05PM - 6.35PM) Have coffee at Starbucks  -> (6.39PM - 7.39PM) Spend time in Central Park.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 323,
+        "question": "In Tokyo, I want to visit the Tokyo National Museum for 2 hours, have lunch at a restaurant in Asakusa named \"BLACK PAPA\" for 1 hour, and then spend 1 hour at Senso-ji Temple. If I drive, what time should I start my day to finish by 3 PM?",
+        "choices": [
+            "11.00 AM",
+            "10.44 AM",
+            "11.44 AM",
+            "11.11 AM"
+        ],
+        "answer": "10.44 AM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 324,
+        "question": "I have a morning to explore Istanbul and want to visit the Hagia Sophia for 1.5 hours, then spend 1 hour at the Blue Mosque, and finish with a 45-minute visit to the Grand Bazaar. When should I visit Hagia Sophia so that I can visit Grand Bazaar at 1.00 pm? I will use public transport.",
+        "choices": [
+            "10.13",
+            "10.23",
+            "10.33",
+            "11.23"
+        ],
+        "answer": "10.13",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 325,
+        "question": "In Bangkok, I want to visit the Grand Palace for 2 hours, followed by a 1.5-hour visit to Wat Arun, and finally spend 1 hour at Chatuchak Weekend Market. If I start my journey at 1.00 pm by car, when will I finish my journey?",
+        "choices": [
+            "6.11 pm",
+            "5.11 pm",
+            "1.55 pm",
+            "6.41 pm"
+        ],
+        "answer": "6.11 pm",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 326,
+        "question": "In Barcelona, I want to visit the Sagrada Família for 2 hours, then spend 1 hour at Park Güell, and finish with a 1.5-hour visit to La Rambla. In which order I should visit the places by car to minimize the travel time?",
+        "choices": [
+            "Sagrada Família -> Park Güell -> La Rambla",
+            "Park Güell -> La Rambla -> Sagrada Família",
+            "La Rambla -> Sagrada Família -> Park Güell",
+            " Park Güell -> Sagrada Família -> La Rambla"
+        ],
+        "answer": " Park Güell -> Sagrada Família -> La Rambla",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 327,
+        "question": "In Rome, I plan to visit the Colosseum for 2 hours in the morning, spend 1.5 hours at the Roman Forum, and finish with a 1-hour visit to the Pantheon. What time should I start to finish by 2:00 PM or earlier?",
+        "choices": [
+            "8.39 am",
+            "11.08 am",
+            "8.39 pm",
+            "10.09 am"
+        ],
+        "answer": "8.39 am",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 328,
+        "question": "I have a full day to explore Sydney and want to visit the Sydney Opera House for a 1-hour tour, spend 2 hours at Bondi Beach, and end with a 1-hour walk in the Royal Botanic Garden Sydney. If I start my day at 9 AM, what is the best itinerary to follow using public transport to finish my journey as early as possible?",
+        "choices": [
+            "Sydney Opera House -> Bondi Beach -> Royal Botanic Garden Sydney",
+            "Bondi Beach -> Sydney Opera House -> Royal Botanic Garden Sydney",
+            "Royal Botanic Garden Sydney -> Bondi Beach -> Sydney Opera House",
+            "Bondi Beach -> Royal Botanic Garden Sydney -> Sydney Opera House"
+        ],
+        "answer": "Sydney Opera House -> Bondi Beach -> Royal Botanic Garden Sydney",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 329,
+        "question": "I am planning a visit to Paris and want to maximize my time. If I spend 2 hours at the Louvre Museum in the morning, 1 hour at the Notre-Dame Cathedral around noon, and 1 hour at the Eiffel Tower in the afternoon, how much time should I allocate for travel between these places using public transport?",
+        "choices": [
+            "32 mins",
+            "20 mins",
+            "12 mins",
+            "30 mins"
+        ],
+        "answer": "32 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 330,
+        "question": "I plan to spend a day in London visiting The British Museum for 2 hours, then take a 1.5-hour tour of the Tower of London, and finally enjoy a 45-minute ride on the lastminute.com London Eye. How should I schedule my day to ensure I can fit everything in, considering public transport times",
+        "choices": [
+            "(2.00PM - 4.00PM) Visit The British Museum -> Reach Tower of London at 4.13PM -> (4.13 - 5.43PM) Visit the Tower of London -> Reach lastminute.com London Eye at 6.15PM -> (6.15PM - 7.00PM) Enjoy ride on the lastminute.com London Eye.",
+            "(1.00PM - 3.00PM) Visit The British Museum -> Reach Tower of London at 3.13PM -> (3.13 - 4.43PM) Visit the Tower of London -> Reach lastminute.com London Eye at 5.11PM -> (5.11PM - 5.56PM) Enjoy ride on the lastminute.com London Eye.",
+            "(2.00PM - 4.00PM) Visit The British Museum -> Reach Tower of London at 4.33PM -> (4.33 - 6.03PM) Visit the Tower of London -> Reach lastminute.com London Eye at 6.31PM -> (6.31PM - 7.16PM) Enjoy ride on the lastminute.com London Eye.",
+            "(1.00PM - 3.00PM) Visit The British Museum -> Reach Tower of London at 3.33PM -> (3.33 - 5.03PM) Visit the Tower of London -> Reach lastminute.com London Eye at 5.31PM -> (5.31PM - 6.16PM) Enjoy ride on the lastminute.com London Eye."
+        ],
+        "answer": "(1.00PM - 3.00PM) Visit The British Museum -> Reach Tower of London at 3.33PM -> (3.33 - 5.03PM) Visit the Tower of London -> Reach lastminute.com London Eye at 5.31PM -> (5.31PM - 6.16PM) Enjoy ride on the lastminute.com London Eye.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 332,
+        "question": "I am driving to Brassica in Bexley Via E Main St. After reaching E Whittier St, where should I go next?",
+        "choices": [
+            "Turn right onto E Whittier St",
+            "Continue straight to stay on E Main St",
+            " Turn left onto Lockbourne Rd",
+            "Turn left onto Parsons Ave"
+        ],
+        "answer": "Turn left onto Parsons Ave",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 333,
+        "question": "I am driving to Brassica in Bexley Via E Main St. After reaching Parsons Ave, where should I go next?",
+        "choices": [
+            "Turn right onto E Main St",
+            " Turn left onto College Ave",
+            "Turn right onto US-33 E/E Livingston Ave",
+            "Merge onto Alum Creek Dr"
+        ],
+        "answer": "Turn right onto E Main St",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 334,
+        "question": "I am driving to Brassica in Bexley Via E Whittier St. After reaching Alum Creek Dr, where should I go next?",
+        "choices": [
+            "Turn left onto College Ave",
+            "Turn right onto E Main St",
+            "Turn right onto E Whittier St",
+            "Turn right onto US-33 E/E Livingston Ave"
+        ],
+        "answer": "Turn right onto E Main St",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 335,
+        "question": "I am driving to Brassica in Bexley Via E Whittier St. After reaching Lockbourne Rd, where should I go next?",
+        "choices": [
+            "Turn left onto College Ave",
+            " Take exit 103A toward Main St/Bexley",
+            "Head north on S High St toward Shumacher Alley",
+            " US-33 E/E Livingston Ave"
+        ],
+        "answer": " US-33 E/E Livingston Ave",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 336,
+        "question": "I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?",
+        "choices": [
+            "Turn left onto College Ave",
+            "Turn right onto E Whittier St",
+            "Turn left onto S Ohio Ave",
+            "Turn right onto E Whittier St"
+        ],
+        "answer": "Turn left onto College Ave",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 347,
+        "question": "I am at Louvre Museum. What is the nearest restaurant?",
+        "choices": [
+            "Bistrot Benoit",
+            "Starbucks Louvre",
+            " Le Comptoir du Louvre",
+            "Comptoir Denon & Richelieu"
+        ],
+        "answer": "Starbucks Louvre",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 356,
+        "question": "I’m staying at the Sheraton Mexico City Maria Isabel Hotel. Can you tell me where the nearest café is?",
+        "choices": [
+            "Amorino",
+            " Boudega",
+            "Tortas, sándwiches y bagels de la calle",
+            " Pasión Café"
+        ],
+        "answer": "Amorino",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 357,
+        "question": "I'm at Khansa Market and feeling really hungry. Where can I get something to eat quickly?",
+        "choices": [
+            "Shawarma Juha",
+            "Souq Al-Lail Al-Qadim Restaurant",
+            "Kfteraa Cham Shawarma Arabic on coal ",
+            "Torch Restaurant"
+        ],
+        "answer": "Torch Restaurant",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 359,
+        "question": "I'm at Camping Ettelbruck. Which university is closest to me?",
+        "choices": [
+            "Lycée Ermesinde Mersch (LEM) ",
+            "Université du Luxembourg",
+            "Huberty Martine",
+            "Seck Pierre"
+        ],
+        "answer": "Lycée Ermesinde Mersch (LEM) ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 360,
+        "question": "I'm at Camping Ettelbruck. Which Tourist Attraction is closest to me?",
+        "choices": [
+            "Wasserfall ",
+            "Panorama view over Michelau",
+            "General Patton Museum",
+            "Springbrunnen "
+        ],
+        "answer": "General Patton Museum",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 361,
+        "question": "I am at JA The Resort Golf Course.What is the nearest hospital to me?",
+        "choices": [
+            "AL SHIFA INTERNATIONAL CLINIC ",
+            "Al Shifa International Clinicl LLC-Branch",
+            "NMC Medical Centre JAFZA",
+            " Emirates Field Hospital Entrance (SEHA) "
+        ],
+        "answer": "NMC Medical Centre JAFZA",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 362,
+        "question": "i am at JA The Resort Golf Course. What is the nearest Mosque to me?",
+        "choices": [
+            " مسجد النور ",
+            "MASJID AL RAHMAN JEBEL ALI",
+            "DP World Terminal 3 Mosque",
+            "Emirates Station Mosque"
+        ],
+        "answer": " مسجد النور ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 363,
+        "question": "I am at JA The Resort Golf Course. What is the nearest parking to me?",
+        "choices": [
+            "Gurjant wali parking ",
+            "Al Hesah St Parking",
+            "Jebel parking",
+            "Guest Parking Area"
+        ],
+        "answer": "Jebel parking",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 365,
+        "question": "I am at Zayed International Airport. What is the nearest restaurant to me?",
+        "choices": [
+            "Shawarmanji",
+            "Crepe Delicious ",
+            "Capri Pizza - Masdar Park",
+            "Grab & Fly"
+        ],
+        "answer": "Grab & Fly",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 366,
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
+        "choices": [
+            "দক্ষিণ হোসেনপুর জামে মসজিদ",
+            " Begum Rokeya University Mosque ",
+            ". Central Jame Mosque, BRUR",
+            "Alhaj Nagar Jame Masjid"
+        ],
+        "answer": " Begum Rokeya University Mosque ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 367,
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest hindu_temple where I can go for my prayers?",
+        "choices": [
+            "Shiv Mandir",
+            "ISKCON Tajhat Temple - শ্রী শ্রী রাধাগোপীনাথ জিউ মন্দির ",
+            " Dimla Kali Temple",
+            "Shree Shree Maa Kali Temple"
+        ],
+        "answer": "Shree Shree Maa Kali Temple",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 368,
+        "question": "I am at The University of Tokyo  What is the nearest gas_station to me?",
+        "choices": [
+            "ENEOS Yushima Service Station",
+            "ENEOS Taito Chuo Service Station",
+            "Shell ",
+            "Eneos Akihabara Service Station"
+        ],
+        "answer": "ENEOS Yushima Service Station",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 369,
+        "question": "I am at The University of Tokyo What is the nearest hospital to me?",
+        "choices": [
+            "東大病院面会受付",
+            "東京大学医学部附属病院 管理・研究棟",
+            "Hosobe Clinics ",
+            "Tanaka Acupuncture Orthopedic Clinic"
+        ],
+        "answer": "東京大学医学部附属病院 管理・研究棟",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 370,
+        "question": "I'm currently at the Golden Apple Boutique Hotel. Could you help me find the nearest zoo?",
+        "choices": [
+            "Marble Palace Zoo",
+            " Alipur zoo",
+            "Alipore Zoo Aquarium",
+            " Bird Walk "
+        ],
+        "answer": "Marble Palace Zoo",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 371,
+        "question": "I'm currently at the Golden Apple Boutique Hotel. Could you help me find the nearest Stadium ?",
+        "choices": [
+            " EAST BENGAL STADIUM",
+            " MOHUN BAGAN STADIUM",
+            "Netaji Indoor Stadium",
+            "Howrah Indoor Stadium "
+        ],
+        "answer": " EAST BENGAL STADIUM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 372,
+        "question": "I'm staying at the Golden Apple Boutique Hotel. Could you help me locate the nearest tourist attraction?",
+        "choices": [
+            " Lenin's Statue ",
+            "Smaranika Tram Museum",
+            "Indian Museum",
+            "St. Thomas Church (C.N.I.)"
+        ],
+        "answer": "St. Thomas Church (C.N.I.)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 373,
+        "question": "I'm at Base Hospital Delhi Cantt. Could you help me locate the nearest Gym?",
+        "choices": [
+            "Outdoor Gym",
+            "GAME OF FITNESS",
+            "The Workout Zone ",
+            "Exclusive fit gym "
+        ],
+        "answer": "GAME OF FITNESS",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 378,
+        "question": "Does Daikoku-ya serve Dinner?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 379,
+        "question": "Does Chakoru serves lunch?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 380,
+        "question": "Is BLACK PAPA reservable?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 382,
+        "question": "What's the rating of The Blue Door Bistro?",
+        "choices": [
+            "3.6",
+            "3.9",
+            "4.1",
+            "4.4"
+        ],
+        "answer": "4.1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 383,
+        "question": "What's the price level of Museum Tavern?",
+        "choices": [
+            "Inexpensive",
+            "Moderate",
+            "Expensive",
+            "Very Expensive"
+        ],
+        "answer": "Moderate",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 384,
+        "question": "Is The Pizzeria open at 3:00 PM on Monday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 387,
+        "question": "Is the Grand Bazaar open at 6:00 PM Tuesday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 388,
+        "question": "Is The Blue Door Bistro reservable?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 389,
+        "question": "What's the price level of the Museum Tavern?",
+        "choices": [
+            "Inexpensive",
+            "Moderate",
+            "Expensive",
+            "Very expensive"
+        ],
+        "answer": "Moderate",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 391,
+        "question": "Is the entrance of Nusr-Et Steakhouse wheelchair accessible?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 393,
+        "question": "Can I visit The Great Pyramid of Giza at 5:00 PM Saturday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 395,
+        "question": "How many users rated Eleven Madison Park?",
+        "choices": [
+            "2778 ",
+            "10010",
+            "11",
+            "1200"
+        ],
+        "answer": "2778 ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 396,
+        "question": "Is Asador Etxebarri open on Sunday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 397,
+        "question": "Is Asador Etxebarri open on Monday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 398,
+        "question": "Does Asador Etxebarri serve dinner?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 412,
+        "question": "Is takeout available at the Starbucks on Calle de la Princesa, 40, Centro?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    {
+        "id": 413,
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with over 2000 user ratings.",
+        "choices": [
+            "McDonald's",
+            "New York Fries",
+            "Wimpy",
+            "The GrillShack"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 414,
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.8 rating.",
+        "choices": [
+            "McDonald's",
+            "Wimpy",
+            "New York Fries",
+            "The GrillShack"
+        ],
+        "answer": "Wimpy",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 415,
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.7 rating and over 1000 user ratings.",
+        "choices": [
+            "Wimpy ",
+            "New York Fries",
+            "Noon & Kabab ",
+            "The GrillShack"
+        ],
+        "answer": "Wimpy ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 416,
+        "question": "I am at Dubai Mall. Suggest a nearby moderate restaurant with at least 4.6 rating.",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "The GrillShack"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 417,
+        "question": "I am at Dubai Mall. Suggest a nearby moderately priced restaurant with a rating of at least 4.5 that is open at 9:00 AM on Thursday.",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "The GrillShack"
+        ],
+        "answer": "Nando's Dubai Mall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 418,
+        "question": "I am at Dubai Mall. Suggest a nearby moderate restaurant with over 2100 user ratings.",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "The GrillShack"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 419,
+        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.5 rating and stays open at 9:15 AM on Tuesday.",
+        "choices": [
+            "McDonald's",
+            "Wimpy",
+            "New York Fries",
+            "Neat Burger"
+        ],
+        "answer": "New York Fries",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 421,
+        "question": "I am going from Indira Road to Chillox Dhanmondi by car. Which road should I take after Manik Mia Avenue on the Satmasjid Road route to Chillox Dhanmondi?",
+        "choices": [
+            "Kazi Nazrul Islam Ave",
+            "Road No 16",
+            "Mirpur Rd",
+            "New Elephant Rd"
+        ],
+        "answer": "Mirpur Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 422,
+        "question": "I am going from Indira Road to Chillox Dhanmondi by car. On the Mirpur Rd route, what is the landmark I will pass by after turning left onto Mirpur Rd?",
+        "choices": [
+            "Agrani Bank PLC",
+            "BRAC Bank Limited | ATM Booth",
+            "Green Galleria",
+            "COTTO Sanitary Ware Display Center"
+        ],
+        "answer": "Green Galleria",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 426,
+        "question": "I want to visit Central Park and grab coffee at Petrie Court Café beforehand. If I leave Central Park at 9:00 AM on Sunday, what time can I visit Petrie Court Café?",
+        "choices": [
+            "11:00 AM",
+            "10:30 AM",
+            "12:00 PM",
+            "10:00 AM"
+        ],
+        "answer": "11:00 AM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 427,
+        "question": "If I’m walking from The Great Hall Balcony Cafe to Central Park, how much time should I allocate for the walk?",
+        "choices": [
+            "3 minutes",
+            "5 minutes",
+            "6 minutes",
+            "10 minutes"
+        ],
+        "answer": "6 minutes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 428,
+        "question": "On a Monday afternoon, I want to spend 2 hours at The Metropolitan Museum of Art, followed by a coffee break at Starbucks and a 1-hour walk in Central Park. How long is the walk from Starbucks to Central Park?",
+        "choices": [
+            "2 minutes",
+            "4 minutes",
+            "6 minutes",
+            "8 minutes"
+        ],
+        "answer": "4 minutes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 429,
+        "question": "If I visit The Metropolitan Museum of Art on Wednesday, which nearby cafes would be closed?",
+        "choices": [
+            "Starbucks and Matto Espresso",
+            "American Wing Cafe and The Great Hall Balcony Cafe",
+            "Petrie Court Café and Central Park cafe",
+            "All cafes are open on Wednesday"
+        ],
+        "answer": "American Wing Cafe and The Great Hall Balcony Cafe",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 430,
+        "question": "Which of the following locations is closest to Bondi Beach by public transport in terms of travel time?",
+        "choices": [
+            "Sydney Opera House",
+            "Royal Botanic Garden Sydney",
+            "",
+            ""
+        ],
+        "answer": "Royal Botanic Garden Sydney",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 432,
+        "question": "Which route by foot has the longest distance from Centre of Germany to Wildkatzendorf Hütscheroda?",
+        "choices": [
+            "Via L2104",
+            "Via L1042",
+            "Via L1042 and Hainichlandweg",
+            ""
+        ],
+        "answer": "Via L1042 and Hainichlandweg",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 433,
+        "question": "If I am traveling by car from Centre of Germany to Wildkatzendorf Hütscheroda and prefer to minimize the number of roundabouts, which route should I take?",
+        "choices": [
+            "Via B84",
+            "Via L1016",
+            "Via B247 and B84",
+            ""
+        ],
+        "answer": "Via B84",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 434,
+        "question": "I want to walk from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali. Which walking route involves taking the pedestrian overpass?",
+        "choices": [
+            "Via Hessa St/D61",
+            "Via Al Asayel St/D72",
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Garn Al Sabkha St/D59"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 435,
+        "question": "Which walking route from D03 Flame Tree Ridge to Aster Cedars Hospital involves taking stairs multiple times?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Hessa St/D61",
+            "Via Al Asayel St/D72",
+            "Via Garn Al Sabkha St/D59"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 436,
+        "question": "I want to walk from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali. Which route passes through the largest number of roundabouts?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Al Asayel St/D72",
+            "Via Hessa St/D61",
+            "None of the above"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 437,
+        "question": "Which walking route from D03 Flame Tree Ridge to Aster Cedars Hospital requires taking a ramp onto Umm Suqeim St/D63?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Hessa St/D61",
+            "Via Al Asayel St/D72",
+            "Via D57"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 438,
+        "question": "Which walking route from D03 Flame Tree Ridge to Aster Cedars Hospital goes through Al Khayay St‎?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Al Asayel St/D72",
+            "Via Hessa St/D61",
+            "None of the above"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 439,
+        "question": "Which of the following restaurants is located on Level 2 of the Dubai Mall food court?",
+        "choices": [
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall",
+            "McDonald's",
+            "The GrillShack"
+        ],
+        "answer": "McDonald's",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 440,
+        "question": "Which nearby restaurant of Dubai Mall has the highest rating?",
+        "choices": [
+            "McDonald's",
+            "The GrillShack",
+            "Nando's Dubai Mall",
+            "Bikanervala Dubai Mall"
+        ],
+        "answer": "The GrillShack",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 441,
+        "question": "Which restaurant near Dubai Mall has the fewest total user ratings?",
+        "choices": [
+            "McDonald's",
+            "Nando's Dubai Mall",
+            "The GrillShack",
+            "Bikanervala Dubai Mall"
+        ],
+        "answer": "Bikanervala Dubai Mall",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 442,
+        "question": "If I drive via E Main St from South Wind Motel to Brassica in Bexley, which of the following landmarks will I pass by?",
+        "choices": [
+            "Taco Bell",
+            "Dollar General",
+            "Shumacher Alley",
+            "Alum Creek Dr"
+        ],
+        "answer": "Dollar General",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 443,
+        "question": "On the driving route from Hassan II Mosque to Koutoubia via A3, how many roundabouts I will encounter in total?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "7",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 444,
+        "question": "I am driving from Hassan II Mosque to Koutoubia via A3. At the first roundabout on Bd Moulay Youssef, which exit should I take to stay on Bd Moulay Youssef?",
+        "choices": [
+            "1st exit",
+            "2nd exit",
+            "3rd exit",
+            "4th exit"
+        ],
+        "answer": "3rd exit",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 445,
+        "question": "I am driving from Hassan II Mosque to Koutoubia via A3. Before turning left onto Pl. Al Mourabitine/N8, how many roundabouts I will pass through on Bd 11 Janvier/N8/N9?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 446,
+        "question": "I am driving from Hassan II Mosque to Koutoubia via A3. Which exit will I take at the roundabout on Bd Oued Issil?",
+        "choices": [
+            "1st exit",
+            "2nd exit",
+            "3rd exit",
+            "4th exit"
+        ],
+        "answer": "3rd exit",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 448,
+        "question": "I am at St. Lawrence Market. How many nearby restaurants have ratings at least 4.5?",
+        "choices": [
+            "4",
+            "6",
+            "7",
+            "5"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 449,
+        "question": "I am at St. Lawrence Market. How many nearby restaurants have at least 500 total user ratings?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 450,
+        "question": "I am at St. Lawrence Market. How many nearby restaurants have at least 4.5 ratings and 500 total user ratings?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 451,
+        "question": "I am at St. Lawrence Market. Which of the nearby restaurants have ratings at least 4.5?",
+        "choices": [
+            "Seafront Fish Market, Buster's Sea Cove - St. Lawrence Market, Churrasco Of The St Lawrence",
+            "Yianni's Kitchen, Churrasco Of The St Lawrence, Market Street Catch, Uno Mustachio",
+            "Paddington's Pump, Quik Sushi, Big Pita, A&W Canada",
+            "Yianni's Kitchen, Bar St. Lo, Big Pita, Manotas Organics, Spanish & Latin Foods, Crepe It Up"
+        ],
+        "answer": "Yianni's Kitchen, Bar St. Lo, Big Pita, Manotas Organics, Spanish & Latin Foods, Crepe It Up",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 452,
+        "question": "I am at St. Lawrence Market. How many nearby restaurants are open on Monday?",
+        "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 453,
+        "question": "I am at St. Lawrence Market. How many nearby restaurants are open at 8:00 PM on Tuesday?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "6",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 454,
+        "question": "I am at St. Lawrence Market. Which of the nearby restaurants have at least 500 total user ratings?",
+        "choices": [
+            "Bindia Indian Bistro, Paddington's Pump, Pizza Pizza, A&W Canada, Uno Mustachio",
+            "Big Pita, European Delight, Yianni's Kitchen,  Market Street Catch, Bar St. Lo",
+            "Buster's Sea Cove - St. Lawrence Market, Churrasco Of The St Lawrence, Uno Mustachio, Crepe It Up",
+            "Buster's Sea Cove - St. Lawrence Market, Big Pita, Bindia Indian Bistro, Market Street Catch, Paddington's Pump"
+        ],
+        "answer": "Buster's Sea Cove - St. Lawrence Market, Big Pita, Bindia Indian Bistro, Market Street Catch, Paddington's Pump",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 455,
+        "question": "I am at Parliament Hill. How many  nearby restaurants are closed on Sunday?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "8",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 456,
+        "question": "I am driving from Araucano Park to Museum of Memory & Human Rights via Autop. Costanera Nte. How many times do I need to merge onto a toll road?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "0"
+        ],
+        "answer": "2",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 457,
+        "question": "I am driving from Araucano Park to Museum of Memory & Human Rights Via Av. Pdte. Kennedy and Autop. Costanera Nte. How many times do I need to take a left turn before reaching Av. Matucana?",
+        "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "3",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 458,
+        "question": "I am driving from Araucano Park to Museum of Memory & Human Rights via Autop. Costanera Nte. How many exits I need to take to reach the destination?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    {
+        "id": 459,
+        "question": "I will visit St. Lawrence Market on Monday. List the nearby restaurants that I will find open?",
+        "choices": [
+            "Market Street Catch, Paddington's Pump, Crepe It Up,  Quik Sushi",
+            "Quik Sushi, Bindia Indian Bistro, A&W Canada, Dnister Ukrainian Store",
+            "A&W Canada, European Delight, Big Pita, Bar St. Lo, Manotas Organics, Spanish & Latin Foods",
+            "Market Street Catch, A&W Canada, Quik Sushi, Big Pita, Pizza Pizza"
+        ],
+        "answer": "Market Street Catch, A&W Canada, Quik Sushi, Big Pita, Pizza Pizza",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 460,
+        "question": "I am at St. Lawrence Market. List the nearby moderately priced restaurant with at least 4.1 rating.",
+        "choices": [
+            "Uno Mustachio, European Delight",
+            "Churrasco Of The St Lawrence, Yianni's Kitchen",
+            "Market Street Catch, Buster's Sea Cove - St. Lawrence Market",
+            "European Delight, Big Pita"
+        ],
+        "answer": "Market Street Catch, Buster's Sea Cove - St. Lawrence Market",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 461,
+        "question": "List the nearby ATMs of Toronto Zoo that are open 24 hours.",
+        "choices": [
+            "RBC Royal Bank ATM, TD Canada Trust Branch and ATM, Localcoin Bitcoin ATM - Happy Mart",
+            "CIBC ATM, Meridian Credit Union ATM, President's Choice Financial Pavilion and ATM",
+            "TD Canada Trust ATM, Scotiabank, TD Canada Trust ATM, CoinFlip Bitcoin ATM",
+            "RBC Royal Bank ATM, CIBC ATM, TD Canada Trust ATM, Shell"
+        ],
+        "answer": "RBC Royal Bank ATM, CIBC ATM, TD Canada Trust ATM, Shell",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 462,
+        "question": "I am at Toronto Zoo. Today is Sunday and it's currently 8:30 PM. How many nearby ATMs are open now?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "9",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    {
+        "id": 463,
+        "question": "If I visit the Notre-Dame Basilica for 1 hour in the morning, spend 1.5 hours at the Montreal Museum of Fine Arts around noon, and 1 hour at Mount Royal Park in the afternoon, how much time should I allocate for traveling between these locations using public transport?",
+        "choices": [
+            "42 mins",
+            "46 mins",
+            "50 mins",
+            "52 mins"
+        ],
+        "answer": "52 mins",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 464,
+        "question": "I am at The Rimrock Resort Hotel. If I want to visit Banff National Park, Lake Louise, and Moraine Lake in one day, spending 3 hours at each location, in which order I should visit this places to minimize travel time by car?",
+        "choices": [
+            "The Rimrock Resort Hotel -> Moraine Lake -> Banff National Park -> Lake Louise",
+            "The Rimrock Resort Hotel -> Lake Louise -> Moraine Lake -> Banff National Park",
+            "The Rimrock Resort Hotel -> Lake Louise -> Banff National Park -> Moraine Lake",
+            "The Rimrock Resort Hotel -> Banff National Park -> Lake Louise -> Moraine Lake"
+        ],
+        "answer": "The Rimrock Resort Hotel -> Banff National Park -> Lake Louise -> Moraine Lake",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 465,
+        "question": "I am at The Rimrock Resort Hotel. If I spend 3 hours at Lake Louise, and 3 hours at Moraine Lake, starting at 9:00 AM, what time will I finish at Moraine Lake? I will travel by my car.",
+        "choices": [
+            "3:36 PM",
+            "2:06 PM",
+            "3:06 PM",
+            "4:06 PM"
+        ],
+        "answer": "4:06 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 466,
+        "question": "If I arrive at Banff at 9:00 AM and spend 2 hours exploring the town, followed by a drive to Lake Louise, what's the maximum time I can spend at Lake Louise before needing to leave at 3:00 PM for Moraine Lake to catch a sunset at 6:00 PM?",
+        "choices": [
+            "2 hours 12 minutes",
+            "3 hours 2 minutes",
+            "3 hours 12 minutes",
+            "3 hours 22 minutes"
+        ],
+        "answer": "3 hours 22 minutes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 467,
+        "question": "I am spending a day in Medellín and staying at The Charlee Hotel. I will leave my hotel at 9:00 AM and plan to visit three key attractions: the Plaza Botero (2 hours),  Lleras Park (1.5 hours), and the Museum of Antioquia (1 hours). Schedule my day if I plan to visit these place in this order: First Lleras Park, then Plaza Botero, then Museum of Antioquia and finally come back to hotel. I will use public transport.",
+        "choices": [
+            "Leave hotel at 9:00 AM -> Visit Lleras Park (9:20 AM - 10:42 AM) -> Visit Plaza Botero (11:50 AM - 12:40 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 2:10 PM",
+            "Leave hotel at 9:00 AM -> Visit Lleras Park (10:00 AM - 11:32 AM) -> Visit Plaza Botero (12:00 PM - 1:00 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 3:00 PM",
+            "Leave hotel at 9:00 AM -> Visit Lleras Park (9:02 AM - 10:32 AM) -> Visit Plaza Botero (11:15 AM - 1:15 PM) -> Visit Museum of Antioquia (1:16 PM - 2:16 PM) -> Come back to Hotel at 2:49 PM",
+            "Leave hotel at 9:00 AM -> Visit Lleras Park (9:02 AM - 10:32 AM) -> Visit Plaza Botero (10:59 AM - 12:59 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 2:33 PM"
+        ],
+        "answer": "Leave hotel at 9:00 AM -> Visit Lleras Park (9:02 AM - 10:32 AM) -> Visit Plaza Botero (10:59 AM - 12:59 PM) -> Visit Museum of Antioquia (1:00 PM - 2:00 PM) -> Come back to Hotel at 2:33 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 468,
+        "question": "Tomorrow, I plan to visit the Royal Botanic Garden Sydney to spend 2 hours with friends, The Rocks (for a quick shopping stop, which will take 30 minutes), and Bondi Beach (to enjoy the beach and relax, which will take 1 hour). I intend to visit these places in the following order: The Rocks first, followed by Bondi Beach, and then the Royal Botanic Garden Sydney. My home is located in Surry Hills, Sydney NSW 2010, Australia. Considering this itinerary, what is the latest possible time I can leave home to still depart from the Royal Botanic Garden Sydney before it closes? I will use my car.",
+        "choices": [
+            "2:23 PM",
+            "2:37 PM",
+            "1:23 PM",
+            "1:37 PM"
+        ],
+        "answer": "1:37 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 469,
+        "question": "I plan to start my day in Amsterdam at 9:00 AM by visiting the Van Gogh Museum for 2 hours. Afterward, I plan to have lunch at Café Loetje for 1 hour and then take a canal cruise that departs at 2:00 PM, lasting 1 hour and 30 minutes. After the cruise, I want to visit the Anne Frank House, which takes 45 minutes, before heading back to my hotel, Hotel Estheréa, by 6:00 PM. What’s the latest time I can leave the Anne Frank House to ensure I’m back at my hotel by 6:00 PM? I will travel by my car.",
+        "choices": [
+            "5:05PM",
+            "5:35 PM",
+            "5:30 PM",
+            "5:55 PM"
+        ],
+        "answer": "5:55 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 470,
+        "question": "I arrived in Singapore at 10:00 AM and want to spend my afternoon exploring three popular spots: Gardens by the Bay (1.5 hours), then Marina Bay Sands (1 hour), and finally Sentosa Island. I need to catch a flight departing from Changi Airport. I need to be there at 8:00 PM. What’s the latest time I can leave Sentosa Island to make my flight? I will travel by car.",
+        "choices": [
+            "7:23 PM",
+            "7:18 PM",
+            "7:28 PM",
+            "7:38 PM"
+        ],
+        "answer": "7:38 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 471,
+        "question": "I have a tight schedule in Rome. I plan to visit the Colosseum at 10:00 AM for 1.5 hours. Afterward, I’ll head to the Trevi Fountain, where I’ll spend 45 minutes. I have a guided tour of the Vatican Museum scheduled for 3:00 PM, and it will last 2 hours. How much free time do I have for lunch before heading to the Vatican Museum? I will travel by public transport.",
+        "choices": [
+            "2 hour 28 minutes",
+            "1 hour 18 minutes",
+            "2 hour 18 minutes",
+            "1 hour 58 minutes"
+        ],
+        "answer": "1 hour 58 minutes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 472,
+        "question": "I plan to visit the Table Mountain Aerial Cableway at 12:00 PM and spend 2 hours there. After that, I want to visit Kirstenbosch National Botanical Garden and spend at least 1.5 hours there. If I want to spend 1 hour at The Two Oceans Aquarium, what is the latest time I should leave Kirstenbosch National Botanical Garden to ensure I have enough time to visit the Two Oceans Aquarium before it closes? I will use my car to travel.",
+        "choices": [
+            "4:24 PM",
+            "3:53 PM",
+            "4:16 PM",
+            "4:44 PM"
+        ],
+        "answer": "4:44 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 473,
+        "question": "I plan to visit the Museo Nacional de Bellas Artes at 11:00 AM and spend 2 hours there. After that, I want to have lunch at a nearby café \"Café La Biela\" for 1 hour and then visit the Cementerio de la Recoleta. If I want to spend 1.5 hours exploring the cemetery, what is the latest time I should leave the café to ensure I have enough time to visit the Cementerio de la Recoleta before it closes? I will walk from one place to other.",
+        "choices": [
+            "3:28 PM",
+            "2:02 PM",
+            "4:02 PM",
+            "4:28 PM"
+        ],
+        "answer": "4:28 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 474,
+        "question": "I plan to visit the Christ the Redeemer at 12:00 PM and spend 2 hours there. Afterward, I want to visit the Escadaria Selarón for 1 hour. If I want to spend 1.5 hours at Museu do Amanhã, what is the latest time I should leave the Escadaria Selarón to ensure I have enough time to visit Museu do Amanhã before it closes?",
+        "choices": [
+            "3:25 PM",
+            "4:14 PM",
+            "4:16 PM",
+            "4:44 PM"
+        ],
+        "answer": "4:14 PM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 475,
+        "question": "I am currently staying at The Bowery House in New York. I want to visit the Statue of Liberty for 1.5 hours, Central Park for 2.5 hours, and the Empire State Building for 1 hour. I have 6 hours available. I will leave my hostel at 7 am. What's the maximum number of places I can visit? I will public transport to travel.",
+        "choices": [
+            "None",
+            "One",
+            "Two",
+            "Three"
+        ],
+        "answer": "Two",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 476,
+        "question": "I am currently staying at Hostel El Grial in Cusco, Peru. I want to visit Sacsayhuamán for 1.5 hours, Qorikancha Temple for 1 hour, the Cusco Cathedral for 1.5 hours, and the Mercado Central de San Pedro for 1 hour. I have 6 hours available. I will leave my hostel at 8 am. How many places can I visit? I will walk between places.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Four",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 477,
+        "question": "I am currently staying at Che Lagarto Hostel in Rio de Janeiro. I want to visit Christ the Redeemer for 2 hours, Ipanema Beach for 1.5 hours, Copacabana Beach for 1.5 hours, and the  Escadaria Selarón for 1 hour. I have 6 hours available. I will leave my hostel at 7 am. What’s the maximum number of places I can visit using my bicycle?",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Three",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 478,
+        "question": "I am currently staying at Hostel El Grial in Cusco, Peru. I want to visit Sacsayhuamán for 1.5 hours, Qorikancha Temple for 1 hour, the Cusco Cathedral for 1.5 hours, and the Mercado Central de San Pedro for 1 hour. I have 6 hours available. I will leave my hostel at 8 am. Schedule my day to visit the maximum possible places. I will walk between places.",
+        "choices": [
+            "Leave Hostal El Grial at 8 am. -> Visit Mercado Central de San Pedro (8:19 am - 9:19 am) -> Visit Qorikancha (9:35 am - 11:05 am) -> Visit Cusco Cathedral (11:15 am - 12:45 pm) -> Visit Saqsaywaman (12:59 pm - 2:29 pm)",
+            "Leave Hostal El Grial at 8 am. -> Visit Cusco Cathedral (8:07 am - 9:37 am) -> Visit Qorikancha (9:46 am - 10:46 am) -> Visit Mercado Central de San Pedro (11:04 am - 12:04 pm) -> Visit Saqsaywaman (12:29 pm - 1:59 pm)",
+            "Leave Hostal El Grial at 8 am. -> Visit Saqsaywaman  (8:07 am - 9:47 am) -> Visit Qorikancha (9:56 am - 10:56 am) -> Visit Mercado Central de San Pedro (11:04 am - 12:04 am) -> Visit Cusco Cathedral (12:29 pm - 1:59 pm)",
+            "Leave Hostal El Grial at 8 am. -> Visit Qorikancha  (8:07 am - 9:37 am) -> Visit Cusco Cathedral (9:46 am - 10:46 am) -> Visit Saqsaywaman (11:04 am - 12:04 am) -> Visit  Mercado Central de San Pedro(12:29 pm - 1:59 pm)"
+        ],
+        "answer": "Leave Hostal El Grial at 8 am. -> Visit Cusco Cathedral (8:07 am - 9:37 am) -> Visit Qorikancha (9:46 am - 10:46 am) -> Visit Mercado Central de San Pedro (11:04 am - 12:04 pm) -> Visit Saqsaywaman (12:29 pm - 1:59 pm)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 479,
+        "question": "I am currently staying at Hostel El Grial in Cusco, Peru. I want to visit Sacsayhuamán for 1.5 hours, Qorikancha Temple for 1 hour, the Cusco Cathedral for 1.5 hours, and the Mercado Central de San Pedro for 1 hour. I have 6 hours available. I will leave my hostel at 8 am. Give the most optimized order to visit these places. I will drive my car.",
+        "choices": [
+            "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha (35 mins)",
+            "Cusco Cathedral -> Qorikancha -> Mercado Central de San Pedro -> Saqsaywaman (37 mins)",
+            "Saqsaywaman -> Qorikancha -> Mercado Central de San Pedro -> Visit Cusco Cathedral (48 mins)",
+            "Mercado Central de San Pedro -> Qorikancha -> Cusco Cathedral -> Saqsaywaman (33 mins)"
+        ],
+        "answer": "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha (35 mins)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 480,
+        "question": "I am currently staying at Hostel El Grial in Cusco, Peru. I want to visit Sacsayhuamán for 1.5 hours, Qorikancha Temple for 1 hour, the Cusco Cathedral for 1.5 hours, and the Mercado Central de San Pedro for 1 hour. I have 6 hours available. I will leave my hostel at 8 am. Give the most optimized order to visit these places. I will drive my car.",
+        "choices": [
+            "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha",
+            "Cusco Cathedral -> Qorikancha -> Mercado Central de San Pedro -> Saqsaywaman",
+            "Saqsaywaman -> Qorikancha -> Mercado Central de San Pedro -> Visit Cusco Cathedral",
+            "Mercado Central de San Pedro -> Qorikancha -> Cusco Cathedral -> Saqsaywaman"
+        ],
+        "answer": "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 481,
+        "question": "I am currently staying at Hostel El Grial in Cusco, Peru. I want to visit Sacsayhuamán for 1.5 hours, Qorikancha Temple for 1 hour, the Cusco Cathedral for 1.5 hours, and the Mercado Central de San Pedro for 1 hour. I have 6 hours available. I will leave my hostel at 8 am. Give the most optimized order to visit these places. I will walk between places.",
+        "choices": [
+            "Mercado Central de San Pedro -> Qorikancha -> Cusco Cathedral -> Saqsaywaman",
+            "Saqsaywaman -> Qorikancha -> Mercado Central de San Pedro -> Visit Cusco Cathedral",
+            "Cusco Cathedral -> Qorikancha -> Mercado Central de San Pedro -> Saqsaywaman",
+            "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha"
+        ],
+        "answer": "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 482,
+        "question": "I am currently staying at Hostel El Grial in Cusco, Peru. I want to visit Sacsayhuamán for 1.5 hours, Qorikancha Temple for 1 hour, the Cusco Cathedral for 1.5 hours, and the Mercado Central de San Pedro for 1 hour. I have 6 hours available. I will leave my hostel at 8 am. Give the most optimized order to visit these places. I will walk between places.",
+        "choices": [
+            "Mercado Central de San Pedro -> Qorikancha -> Cusco Cathedral -> Saqsaywaman (37 mins)",
+            "Saqsaywaman -> Qorikancha -> Mercado Central de San Pedro -> Visit Cusco Cathedral (48 mins)",
+            "Cusco Cathedral -> Qorikancha -> Mercado Central de San Pedro -> Saqsaywaman (52 mins)",
+            "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha (49 mins)"
+        ],
+        "answer": "Saqsaywaman -> Cusco Cathedral -> Mercado Central de San Pedro -> Qorikancha (49 mins)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 483,
+        "question": "I am currently staying at the Sydney Harbour YHA in Sydney. I want to visit the Sydney Opera House for 1 hour, Bondi Beach for 2 hours, the Royal Botanic Garden for 1.5 hours, and the Sydney Tower for 1 hour. I have 5 hours available. I will leave my hostel at 9 am. How many places can I visit? I will use public transport.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Three",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 484,
+        "question": "I am currently staying at the Sydney Harbour YHA in Sydney. I want to visit the Sydney Opera House for 1 hour, Bondi Beach for 2 hours, the Royal Botanic Garden for 1.5 hours, and the Sydney Tower for 1 hour. I have 7 hours available. I will leave my hostel at 9 am. How many places can I visit? I will use public transport.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Four",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 485,
+        "question": "I am currently staying at the Sydney Harbour YHA in Sydney. I want to visit the Sydney Opera House for 1 hour, Bondi Beach for 2 hours, the Royal Botanic Garden for 1.5 hours, and the Sydney Tower for 1 hour. I have 5 hours available. I will leave my hostel at 9 am. Can I visit the places in this order:  Bondi Beach ->  Royal Botanic Garden -> Sydney Opera House ->  Sydney Tower ? I will use public transport.",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 486,
+        "question": "I am currently staying at Atlantis, The Palm in Dubai. I want to visit the Burj Khalifa for 1.5 hours, the Dubai Mall for 2 hours, the Palm Jumeirah Boardwalk for 1.5 hours, and the Museum of the Future for 1 hour. I have 7 hours available. I will leave my hotel at 10 am. How many places can I visit? I will travel by car.",
+        "choices": [
+            "None",
+            "Two",
+            "Three",
+            "All"
+        ],
+        "answer": "All",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 487,
+        "question": "I am currently staying at King Kong Hostel in Rotterdam. I want to visit the Kijk-Kubus Museum-house for 1 hour, the Erasmusbrug for 1 hour, the Museum Boijmans Van Beuningen for 1.5 hours, and the Market Hall for 1.5 hours. I have 6 hours available. I will leave my hostel at 9 am. What’s the maximum number of places I can visit? I will between places.",
+        "choices": [
+            "None",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Four",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 488,
+        "question": "I am currently staying at Stayokay Hostel in Amsterdam. I want to visit the Rijksmuseum for 2 hours, Vondelpark for 1 hour, the Anne Frank House for 1.5 hours, and the Van Gogh Museum for 1.5 hours. I have 6.5 hours available. I will leave my hostel at 9 am. How many places can I visit? I will use my bicycle.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Four",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 489,
+        "question": "I am currently staying at St Christopher's Inn in Barcelona. I want to visit the Sagrada Família for 2 hours, Park Güell for 1.5 hours, Casa Batlló for 1 hour, and La Rambla for 1.5 hours. I have 5 hours available. I will leave my hostel at 10 am. What’s the maximum number of places I can visit? I will walk between places.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Two",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 490,
+        "question": "I am currently staying at Khaosan Tokyo Origami in Asakusa, Tokyo. I want to visit the Sensō-ji Temple for 1 hour, Shibuya Crossing for 1.5 hours, Ueno Park for 2 hours, and the Tokyo Skytree for 1.5 hours. I have 5.5 hours available. I will leave my hostel at 7 am. How many places can I visit? I will walk between places.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Two",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 491,
+        "question": "I am currently staying at Khaosan Tokyo Origami in Asakusa, Tokyo. I want to visit the Sensō-ji Temple for 1 hour, Shibuya Crossing for 1.5 hours, Ueno Park for 2 hours, and the Tokyo Skytree for 1.5 hours. I have 3.5 hours available. I will leave my hostel at 7 am. How many places can I visit? I will walk between places.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "One",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    },
+    {
+        "id": 492,
+        "question": "I am currently staying at Selina Porto in Porto, Portugal. I want to visit the Dom Luís I Bridge for 1 hour, Livraria Lello for 1.5 hours, Porto Cathedral for 1 hour, and the Bolsa Palace for 2 hours. I have 6.5 hours available. I will leave my hostel at 9 am. What’s the maximum number of places I can visit? I will travel by car.",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": "Four",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "trip"
+    }
+]

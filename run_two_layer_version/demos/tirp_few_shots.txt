@@ -1,0 +1,40 @@
+257
+All Location Info: 
+Multiplan Center 
+Name: Multiplan Center
+Address: 69, 71 New Elephant Rd, Dhaka 1205, Bangladesh
+Rating: 4.4
+Types: point_of_interest, establishment
+Is Open Now: False
+Weekday Opening Hours:
+- Monday: 10:00 AM – 8:00 PM
+- Tuesday: Closed
+- Wednesday: 10:00 AM – 8:00 PM
+- Thursday: 10:00 AM – 8:00 PM
+- Friday: 10:00 AM – 8:00 PM
+- Saturday: 10:00 AM – 8:00 PM
+- Sunday: 10:00 AM – 8:00 PM
+Sonali Bank, BUET 
+Name: Sonali Bank PLC, BUET Branch
+Address: DSW office, BUET, Dhaka 1000, Bangladesh
+Rating: 3.2
+Types: bank, finance, point_of_interest, establishment
+Is Open Now: False
+Weekday Opening Hours:
+- Monday: 10:00 AM – 3:30 PM
+- Tuesday: 10:00 AM – 3:30 PM
+- Wednesday: 10:00 AM – 3:30 PM
+- Thursday: 10:00 AM – 3:30 PM
+- Friday: Closed
+- Saturday: Closed
+- Sunday: 10:00 AM – 3:30 PM
+The travel time(distance) from Multiplan Center to Sonali Bank, BUET is 24 mins (2.2 km)
+The travel time(distance) from Sonali Bank, BUET to Multiplan Center is 30 mins (2.2 km)
+
+You obtain this order by considering all the spatial locations, their distance, and finally calculating the best route for which the total travel time is less. To reach all the places on time and come back home as early as possible, you should visit the places in the following order: 
+Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home. 
+This order ensures that you visit the Multiplan Center first, then go to Sonali Bank, and finally to Military Museum. This way, you can visit all the places on time and come back home as early as possible. Therefore, the answer is B.
+
+I live in Indira Road. At tomorrow 2 pm I will leave my house. I need to go to Military Museum Dhaka to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). In which order I should visit the places so that I reach there on time and come back home as early as possible. I will use public transport.
+['Home -> Military Museum -> Multiplan Center -> Sonali Bank -> Home', 'Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home', 'Home -> Sonali Bank -> Multiplan Center -> Military Museum -> Home', 'Home -> Military Museum -> Sonali Bank -> Multiplan Center -> Home']
+Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home

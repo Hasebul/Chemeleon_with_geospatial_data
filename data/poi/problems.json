@@ -1,0 +1,274 @@
+{
+    "255": {
+        "question": "I am looking for a restaurant in Dhanmondi named Madchef. Give me the full address.",
+        "choices": [
+            "House#8/A, Road#4, Royal Palaza (5th Floor), Mirpur Rd, Dhaka 1205, Bangladesh",
+            "House 49/A, Rangs KB Square, 4th Floor, Satmasjid Road, Dhaka 1209, Bangladesh",
+            "9/A , Rupayan Z.R Plaza, Level - 2 Road No. New 46, Satmasjid Road, Dhaka 1209, Bangladesh",
+            "Dhanmondi ADC Empire Plaza, (1st Floor), Plot 91, Road 12/A, Satmasjid Road, Opposite Pizza Hut, Dhanmondi, Dhaka 1209, Bangladesh"
+        ],
+        "answer": "House 49/A, Rangs KB Square, 4th Floor, Satmasjid Road, Dhaka 1209, Bangladesh",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "378": {
+        "question": "Does Daikoku-ya serve Dinner?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "379": {
+        "question": "Does Chakoru serves lunch?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "380": {
+        "question": "Is BLACK PAPA reservable?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "382": {
+        "question": "What's the rating of The Blue Door Bistro?",
+        "choices": [
+            "3.6",
+            "3.9",
+            "4.1",
+            "4.4"
+        ],
+        "answer": "4.1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "383": {
+        "question": "What's the price level of Museum Tavern?",
+        "choices": [
+            "Inexpensive",
+            "Moderate",
+            "Expensive",
+            "Very Expensive"
+        ],
+        "answer": "Moderate",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "384": {
+        "question": "Is The Pizzeria open at 3:00 PM on Monday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "387": {
+        "question": "Is the Grand Bazaar open at 6:00 PM Tuesday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "388": {
+        "question": "Is The Blue Door Bistro reservable?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "389": {
+        "question": "What's the price level of the Museum Tavern?",
+        "choices": [
+            "Inexpensive",
+            "Moderate",
+            "Expensive",
+            "Very expensive"
+        ],
+        "answer": "Moderate",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "391": {
+        "question": "Is the entrance of Nusr-Et Steakhouse wheelchair accessible?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "393": {
+        "question": "Can I visit The Great Pyramid of Giza at 5:00 PM Saturday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "395": {
+        "question": "How many users rated Eleven Madison Park?",
+        "choices": [
+            "2778 ",
+            "10010",
+            "11",
+            "1200"
+        ],
+        "answer": "2778 ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "396": {
+        "question": "Is Asador Etxebarri open on Sunday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "397": {
+        "question": "Is Asador Etxebarri open on Monday?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "No",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "398": {
+        "question": "Does Asador Etxebarri serve dinner?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    },
+    "412": {
+        "question": "Is takeout available at the Starbucks on Calle de la Princesa, 40, Centro?",
+        "choices": [
+            "Yes",
+            "No",
+            "",
+            ""
+        ],
+        "answer": "Yes",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "poi"
+    }
+}

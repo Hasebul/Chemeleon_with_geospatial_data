@@ -1,6 +1,6 @@
 import googlemaps
 import json
-gmaps = googlemaps.Client(key='AIzaSyBnsinvIK8T2C8Kv5Q3gKyVWaTMgINDhVw')
+
 
 
 def distance(loc1, loc2):

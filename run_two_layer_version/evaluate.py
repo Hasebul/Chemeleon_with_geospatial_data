@@ -87,16 +87,16 @@ def get_scores(result_files, data_file):
     scores = {
         'acc_average': "{:.2f}".format(acc_average),
 
-        'acc_nat': get_acc_with_contion(res_pd, 'subject', 'natural science'),
-        'acc_sol': get_acc_with_contion(res_pd, 'subject', 'social science'),
-        'acc_lan': get_acc_with_contion(res_pd, 'subject', 'language science'),
-
-        'acc_txt': get_acc_with_contion(res_pd, 'text_context', True),
-        'acc_img': get_acc_with_contion(res_pd, 'image_context', True),
-        'acc_no': get_acc_with_contion(res_pd, 'no_context', True),
+        # 'acc_nat': get_acc_with_contion(res_pd, 'subject', 'natural science'),
+        # 'acc_sol': get_acc_with_contion(res_pd, 'subject', 'social science'),
+        # 'acc_lan': get_acc_with_contion(res_pd, 'subject', 'language science'),
+        #
+        # 'acc_txt': get_acc_with_contion(res_pd, 'text_context', True),
+        # 'acc_img': get_acc_with_contion(res_pd, 'image_context', True),
+        # 'acc_no': get_acc_with_contion(res_pd, 'no_context', True),
         
-        'acc_grade_1_6': get_acc_with_contion(res_pd, 'grade', ["grade2", "grade3", "grade4", "grade5", "grade6"]),
-        'acc_grade_7_12': get_acc_with_contion(res_pd, 'grade', ["grade7", "grade8", "grade9", "grade10", "grade11", "grade12"]),
+        # 'acc_grade_1_6': get_acc_with_contion(res_pd, 'grade', ["grade2", "grade3", "grade4", "grade5", "grade6"]),
+        # 'acc_grade_7_12': get_acc_with_contion(res_pd, 'grade', ["grade7", "grade8", "grade9", "grade10", "grade11", "grade12"]),
     }
 
     return scores
@@ -116,9 +116,9 @@ def print_scores(scores):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_file', type=str, default="../data/scienceqa/problems.json")
-    parser.add_argument('--result_root', type=str, default="../results/scienceqa")
-    parser.add_argument('--result_files', type=str, default="chameleon_gpt4_test_cache.jsonl")
+    parser.add_argument('--data_file', type=str, default="../data/trip/problems.json")
+    parser.add_argument('--result_root', type=str, default="../results/trip")
+    parser.add_argument('--result_files', type=str, default="chameleon_chatgpt_minitest_cache.jsonl")
     args = parser.parse_args()
     args = parser.parse_args()
 

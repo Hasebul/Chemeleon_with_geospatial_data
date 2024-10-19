@@ -1,23 +1,704 @@
 {
-    "1":{
-      "question":"I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?",
-      "choices": ["Turn left onto College Ave", "Turn right onto E Whittier St", "Turn left onto S Ohio Ave", "Turn right onto E Whittier St"],
-      "answer":"Turn left onto College Ave",
-      "hint":"",
-      "image":"",
-      "skill":"Fetch Information from map and mention the POI",
-      "solution":"To find the answer, You have to choose one POI name",
-      "split":"test"
+    "267": {
+        "question": "Give the fastest route from Indira Road to Chillox Dhanmondi by car.",
+        "choices": [
+            "Via Satmasjid Road",
+            "Via Mirpur Rd",
+            "Via Kazi Nazrul Islam Ave"
+        ],
+        "answer": "Via Satmasjid Road",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
     },
-
-    "2":{
-        "question":"What's the fastest driving route from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali?",
-        "choices": ["Via Hessa St/D61", "Via D57", "Via Garn Al Sabkha St/D59", "Via Al Asayel St/D72"],
-        "answer":"Via D57",
-        "hint":"",
-        "image":"",
-        "skill":"Fetch Information from map and mention the POI",
-        "solution":"To find the answer, You have to choose one POI name",
-        "split":"test"
+    "268": {
+        "question": "I am going from Indira Road to Chillox Dhanmondi by car via mirpur road.After reaching manik mia avenue where should I go next?",
+        "choices": [
+            "Turn right onto Road no 16",
+            "Turn left onto Mirpur road",
+            "Turn left onto indira road",
+            "Turn right onto new elephant road"
+        ],
+        "answer": "Turn left onto Mirpur road",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "290": {
+        "question": "I am driving from K J Somaiya College Of Arts And Commerce to Zynova Shalby Hospital via Mahatma Gandhi Rd. After reaching K. J. Somaiya Rd, where should I go next?",
+        "choices": [
+            "Turn left to stay on Mahatma Gandhi Rd",
+            "Turn left onto Ghatkopar - Mahul Rd",
+            "Turn left onto Karani Ln/Navroji Ln",
+            "Turn right onto Parmanand Rd"
+        ],
+        "answer": "Turn left onto Ghatkopar - Mahul Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "291": {
+        "question": "I am driving from K J Somaiya College Of Arts And Commerce to Zynova Shalby Hospital via Mahatma Gandhi Rd. After reaching Parmanand Rd, where should I go next?",
+        "choices": [
+            "Turn left onto Karani Ln/Navroji Ln",
+            "Turn right onto Navroji Ln",
+            "Turn left to stay on Mahatma Gandhi Rd",
+            "Turn left onto Ghatkopar - Mahul Rd"
+        ],
+        "answer": "Turn left onto Karani Ln/Navroji Ln",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "293": {
+        "question": "What's the best walking route from Ramada by Wyndham Islamabad to Bahria University - Islamabad Campus?",
+        "choices": [
+            " Via Srinagar Highway and 9th Avenue",
+            "Via Khayaban-e-Suhrwardy",
+            "Via Srinagar Hwy and Faisal Ave",
+            " Via Srinagar Hwy"
+        ],
+        "answer": "Via Khayaban-e-Suhrwardy",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "294": {
+        "question": "I am at Ramada by Wyndham Islamabad. I am going from my current location to Bahria University - Islamabad Campus by car via Srinagar Hwy and Faisal Ave .After reaching 9th Ave, where should I go next?",
+        "choices": [
+            "Keep right to continue on Jinnah Avenue Underpass",
+            "Continue onto Faisal Ave",
+            "Turn right onto Main Margalla Rd",
+            "Slight left toward Jinnah Avenue"
+        ],
+        "answer": "Turn right onto Main Margalla Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "295": {
+        "question": "I am going from Ramada by Wyndham Islamabad to Bahria University - Islamabad Campus by car Via Srinagar Hwy .After reaching Faisal Ave/Islamabad Expy, where should I go next?",
+        "choices": [
+            "Keep right to continue on Jinnah Avenue Underpass",
+            "Turn right onto 9th Ave",
+            "Turn right onto Main Margalla Rd",
+            "Turn left at Bahria University Gate onto Shangrilla Rd"
+        ],
+        "answer": "Keep right to continue on Jinnah Avenue Underpass",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "296": {
+        "question": "I am at Duhail. What's the fastest route from my current location  to Al Khor Family Park & Zoo?",
+        "choices": [
+            "Via Al Khor Coastal Rd ",
+            "Via Al Shamal Rd",
+            "via Al Khor Coastal Rd and Al Shamal Rd",
+            "via Al Sailiya Rd"
+        ],
+        "answer": "Via Al Shamal Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "297": {
+        "question": "What's the fastest route from Villa Elsewhere to  D. B. Patil International Airport, Navi Mumbai?",
+        "choices": [
+            "Via NH 48 and Uran Rd",
+            "Via Bengaluru - Mumbai Hwy/Mumbai Hwy/Mumbai - Pandharpur Rd/Mumbai - Pune Hwy/Mumbai - Pune Expy/Mumbai - Satara Hwy/Yashwantrao Chavan Expy ",
+            "Via NH 48"
+        ],
+        "answer": "Via NH 48",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "299": {
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church via High Bridge Trail. After reaching S Airport Rd, where should I go next?",
+        "choices": [
+            "Turn right onto E Osborn Rd",
+            "Turn left onto High Bridge Trail",
+            "Turn right onto US-460 E",
+            "Turn right onto Plank Rd"
+        ],
+        "answer": "Turn right onto Plank Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "300": {
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church via High Bridge Trail. After reaching E Osborn Rd, where should I go next?",
+        "choices": [
+            "Slight right at Early St",
+            "Head west toward Wedgewood Dr",
+            " Turn right onto S Airport Rd",
+            "Turn right onto High Rock Rd"
+        ],
+        "answer": "Slight right at Early St",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "301": {
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church via High Bridge Trail. After reaching US-460 E, where should I go next?",
+        "choices": [
+            "Turn right onto E Osborn Rd",
+            "Turn left onto High Bridge Trail",
+            "Turn right onto High Rock Rd",
+            "Slight right at Early St"
+        ],
+        "answer": "Turn right onto High Rock Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "303": {
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church Via Jamestown Rd and High Bridge Trail. After reaching Turn right onto S Airport Rd, where should I go next?",
+        "choices": [
+            "Turn left onto VA-45 N",
+            "Turn right onto High Rock Rd",
+            "Turn right onto Jamestown Rd",
+            "Turn right to stay on Jamestown Rd"
+        ],
+        "answer": "Turn left onto VA-45 N",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "307": {
+        "question": "I am biking from The Farmville Regional Airport to High Rock Baptist Church Via Jamestown Rd and High Bridge Trail. After reaching  River Rd, where should I go next?",
+        "choices": [
+            "Turn left onto High Bridge Trail",
+            "Turn left onto Wedgewood Dr",
+            "Turn right onto US-460 E",
+            "Turn right onto Jamestown Rd"
+        ],
+        "answer": "Turn left onto High Bridge Trail",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "310": {
+        "question": "What’s the fastest walking route from Centre of Germany to Wildkatzendorf Hütscheroda?",
+        "choices": [
+            "Via L1042",
+            "Via L1042 and Hainichlandweg",
+            " Via L2104",
+            " Via L2104"
+        ],
+        "answer": " Via L2104",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "313": {
+        "question": "I am driving from Mittelpunkt Deutschlands to Wildkatzendorf Hütscheroda via B84. After reaching Hohler Weg/Langensalzaer Str, where should I go next?",
+        "choices": [
+            "Continue onto Schloßstraße",
+            "Continue onto Am Alten Sportpl.",
+            "Continue straight onto L2103",
+            "Continue onto L1042"
+        ],
+        "answer": "Continue onto L1042",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "314": {
+        "question": "I am driving from Mittelpunkt Deutschlands to Wildkatzendorf Hütscheroda Via L1016. After reaching Am Anger, where should I go next?",
+        "choices": [
+            "Continue onto Propelstraße",
+            "Continue onto Essener Str.",
+            "Continue onto Schlossallee/Thomas-Müntzer-Straße",
+            "Continue onto L1016"
+        ],
+        "answer": "Continue onto Schlossallee/Thomas-Müntzer-Straße",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "315": {
+        "question": "I am driving from Mittelpunkt Deutschlands to Wildkatzendorf Hütscheroda Via B247 and B84. After reaching Mühlhäuser Str, where should I go next?",
+        "choices": [
+            "Turn right onto B84",
+            " Continue onto Schloßstraße",
+            "Mühlhäuser Str. turns slightly left and becomes L2104",
+            "Take the B84 ramp to A4/Eisenach/Weberstedt/Bad Langensalza"
+        ],
+        "answer": "Mühlhäuser Str. turns slightly left and becomes L2104",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "318": {
+        "question": "I am driving from  D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali Via Garn Al Sabkha St/D59. After reaching Sheikh Zayed Rd/E11, where should I go next?",
+        "choices": [
+            "Take exit 22 toward PJA Port Gate 1/PJA Port Gate 2",
+            "Keep left to stay on Garn Al Sabkha St/D59",
+            "Take the ramp to Al Khail Rd/E44",
+            "Merge onto Sheikh Zayed Rd/E11 via the ramp to Jebel Ali/Abu Dhabi"
+        ],
+        "answer": "Take exit 22 toward PJA Port Gate 1/PJA Port Gate 2",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "319": {
+        "question": "I am walking from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54. After reaching Hessa St/D61 (signs for E611 S/Emirates Rd), where should I go next? ",
+        "choices": [
+            "Continue onto Al Fay Rd",
+            "Turn right onto street 511",
+            "Turn right onto Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "At the roundabout, take the 3rd exit onto Golf Course Dr"
+        ],
+        "answer": "Turn right onto Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "320": {
+        "question": "I am walking from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali Via Al Asayel St/D72. After reaching Hessa St/D61, where should I go next?",
+        "choices": [
+            "Turn right onto First Al Khail St/D86",
+            "Merge onto Umm Suqeim St/D63",
+            "Continue onto D57",
+            " At the roundabout, continue straight to stay on 39th St"
+        ],
+        "answer": "Turn right onto First Al Khail St/D86",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "332": {
+        "question": "I am driving to Brassica in Bexley Via E Main St. After reaching E Whittier St, where should I go next?",
+        "choices": [
+            "Turn right onto E Whittier St",
+            "Continue straight to stay on E Main St",
+            " Turn left onto Lockbourne Rd",
+            "Turn left onto Parsons Ave"
+        ],
+        "answer": "Turn left onto Parsons Ave",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "333": {
+        "question": "I am driving to Brassica in Bexley Via E Main St. After reaching Parsons Ave, where should I go next?",
+        "choices": [
+            "Turn right onto E Main St",
+            " Turn left onto College Ave",
+            "Turn right onto US-33 E/E Livingston Ave",
+            "Merge onto Alum Creek Dr"
+        ],
+        "answer": "Turn right onto E Main St",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "334": {
+        "question": "I am driving to Brassica in Bexley Via E Whittier St. After reaching Alum Creek Dr, where should I go next?",
+        "choices": [
+            "Turn left onto College Ave",
+            "Turn right onto E Main St",
+            "Turn right onto E Whittier St",
+            "Turn right onto US-33 E/E Livingston Ave"
+        ],
+        "answer": "Turn right onto E Main St",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "335": {
+        "question": "I am driving to Brassica in Bexley Via E Whittier St. After reaching Lockbourne Rd, where should I go next?",
+        "choices": [
+            "Turn left onto College Ave",
+            " Take exit 103A toward Main St/Bexley",
+            "Head north on S High St toward Shumacher Alley",
+            " US-33 E/E Livingston Ave"
+        ],
+        "answer": " US-33 E/E Livingston Ave",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "336": {
+        "question": "I am walking to Brassica in Bexley from South Wind Motel, Via Parsons Ave and E Main St. After reaching E Main St, where should I go next?",
+        "choices": [
+            "Turn left onto College Ave",
+            "Turn right onto E Whittier St",
+            "Turn left onto S Ohio Ave",
+            "Turn right onto E Whittier St"
+        ],
+        "answer": "Turn left onto College Ave",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "421": {
+        "question": "I am going from Indira Road to Chillox Dhanmondi by car. Which road should I take after Manik Mia Avenue on the Satmasjid Road route to Chillox Dhanmondi?",
+        "choices": [
+            "Kazi Nazrul Islam Ave",
+            "Road No 16",
+            "Mirpur Rd",
+            "New Elephant Rd"
+        ],
+        "answer": "Mirpur Rd",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "422": {
+        "question": "I am going from Indira Road to Chillox Dhanmondi by car. On the Mirpur Rd route, what is the landmark I will pass by after turning left onto Mirpur Rd?",
+        "choices": [
+            "Agrani Bank PLC",
+            "BRAC Bank Limited | ATM Booth",
+            "Green Galleria",
+            "COTTO Sanitary Ware Display Center"
+        ],
+        "answer": "Green Galleria",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "430": {
+        "question": "Which of the following locations is closest to Bondi Beach by public transport in terms of travel time?",
+        "choices": [
+            "Sydney Opera House",
+            "Royal Botanic Garden Sydney",
+            "",
+            ""
+        ],
+        "answer": "Royal Botanic Garden Sydney",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "432": {
+        "question": "Which route by foot has the longest distance from Centre of Germany to Wildkatzendorf Hütscheroda?",
+        "choices": [
+            "Via L2104",
+            "Via L1042",
+            "Via L1042 and Hainichlandweg",
+            ""
+        ],
+        "answer": "Via L1042 and Hainichlandweg",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "433": {
+        "question": "If I am traveling by car from Centre of Germany to Wildkatzendorf Hütscheroda and prefer to minimize the number of roundabouts, which route should I take?",
+        "choices": [
+            "Via B84",
+            "Via L1016",
+            "Via B247 and B84",
+            ""
+        ],
+        "answer": "Via B84",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "434": {
+        "question": "I want to walk from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali. Which walking route involves taking the pedestrian overpass?",
+        "choices": [
+            "Via Hessa St/D61",
+            "Via Al Asayel St/D72",
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Garn Al Sabkha St/D59"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "435": {
+        "question": "Which walking route from D03 Flame Tree Ridge to Aster Cedars Hospital involves taking stairs multiple times?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Hessa St/D61",
+            "Via Al Asayel St/D72",
+            "Via Garn Al Sabkha St/D59"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "436": {
+        "question": "I want to walk from D03 Flame Tree Ridge to Aster Cedars Hospital, Jebel Ali. Which route passes through the largest number of roundabouts?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Al Asayel St/D72",
+            "Via Hessa St/D61",
+            "None of the above"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "437": {
+        "question": "Which walking route from D03 Flame Tree Ridge to Aster Cedars Hospital requires taking a ramp onto Umm Suqeim St/D63?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Hessa St/D61",
+            "Via Al Asayel St/D72",
+            "Via D57"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "438": {
+        "question": "Which walking route from D03 Flame Tree Ridge to Aster Cedars Hospital goes through Al Khayay St‎?",
+        "choices": [
+            "Via Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+            "Via Al Asayel St/D72",
+            "Via Hessa St/D61",
+            "None of the above"
+        ],
+        "answer": "Via Hessa St/D61",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "442": {
+        "question": "If I drive via E Main St from South Wind Motel to Brassica in Bexley, which of the following landmarks will I pass by?",
+        "choices": [
+            "Taco Bell",
+            "Dollar General",
+            "Shumacher Alley",
+            "Alum Creek Dr"
+        ],
+        "answer": "Dollar General",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "443": {
+        "question": "On the driving route from Hassan II Mosque to Koutoubia via A3, how many roundabouts I will encounter in total?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "7",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "444": {
+        "question": "I am driving from Hassan II Mosque to Koutoubia via A3. At the first roundabout on Bd Moulay Youssef, which exit should I take to stay on Bd Moulay Youssef?",
+        "choices": [
+            "1st exit",
+            "2nd exit",
+            "3rd exit",
+            "4th exit"
+        ],
+        "answer": "3rd exit",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "445": {
+        "question": "I am driving from Hassan II Mosque to Koutoubia via A3. Before turning left onto Pl. Al Mourabitine/N8, how many roundabouts I will pass through on Bd 11 Janvier/N8/N9?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "446": {
+        "question": "I am driving from Hassan II Mosque to Koutoubia via A3. Which exit will I take at the roundabout on Bd Oued Issil?",
+        "choices": [
+            "1st exit",
+            "2nd exit",
+            "3rd exit",
+            "4th exit"
+        ],
+        "answer": "3rd exit",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "456": {
+        "question": "I am driving from Araucano Park to Museum of Memory & Human Rights via Autop. Costanera Nte. How many times do I need to merge onto a toll road?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "0"
+        ],
+        "answer": "2",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "457": {
+        "question": "I am driving from Araucano Park to Museum of Memory & Human Rights Via Av. Pdte. Kennedy and Autop. Costanera Nte. How many times do I need to take a left turn before reaching Av. Matucana?",
+        "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "3",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
+    },
+    "458": {
+        "question": "I am driving from Araucano Park to Museum of Memory & Human Rights via Autop. Costanera Nte. How many exits I need to take to reach the destination?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "routing"
     }
 }

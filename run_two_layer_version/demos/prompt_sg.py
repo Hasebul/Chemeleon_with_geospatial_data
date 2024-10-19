@@ -92,6 +92,107 @@ Solution: Compared to all the hospitals near your current location at Green Delt
 we found Water Garden Restaurant & Convention Hall to be the closest. We can confirm that Water Garden Restaurant & Convention Hall is indeed the nearest option.\n
 Therefore, the answer is C.
 
+#Example 3
+Question: I live on Indira Road. I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine Jigatola. I will have my dinner there, which will take approximately an hour. If I leave home at 8:30 pm, where should I go first? LABAID or Sultan's Dine. I will go by car.
+
+Options: (A) "Sultan's Dine" (B)'LABAID Specialized Hospital'
+
+Metadata: {"skill":"Fetch context from corresponding google map api and based on the context answer the question"}
+
+All Location Info: 
+Indira Road 
+Name: Indira Gandhi Road
+Address: Indira Gandhi Rd, Jamnagar, Gujarat, India
+Rating: N/A
+Types: route
+Is Open Now: N/A
+Weekday Opening Hours:
+- Unknown
+LABAID Specialized hospital 
+Name: LABAID Specialized Hospital
+Address: House- -1 and, 6, Road No. 4, Dhaka 1205, Bangladesh
+Rating: 3.7
+Types: hospital, health, point_of_interest, establishment
+Is Open Now: True
+Weekday Opening Hours:
+- Monday: Open 24 hours
+- Tuesday: Open 24 hours
+- Wednesday: Open 24 hours
+- Thursday: Open 24 hours
+- Friday: Open 24 hours
+- Saturday: Open 24 hours
+- Sunday: Open 24 hours
+Sultan's Dine Jigatola 
+Name: Sultan's Dine, Dhanmondi Branch
+Address: Green Akshay Plaza, 1st Floor, 146/G (Old), 59, New সাতমসজিদ সড়ক, ঢাকা 1209, Bangladesh
+Rating: 4.2
+Types: restaurant, food, point_of_interest, establishment
+Is Open Now: True
+Weekday Opening Hours:
+- Monday: 12:00 PM – 4:00 AM
+- Tuesday: 12:00 PM – 4:00 AM
+- Wednesday: 12:00 PM – 4:00 AM
+- Thursday: 12:00 PM – 4:00 AM
+- Friday: 12:00 PM – 4:00 AM
+- Saturday: 12:00 PM – 4:00 AM
+- Sunday: 12:00 PM – 4:00 AM
+The travel time(distance) from Indira Road to LABAID Specialized hospital is 9 mins (3.2 km)
+The travel time(distance) from Indira Road to Sultan's Dine Jigatola is 12 mins (4.2 km)
+The travel time(distance) from LABAID Specialized hospital to Indira Road is 11 mins (2.6 km)
+The travel time(distance) from LABAID Specialized hospital to Sultan's Dine Jigatola is 5 mins (1.1 km)
+The travel time(distance) from Sultan's Dine Jigatola to Indira Road is 22 mins (5.6 km)
+The travel time(distance) from Sultan's Dine Jigatola to LABAID Specialized hospital is 15 mins (3.3 km)
+
+Solution: To determine where to go first, we need to consider the total time it will take to visit both places.
+If you leave home at 8:30 pm and go to LABAID Specialized Hospital first, it will take you 9 minutes to get there. Then, you will stay there for half an hour. After that, you have to go to Sultan's Dine, which takes about 5 minutes, and you will spend 1 hour there. When you return back home, it will take 22 minutes. This means you will have spent 126 minutes in total (9 + 30 + 5 + 60 + 22).
+On the other hand, if you leave home at 8:30 pm and go to Sultan's Dine Jigatola first, it will take you 12 minutes to get there. Then, you will have dinner for approximately an hour. After that, you have to go to LABAID Specialized Hospital, which will take you 15 minutes, and you will stay there for 30 minutes. From LABAID, you need 11 minutes to get back home. This means you will have spent a total of 128 minutes (12 + 60 + 15 + 30 + 11).
+Based on the total time it will take to visit both places, it is better to go to LABAID Specialized Hospital first.
+Therefore, the answer is B.
+
+#Example 4
+Question: I live in Indira Road. At tomorrow 2 pm I will leave my house. I need to go to Military Museum Dhaka to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). In which order I should visit the places so that I reach there on time and come back home as early as possible. I will use public transport.
+
+Options: (A) Home -> Military Museum -> Multiplan Center -> Sonali Bank -> Home  (B) Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home   (C) Home -> Sonali Bank -> Multiplan Center -> Military Museum -> Home  (D) Home -> Military Museum -> Sonali Bank -> Multiplan Center -> Home
+
+Metadata: {"skill":"Fetch context from corresponding google map api and based on the context answer the question"}
+
+All Location Info: 
+Multiplan Center 
+Name: Multiplan Center
+Address: 69, 71 New Elephant Rd, Dhaka 1205, Bangladesh
+Rating: 4.4
+Types: point_of_interest, establishment
+Is Open Now: False
+Weekday Opening Hours:
+- Monday: 10:00 AM – 8:00 PM
+- Tuesday: Closed
+- Wednesday: 10:00 AM – 8:00 PM
+- Thursday: 10:00 AM – 8:00 PM
+- Friday: 10:00 AM – 8:00 PM
+- Saturday: 10:00 AM – 8:00 PM
+- Sunday: 10:00 AM – 8:00 PM
+Sonali Bank, BUET 
+Name: Sonali Bank PLC, BUET Branch
+Address: DSW office, BUET, Dhaka 1000, Bangladesh
+Rating: 3.2
+Types: bank, finance, point_of_interest, establishment
+Is Open Now: False
+Weekday Opening Hours:
+- Monday: 10:00 AM – 3:30 PM
+- Tuesday: 10:00 AM – 3:30 PM
+- Wednesday: 10:00 AM – 3:30 PM
+- Thursday: 10:00 AM – 3:30 PM
+- Friday: Closed
+- Saturday: Closed
+- Sunday: 10:00 AM – 3:30 PM
+The travel time(distance) from Multiplan Center to Sonali Bank, BUET is 24 mins (2.2 km)
+The travel time(distance) from Sonali Bank, BUET to Multiplan Center is 30 mins (2.2 km)
+
+Solution: 
+You obtain this order by considering all the spatial locations, their distance, and finally calculating the best route for which the total travel time is less. To reach all the places on time and come back home as early as possible, you should visit the places in the following order: 
+Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home. 
+This order ensures that you visit the Multiplan Center first, then go to Sonali Bank, and finally to Military Museum. This way, you can visit all the places on time and come back home as early as possible. Therefore, the answer is B.
+
 Now Answer the question following.
 #Question
 

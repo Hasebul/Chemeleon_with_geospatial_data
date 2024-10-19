@@ -7,13 +7,9 @@ from zoneinfo import ZoneInfo
 import googlemaps
 from math import sin, cos, sqrt, atan2, radians
 
-gmaps = googlemaps.Client(key='AIzaSyA2g27UGq_N5DktbQXsxdf8qDyNSsPUTLo')
+gmaps = googlemaps.Client(key='')
 # Initialize the Azure OpenAI client
 client = AzureOpenAI(
-    azure_endpoint="https://llms-eus2.openai.azure.com/",
-    api_key="c7d579ff57394bf98d6da39f9c96bca5",
-    api_version="2024-05-01-preview",
-    azure_deployment="gpt-35-turbo-0125",
 )
 
 # Provide the model deployment name you want to use for this example
@@ -440,9 +436,10 @@ if __name__ == "__main__":
     # place_info_str= trip(current_loc, visiting_place_list)
     # print(place_info_str)
     # Run the conversation and print the result
-    print(run_conversation())
+    # print(run_conversation("Where is Dhaka "))
     # place = directions(origin="Obelisco de Buenos Aires", destination="Caminito in La Boca")
     # print(place)
+    print( get_travel_info(origin_address='Table Mountain Aerial Cableway Cape Town', destination_address="The Two Oceans Aquarium, Cape Town", mode=None))
 
 # Run the conversation and print the result
 # print(run_conversation())
