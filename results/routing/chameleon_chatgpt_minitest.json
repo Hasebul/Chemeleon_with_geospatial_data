@@ -1,8 +1,8 @@
 {
-  "acc": 0.0,
-  "correct": 0,
-  "wrong": 2,
-  "count": 2,
+  "acc": 41.66666666666667,
+  "correct": 5,
+  "wrong": 7,
+  "count": 12,
   "args": {
     "data_root": "../data/routing",
     "output_root": "../results",
@@ -10,7 +10,7 @@
     "label": "chameleon_chatgpt",
     "task_name": "routing",
     "test_split": "minitest",
-    "test_number": 50,
+    "test_number": 44,
     "seed": 0,
     "modules": null,
     "policy_engine": "gpt-3.5-turbo",

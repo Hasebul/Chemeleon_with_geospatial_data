@@ -17,7 +17,7 @@
         "question": "How much time will it take by car If I go from Indira Road to Sultan's Dine Jigatola and then to LABAID Specialized Hospital?",
         "choices": [
             "20 mins",
-            "25 mins",
+            "27 mins",
             "29 mins",
             "19 mins"
         ],
@@ -991,7 +991,7 @@
         "classification": "trip"
     },
     "487": {
-        "question": "I am currently staying at King Kong Hostel in Rotterdam. I want to visit the Kijk-Kubus Museum-house for 1 hour, the Erasmusbrug for 1 hour, the Museum Boijmans Van Beuningen for 1.5 hours, and the Market Hall for 1.5 hours. I have 6 hours available. I will leave my hostel at 9 am. What’s the maximum number of places I can visit? I will between places.",
+        "question": "I am currently staying at King Kong Hostel in Rotterdam. I want to visit the Kijk-Kubus Museum-house for 1 hour, the Erasmusbrug for 1 hour, the Museum Boijmans Van Beuningen for 1.5 hours, and the Market Hall,Markthal for 1.5 hours. I have 6 hours available. I will leave my hostel at 9 am. What’s the maximum number of places I can visit? I will between places.",
         "choices": [
             "None",
             "Two",

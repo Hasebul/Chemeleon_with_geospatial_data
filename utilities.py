@@ -15,7 +15,7 @@ from math import isclose
 from openai import AzureOpenAI
 from math import sin, cos, sqrt, atan2, radians
 
-gmaps = googlemaps.Client(key='')
+gmaps = googlemaps.Client(key='AIzaSyA2g27UGq_N5DktbQXsxdf8qDyNSsPUTLo')
 
 
 def safe_execute(code_string: str, keys=None):
@@ -189,6 +189,9 @@ def get_chat_response(messages, api_key, model="gpt-3.5-turbo", temperature=0, m
             #         return prediction
             # Azure
             client = AzureOpenAI(
+                azure_endpoint="https://qcri-llm-rag-3.openai.azure.com/",
+
+                api_version="2024-05-01-preview",
 
             )
             response = client.chat.completions.create(

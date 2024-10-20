@@ -14,14 +14,14 @@ from model import solver
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_root', type=str, default='../data/trip')
+    parser.add_argument('--data_root', type=str, default='../data/routing')
     parser.add_argument('--output_root', type=str, default='../results')
     parser.add_argument('--model', type=str, default='chameleon', choices=['cot', 'chameleon'])
     parser.add_argument('--label', type=str, default='chameleon_chatgpt')
-    parser.add_argument('--task_name', type=str, default='trip')
+    parser.add_argument('--task_name', type=str, default='routing')
     parser.add_argument('--test_split', type=str, default='minitest',
                         choices=['train', 'val', 'test', 'minitrain', 'minival', 'minitest'])
-    parser.add_argument('--test_number', type=int, default=68)
+    parser.add_argument('--test_number', type=int, default=44)
     parser.add_argument('--seed', type=int, default=0)
     # module prediction
     parser.add_argument('--modules', nargs='+', default=None, help='default modules')

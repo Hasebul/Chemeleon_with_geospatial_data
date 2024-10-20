@@ -7,14 +7,18 @@ from zoneinfo import ZoneInfo
 import googlemaps
 from math import sin, cos, sqrt, atan2, radians
 
-gmaps = googlemaps.Client(key='')
+gmaps = googlemaps.Client(key='AIzaSyA2g27UGq_N5DktbQXsxdf8qDyNSsPUTLo')
 # Initialize the Azure OpenAI client
 client = AzureOpenAI(
+    azure_endpoint="https://qcri-llm-rag-3.openai.azure.com/",
+
+    api_version="2024-05-01-preview",
+    azure_deployment="gpt-35-turbo",
 )
 
 # Provide the model deployment name you want to use for this example
 
-deployment_name = "gpt-35-turbo-0125"
+deployment_name = "gpt-35-turbo"
 
 # Simplified weather data
 WEATHER_DATA = {
@@ -439,7 +443,8 @@ if __name__ == "__main__":
     # print(run_conversation("Where is Dhaka "))
     # place = directions(origin="Obelisco de Buenos Aires", destination="Caminito in La Boca")
     # print(place)
-    print( get_travel_info(origin_address='Table Mountain Aerial Cableway Cape Town', destination_address="The Two Oceans Aquarium, Cape Town", mode=None))
+    # print( get_travel_info(origin_address='King Kong Hostel, Rotterdam', destination_address="Market Hall,Markthal", mode=None))
+    print(directions('The Farmville Regional Airport, Farmville',  'High Rock Baptist Church',  'bicycling', waypoints= ['Jamestown Rd', 'High Bridge Trail']))
 
 # Run the conversation and print the result
 # print(run_conversation())
