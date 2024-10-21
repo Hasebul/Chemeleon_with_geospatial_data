@@ -16,7 +16,7 @@
         "classification": "poi"
     },
     "378": {
-        "question": "Does Daikoku-ya serve Dinner?",
+        "question": "Does Daikoku-ya, Taito City serve Dinner?",
         "choices": [
             "Yes",
             "No",
@@ -32,7 +32,7 @@
         "classification": "poi"
     },
     "379": {
-        "question": "Does Chakoru serves lunch?",
+        "question": "Does Chakoru, Taito City serves lunch?",
         "choices": [
             "Yes",
             "No",
@@ -48,7 +48,7 @@
         "classification": "poi"
     },
     "380": {
-        "question": "Is BLACK PAPA reservable?",
+        "question": "Is BLACK PAPA, Taito City reservable?",
         "choices": [
             "Yes",
             "No",
@@ -61,10 +61,11 @@
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
         "solution": "To find the answer, You have to choose one option from the MCQ",
         "split": "test",
-        "classification": "poi"
+        "classification": "poi",
+        "problematic_question": true
     },
     "382": {
-        "question": "What's the rating of The Blue Door Bistro?",
+        "question": "What's the rating of The Blue Door Bistro, London?",
         "choices": [
             "3.6",
             "3.9",
@@ -96,7 +97,7 @@
         "classification": "poi"
     },
     "384": {
-        "question": "Is The Pizzeria open at 3:00 PM on Monday?",
+        "question": "Is The Pizzeria, Great Russell St, London open at 3:00 PM on Monday?",
         "choices": [
             "Yes",
             "No",
@@ -112,7 +113,7 @@
         "classification": "poi"
     },
     "387": {
-        "question": "Is the Grand Bazaar open at 6:00 PM Tuesday?",
+        "question": "Is the Grand Bazaar,Istanbul open at 6:00 PM Tuesday?",
         "choices": [
             "Yes",
             "No",
@@ -128,7 +129,7 @@
         "classification": "poi"
     },
     "388": {
-        "question": "Is The Blue Door Bistro reservable?",
+        "question": "Is The Blue Door Bistro reservable, London?",
         "choices": [
             "Yes",
             "No",
@@ -160,7 +161,7 @@
         "classification": "poi"
     },
     "391": {
-        "question": "Is the entrance of Nusr-Et Steakhouse wheelchair accessible?",
+        "question": "Is the entrance of Nusr-Et Steakhouse, Las Vegas wheelchair accessible?",
         "choices": [
             "Yes",
             "No",
@@ -192,7 +193,7 @@
         "classification": "poi"
     },
     "395": {
-        "question": "How many users rated Eleven Madison Park?",
+        "question": "How many users rated Eleven Madison Park, New York?",
         "choices": [
             "2778 ",
             "10010",
@@ -208,7 +209,7 @@
         "classification": "poi"
     },
     "396": {
-        "question": "Is Asador Etxebarri open on Sunday?",
+        "question": "Is Asador Etxebarri,Bizkaia,Spain open on Sunday?",
         "choices": [
             "Yes",
             "No",
@@ -224,7 +225,7 @@
         "classification": "poi"
     },
     "397": {
-        "question": "Is Asador Etxebarri open on Monday?",
+        "question": "Is Asador Etxebarri,Bizkaia,Spain open on Monday?",
         "choices": [
             "Yes",
             "No",
@@ -240,7 +241,7 @@
         "classification": "poi"
     },
     "398": {
-        "question": "Does Asador Etxebarri serve dinner?",
+        "question": "Does Asador Etxebarri,Bizkaia,Spain serve dinner?",
         "choices": [
             "Yes",
             "No",

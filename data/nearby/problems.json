@@ -15,38 +15,6 @@
         "split": "test",
         "classification": "nearby"
     },
-    "35": {
-        "question": "I am staying at SUST now. I have been suffering from fever for 3 days. I want to meet a doctor nearest to campus. Suggest me a doctor near my campus",
-        "choices": [
-            "সেবা ডায়াগনষ্টিক সেন্টার",
-            "মোঃ হেলাল উদ্দিন",
-            " Shuvo Madical Hall",
-            "ডাঃ মোঃ ছমির উদ্দিন"
-        ],
-        "answer": "মোঃ হেলাল উদ্দিন",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "36": {
-        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
-        "choices": [
-            "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
-            "কারমাইকেল কলেজ মসজিদ",
-            "Salbon Jame Mosque",
-            "তালুক হাবু বাইতুস সালাম জামে মসজিদ"
-        ],
-        "answer": "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
     "39": {
         "question": "I’m in Rajshahi and want to do some shopping. What is the best shopping mall in the city where I can find a variety of stores?",
         "choices": [
@@ -79,86 +47,6 @@
         "split": "test",
         "classification": "nearby"
     },
-    "58": {
-        "question": "I am in Sylhet’s Ambarkhana area and I need to catch a bus to Dhaka. Can you guide me to the nearest bus terminal?",
-        "choices": [
-            "Dighirpar Bus Stand",
-            "Shikpur Bus station",
-            "Airport Road Bus Stop",
-            "Sukrobari Bazar Bus Stan"
-        ],
-        "answer": "Airport Road Bus Stop",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "75": {
-        "question": "I need to catch a bus and I'm near Rajshahi University. Can you tell me where the nearest bus stop is?",
-        "choices": [
-            "Gatelock Bus Terminal-2",
-            "Rajshahi Bus Stand ,amnura",
-            "Rajshahi Bus Terminal ,Vadra.",
-            "Nawabganj Bypass Bus Stand"
-        ],
-        "answer": "Rajshahi Bus Terminal ,Vadra.",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "76": {
-        "question": "I need to mail a letter and I'm in Mymensingh Town. Can you tell me where I can find the nearest post office?",
-        "choices": [
-            "পুলিশ লাইন পোস্ট অফিস",
-            "রাঘবপুর মাদ্রাসা ডিজিটাল পোস্ট ই-সেন্টার",
-            "Bangladesh Agricultural University Post Office",
-            "Mymensingh Head Post Office"
-        ],
-        "answer": "Mymensingh Head Post Office",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "97": {
-        "question": "I'm in Feni and need to get my clothes cleaned. Can you tell me where the nearest laundry service is?",
-        "choices": [
-            "Sufed laundry",
-            "Auto Clean",
-            "সুনীল লন্ড্রী এন্ড ড্রাই ক্লিনার্স",
-            "BANDBOX"
-        ],
-        "answer": "সুনীল লন্ড্রী এন্ড ড্রাই ক্লিনার্স",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "98": {
-        "question": "I'm in Narayanganj and want to work out. Can you tell me where the nearest fitness center is located?",
-        "choices": [
-            "Nirvana Fitness Center & Swimming Pool",
-            "X-Men Gym",
-            "Life Style Fitness",
-            "Fit 4 Life Gym"
-        ],
-        "answer": "Life Style Fitness",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
     "102": {
         "question": "I'm in Mymensingh and want to watch a movie. Can you tell me where the nearest cinema is?",
         "choices": [
@@ -184,86 +72,6 @@
             "Pubali Bank ATM"
         ],
         "answer": "United Commercial Bank Limited",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "110": {
-        "question": "I'm in Sirajganj and need to buy some medicine. Can you tell me where the nearest pharmacy is?",
-        "choices": [
-            "Orin Pharmacy",
-            "Unique Pharma-Model Pharmacy",
-            "Sajeeb Medicine Center",
-            "Gulf Pharmacy"
-        ],
-        "answer": "Sajeeb Medicine Center",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "117": {
-        "question": "I'm in Rangamati and need to take my pet to the vet. Can you tell me where the nearest veterinary clinic is located?",
-        "choices": [
-            "Vet Care Plus",
-            "Vet Care Center",
-            "Vetlab",
-            "Hasan Veterinary Pharmacy"
-        ],
-        "answer": "Hasan Veterinary Pharmacy",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "118": {
-        "question": "I'm in Thakurgaon and want to buy some fresh bread and pastries. Can you tell me where the nearest bakery is located?",
-        "choices": [
-            "Sazz's Cake",
-            "Tasty Treat",
-            "Tan'z Bakery",
-            "মুক্তা বেকারী এন্ড সুইটস্ "
-        ],
-        "answer": "মুক্তা বেকারী এন্ড সুইটস্ ",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "119": {
-        "question": "I'm currently in Uttara, Dhaka, and I'm having tooth pain. Can you suggest a dentist near my location?",
-        "choices": [
-            "Quick Dental Care",
-            "Bangla Dental Care",
-            "Tooth Aid Dental Zone",
-            "Holy Dental Care"
-        ],
-        "answer": "Tooth Aid Dental Zone",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "132": {
-        "question": "I'm in Bashundhara, Dhaka and my car is having issues. Can you recommend a reputable car mechanic near me",
-        "choices": [
-            "S.R Auto Electronics Engineering Workshop",
-            "Dhaka Auto Vulcanizeing Workshop ঢাকা অটো ভলকানাইজিং ওয়াকসপ",
-            "Johirul Bike Servicing ",
-            "CAR HEAVEN Workshop Vehicle Repair Shop"
-        ],
-        "answer": "CAR HEAVEN Workshop Vehicle Repair Shop",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -351,14 +159,14 @@
         "classification": "nearby"
     },
     "176": {
-        "question": "I'm currently in Vancouver and interested in outdoor activities. What is the nearest park or nature reserve in this area ?",
+        "question": "I'm currently in Vancouver, BC, Canada and interested in outdoor activities. What is the nearest park or nature reserve in this area ?",
         "choices": [
             "Portal Park",
             "Robson Square",
             "Bentall Centre Courtyard",
             "Rainbow Park"
         ],
-        "answer": "Robson Square",
+        "answer": "Rainbow Park",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -366,143 +174,15 @@
         "split": "test",
         "classification": "nearby"
     },
-    "186": {
-        "question": "I'm in Cairo and want to explore Egyptian artifacts. Which museum nearby is considered the best for this?",
-        "choices": [
-            "Lama Temple",
-            "Great Wall of Badaling",
-            "The National Museum of Egyptian Civilization",
-            "Tiananmen"
-        ],
-        "answer": "The National Museum of Egyptian Civilization",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "197": {
-        "question": "I'm in Seoul and enjoy playing at casinos. Where's the best nearby casino?",
-        "choices": [
-            " PARADISE Co., Ltd.",
-            "Paradise City",
-            "Paradise City Incheon Casino Poker Room",
-            "WEZBET "
-        ],
-        "answer": " PARADISE Co., Ltd.",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "217": {
-        "question": "I'm in Bangkok and want to visit some tourist attractions. Which nearby attractions are the most renowned?",
-        "choices": [
-            "Devasthan (Brahmin Shrines)",
-            "Mahakan Fort",
-            "Rattanakosin Exhibition Hall",
-            "Roongroj Tour"
-        ],
-        "answer": "Rattanakosin Exhibition Hall",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "218": {
-        "question": "I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
-        "choices": [
-            " Fogo e chão ",
-            "Real colherdepau de Lisboa | Lisbon",
-            "combine your business ",
-            "Estoril"
-        ],
-        "answer": " Fogo e chão ",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "224": {
-        "question": "I am at Duck Lake,what is the nearest mosque to me?",
-        "choices": [
-            "Hamad Bin Jassim Bin Jaber Bin Mohamed Al Thani Mosque - Mosque, Via, Doha",
-            "The Pearl Mosque - Masjid",
-            "Inside small Grand Hyatt Mosque - 9GGH+Q3H, Doha",
-            "The Golden Masjid - 9G6G+9M2, Doha"
-        ],
-        "answer": "The Pearl Mosque - Masjid",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "240": {
-        "question": "i am at Washington Square Park, Washington Square, New York, NY 10012, United States.",
-        "choices": [
-            "Staley-Wise Gallery | 100 Crosby Street #305, New York",
-            "The Climate Museum | 105 Wooster Street, New York",
-            " Dr. Bernard Heller Museum | 1 West 4th Street, New York",
-            "Tibet House | 22 West 15th Street, New York"
-        ],
-        "answer": " Dr. Bernard Heller Museum | 1 West 4th Street, New York",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "241": {
-        "question": "My home is located on Indira Road in Dhaka, Bangladesh. Best restaurant in 500m radius from my home.",
-        "choices": [
-            "Piccadilly Restaurant",
-            "Boishakhi Hotel And Restaurant",
-            "Bibiyana Tehari O Biryani Ghar",
-            "Food Fair"
-        ],
-        "answer": "Boishakhi Hotel And Restaurant",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "321": {
-        "question": "I am at The British Museum. It is currently 6:00 PM on Tuesday. Please suggest the best nearby restaurant to eat now. Price should be moderate.",
-        "choices": [
-            "The Pizzeria",
-            "Museum Tavern",
-            " The Blue Door Bistro",
-            "Starbucks Coffee "
-        ],
-        "answer": "Museum Tavern",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "347": {
+   "347": {
         "question": "I am at Louvre Museum. What is the nearest restaurant?",
         "choices": [
             "Bistrot Benoit",
-            "Starbucks Louvre",
+            "Chez Claude",
             " Le Comptoir du Louvre",
             "Comptoir Denon & Richelieu"
         ],
-        "answer": "Starbucks Louvre",
+        "answer": "Chez Claude",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -516,9 +196,9 @@
             "Amorino",
             " Boudega",
             "Tortas, sándwiches y bagels de la calle",
-            " Pasión Café"
+            "Pasión Café"
         ],
-        "answer": "Amorino",
+        "answer": "Pasión Café",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -527,7 +207,7 @@
         "classification": "nearby"
     },
     "357": {
-        "question": "I'm at Khansa Market and feeling really hungry. Where can I get something to eat quickly?",
+        "question": "I'm at Khansa Market, Saudi Arabia and feeling really hungry. Where can I get something to eat quickly?",
         "choices": [
             "Shawarma Juha",
             "Souq Al-Lail Al-Qadim Restaurant",
@@ -550,7 +230,7 @@
             "Huberty Martine",
             "Seck Pierre"
         ],
-        "answer": "Lycée Ermesinde Mersch (LEM) ",
+        "answer": "Université du Luxembourg",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -563,10 +243,10 @@
         "choices": [
             "Wasserfall ",
             "Panorama view over Michelau",
-            "General Patton Museum",
+            "Hand sculpture",
             "Springbrunnen "
         ],
-        "answer": "General Patton Museum",
+        "answer": "Hand sculpture",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -642,11 +322,11 @@
         "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
         "choices": [
             "দক্ষিণ হোসেনপুর জামে মসজিদ",
-            " Begum Rokeya University Mosque ",
-            ". Central Jame Mosque, BRUR",
+            "Begum Rokeya University Mosque",
+            "Central Jame Mosque, BRUR",
             "Alhaj Nagar Jame Masjid"
         ],
-        "answer": " Begum Rokeya University Mosque ",
+        "answer": "Central Jame Mosque, BRUR",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -742,7 +422,7 @@
             "Indian Museum",
             "St. Thomas Church (C.N.I.)"
         ],
-        "answer": "St. Thomas Church (C.N.I.)",
+        "answer": "Indian Museum",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -754,11 +434,11 @@
         "question": "I'm at Base Hospital Delhi Cantt. Could you help me locate the nearest Gym?",
         "choices": [
             "Outdoor Gym",
-            "GAME OF FITNESS",
+            "Open gym",
             "The Workout Zone ",
             "Exclusive fit gym "
         ],
-        "answer": "GAME OF FITNESS",
+        "answer": "Open gym",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -767,7 +447,7 @@
         "classification": "nearby"
     },
     "413": {
-        "question": "I am at Dubai Mall. Suggest a nearby restaurant with over 2000 user ratings.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby restaurant with over 2000 user ratings.",
         "choices": [
             "McDonald's",
             "New York Fries",
@@ -783,7 +463,7 @@
         "classification": "nearby"
     },
     "414": {
-        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.8 rating.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby restaurant with at least 4.8 rating.",
         "choices": [
             "McDonald's",
             "Wimpy",
@@ -799,7 +479,7 @@
         "classification": "nearby"
     },
     "415": {
-        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.7 rating and over 1000 user ratings.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby restaurant with at least 4.7 rating and over 1000 user ratings.",
         "choices": [
             "Wimpy ",
             "New York Fries",
@@ -815,7 +495,7 @@
         "classification": "nearby"
     },
     "416": {
-        "question": "I am at Dubai Mall. Suggest a nearby moderate restaurant with at least 4.6 rating.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby moderate restaurant with at least 4.6 rating.",
         "choices": [
             "McDonald's",
             "Nando's Dubai Mall",
@@ -831,7 +511,7 @@
         "classification": "nearby"
     },
     "417": {
-        "question": "I am at Dubai Mall. Suggest a nearby moderately priced restaurant with a rating of at least 4.5 that is open at 9:00 AM on Thursday.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby moderately priced restaurant with a rating of at least 4.5 that is open at 9:00 AM on Thursday.",
         "choices": [
             "McDonald's",
             "Nando's Dubai Mall",
@@ -847,7 +527,7 @@
         "classification": "nearby"
     },
     "418": {
-        "question": "I am at Dubai Mall. Suggest a nearby moderate restaurant with over 2100 user ratings.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby moderate restaurant with over 2100 user ratings.",
         "choices": [
             "McDonald's",
             "Nando's Dubai Mall",
@@ -863,7 +543,7 @@
         "classification": "nearby"
     },
     "419": {
-        "question": "I am at Dubai Mall. Suggest a nearby restaurant with at least 4.5 rating and stays open at 9:15 AM on Tuesday.",
+        "question": "I am at Dubai Mall, Dubai. Suggest a nearby restaurant with at least 4.5 rating and stays open at 9:15 AM on Tuesday.",
         "choices": [
             "McDonald's",
             "Wimpy",
@@ -887,22 +567,6 @@
             "All cafes are open on Wednesday"
         ],
         "answer": "American Wing Cafe and The Great Hall Balcony Cafe",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "439": {
-        "question": "Which of the following restaurants is located on Level 2 of the Dubai Mall food court?",
-        "choices": [
-            "Nando's Dubai Mall",
-            "Bikanervala Dubai Mall",
-            "McDonald's",
-            "The GrillShack"
-        ],
-        "answer": "McDonald's",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -1022,22 +686,6 @@
         "split": "test",
         "classification": "nearby"
     },
-    "453": {
-        "question": "I am at St. Lawrence Market. How many nearby restaurants are open at 8:00 PM on Tuesday?",
-        "choices": [
-            "4",
-            "5",
-            "6",
-            "7"
-        ],
-        "answer": "6",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
     "454": {
         "question": "I am at St. Lawrence Market. Which of the nearby restaurants have at least 500 total user ratings?",
         "choices": [
@@ -1047,22 +695,6 @@
             "Buster's Sea Cove - St. Lawrence Market, Big Pita, Bindia Indian Bistro, Market Street Catch, Paddington's Pump"
         ],
         "answer": "Buster's Sea Cove - St. Lawrence Market, Big Pita, Bindia Indian Bistro, Market Street Catch, Paddington's Pump",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
-    "455": {
-        "question": "I am at Parliament Hill. How many  nearby restaurants are closed on Sunday?",
-        "choices": [
-            "6",
-            "7",
-            "8",
-            "9"
-        ],
-        "answer": "8",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
@@ -1102,22 +734,6 @@
         "split": "test",
         "classification": "nearby"
     },
-    "461": {
-        "question": "List the nearby ATMs of Toronto Zoo that are open 24 hours.",
-        "choices": [
-            "RBC Royal Bank ATM, TD Canada Trust Branch and ATM, Localcoin Bitcoin ATM - Happy Mart",
-            "CIBC ATM, Meridian Credit Union ATM, President's Choice Financial Pavilion and ATM",
-            "TD Canada Trust ATM, Scotiabank, TD Canada Trust ATM, CoinFlip Bitcoin ATM",
-            "RBC Royal Bank ATM, CIBC ATM, TD Canada Trust ATM, Shell"
-        ],
-        "answer": "RBC Royal Bank ATM, CIBC ATM, TD Canada Trust ATM, Shell",
-        "hint": "",
-        "image": "",
-        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
-        "solution": "To find the answer, You have to choose one option from the MCQ",
-        "split": "test",
-        "classification": "nearby"
-    },
     "462": {
         "question": "I am at Toronto Zoo. Today is Sunday and it's currently 8:30 PM. How many nearby ATMs are open now?",
         "choices": [
@@ -1127,6 +743,278 @@
             "9"
         ],
         "answer": "9",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "508": {
+        "question": "Which of the following bank is within 500 meters of the Pantheon in Rome?",
+        "choices": [
+            "Banca Sella S.p.A - Piazza Poli, 38 / 41, 00187 Roma RM",
+            "Crédit Agricole Italia - Via Pietro Cavallini, 43, 00193 Roma RM",
+            "Deutsche Bank - Largo di Torre Argentina, 4, 00186 Roma RM",
+            "Imprebanca S.P.A. - Piazza Benedetto Cairoli, 119, 00186 Roma RM"
+        ],
+        "answer": "Deutsche Bank - Largo di Torre Argentina, 4, 00186 Roma RM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "509": {
+        "question": "What is the nearest park to the Tower of London?",
+        "choices": [
+            "Tower Hill Garden",
+            "Wakefield Gardens",
+            "Trinity Square Gardens",
+            "Seething Lane Garden"
+        ],
+        "answer": "Tower Hill Garden",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "510": {
+        "question": "How many restaurants are there within 500 meters of the Colosseum in Rome?",
+        "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": "7",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "517": {
+        "question": "What is the second nearest park to the Tower of London?",
+        "choices": [
+            "Seething Lane Garden - Seething Lane",
+            "Tower Bridge Piazza - 362 Tower Hill",
+            "Trinity Square Gardens - Tower Hill Station, 38 Trinity Square",
+            "Wakefield Gardens - Tower Hill, London"
+        ],
+        "answer": "Trinity Square Gardens - Tower Hill Station, 38 Trinity Square",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "532": {
+        "question": "How many museums are there inside 500 m radius of Gyeongbokgung Palace in Seoul?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "534": {
+        "question": "How many parks are there inside 500 m radius of Marina Bay Sands Singapore?",
+        "choices": [
+            "1",
+            "5",
+            "7",
+            "8"
+        ],
+        "answer": "1",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "535": {
+        "question": "What is the 2nd nearest park to Marina Bay Sands in Singapore?",
+        "choices": [
+            "Youth Olympic Park",
+            "Mount Emily Park",
+            "Merlion Park",
+            "Tras Link Park"
+        ],
+        "answer": "Merlion Park",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "540": {
+        "question": "How many shopping malls are there within a 500 m radius of Berlin Cathedral?",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": "3",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "541": {
+        "question": "How many parks are there within a 500 m radius of the CN Tower in Toronto, Canada?",
+        "choices": [
+            "10",
+            "5",
+            "1",
+            "15"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "542": {
+        "question": "How many restaurants are there within a 500 m radius of the Sydney Harbour Bridge in Sydney?",
+        "choices": [
+            "1",
+            "2",
+            "0",
+            "4"
+        ],
+        "answer": "0",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "543": {
+        "question": "How many cafés are there within a 600 m radius of the Sacré-Cœur Basilica in Paris, France?",
+        "choices": [
+            "13",
+            "14",
+            "5",
+            "16"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "544": {
+        "question": "How many convenience stores are there within a 400 m radius of the Tokyo Tower?",
+        "choices": [
+            "5",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "5",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "545": {
+        "question": "What is the second nearest temple to the Taj Mahal in Agra, India?",
+        "choices": [
+            "Prachin Shree Laxminarayan ji",
+            "Hanuman Mandir",
+            "Shri Khatu Shyam Temple",
+            "Dande wala baba ka mandir "
+        ],
+        "answer": "Shri Khatu Shyam Temple",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "546": {
+        "question": "What is the nearest library to the Frida Kahlo Museum in Mexico City, Mexico?",
+        "choices": [
+            "Apoyo al Desarrollo de Archivos y Bibliotecas de Mexico",
+            "Library Ignacio Ramirez",
+            "Biblioteca Francisco Zarco",
+            "Biblioteca Eusebio F. Kino del Instituto Libre de Filosofía y Ciencia, A. C."
+        ],
+        "answer": "Biblioteca Eusebio F. Kino del Instituto Libre de Filosofía y Ciencia, A. C.",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "547": {
+        "question": "What is the second nearest grocery store to the Colosseum in Rome, Italy?",
+        "choices": [
+            "Urbana 47",
+            "RoYaL Art Cafè ",
+            "Carrefour Express",
+            "La Cicala E La Formica"
+        ],
+        "answer": "Carrefour Express",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "548": {
+        "question": "What is the second nearest bookstore to the Sydney Opera House?",
+        "choices": [
+            "Dymocks Sydney",
+            "Sydney Opera House Gift Shop ",
+            "The Library Shop ",
+            "The Library Shop "
+        ],
+        "answer": "Dymocks Sydney",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": "nearby"
+    },
+    "554": {
+        "question": "I want to travel from the Obelisco de Buenos Aires to the Caminito in La Boca by car. How much distance I need to cover if I go Via Av. Ing. Huergo and Av. Almte. Brown?",
+        "choices": [
+            "5213 m",
+            "6123 m",
+            "6336 m",
+            "6666 m"
+        ],
+        "answer": "6123 m",
         "hint": "",
         "image": "",
         "skill": "Fetch context from corresponding google map api and based on the context answer the question ",

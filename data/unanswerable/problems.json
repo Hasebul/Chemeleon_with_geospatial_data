@@ -1,0 +1,322 @@
+{
+    "36": {
+        "question": "I am currently at Begum Rokeya University in Rangpur. Can you help me find the nearest mosque where I can go for my prayers?",
+        "choices": [
+            "জলকরিয়া কেন্দ্রীয় জামে মসজিদ ",
+            "কারমাইকেল কলেজ মসজিদ",
+            "Salbon Jame Mosque",
+            "তালুক হাবু বাইতুস সালাম জামে মসজিদ"
+        ],
+        "answer": "তালুক হাবু বাইতুস সালাম জামে মসজিদ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "58": {
+        "question": "I am in Sylhet’s Ambarkhana area and I need to catch a bus to Dhaka. Can you guide me to the nearest bus terminal?",
+        "choices": [
+            "Dighirpar Bus Stand",
+            "Shikpur Bus station",
+            "Airport Road Bus Stop",
+            "Sukrobari Bazar Bus Stan"
+        ],
+        "answer": "Sukrobari Bazar Bus Stan",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "75": {
+        "question": "I need to catch a bus and I'm near Rajshahi University. Can you tell me where the nearest bus stop is?",
+        "choices": [
+            "Gatelock Bus Terminal-2",
+            "Rajshahi Bus Stand ,amnura",
+            "Rajshahi Bus Terminal ,Vadra.",
+            "Nawabganj Bypass Bus Stand"
+        ],
+        "answer": "Nawabganj Bypass Bus Stand",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "132": {
+        "question": "I'm in Bashundhara, Dhaka and my car is having issues. Can you recommend a reputable car mechanic near me",
+        "choices": [
+            "S.R Auto Electronics Engineering Workshop",
+            "Dhaka Auto Vulcanizeing Workshop ঢাকা অটো ভলকানাইজিং ওয়াকসপ",
+            "Johirul Bike Servicing ",
+            "CAR HEAVEN Workshop Vehicle Repair Shop"
+        ],
+        "answer": "CAR HEAVEN Workshop Vehicle Repair Shop",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "186": {
+        "question": "I'm in Cairo and want to explore Egyptian artifacts. Which museum nearby is considered the best for this?",
+        "choices": [
+            "Lama Temple",
+            "Great Wall of Badaling",
+            "The National Museum of Egyptian Civilization",
+            "Tiananmen"
+        ],
+        "answer": "Tiananmen",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "197": {
+        "question": "I'm in Seoul and enjoy playing at casinos. Where's the best nearby casino?",
+        "choices": [
+            " PARADISE Co., Ltd.",
+            "Paradise City",
+            "Paradise City Incheon Casino Poker Room",
+            "WEZBET "
+        ],
+        "answer": "WEZBET ",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "217": {
+        "question": "I'm in Bangkok and want to visit some tourist attractions. Which nearby attractions are the most renowned?",
+        "choices": [
+            "Devasthan (Brahmin Shrines)",
+            "Mahakan Fort",
+            "Rattanakosin Exhibition Hall",
+            "Roongroj Tour"
+        ],
+        "answer": "Roongroj Tour",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "218": {
+        "question": "I'm in Lisbon and craving seafood. Which restaurant nearby is considered the best for fresh seafood?",
+        "choices": [
+            " Fogo e chão ",
+            "Real colherdepau de Lisboa | Lisbon",
+            "combine your business ",
+            "Estoril"
+        ],
+        "answer": "Estoril",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "259": {
+        "question": "Today is Sunday. I live in Indira road, Dhaka. At tomorrow 3 pm I will leave my house. I need to go to Military Museum, Dhaka to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). Schedule my day If I visit the places in this order: First Military Museum, then Multiplan Center, then Sonali bank and then come back home. I will use my car.",
+        "choices": [
+            "Military Museum (3:00 PM) -> Multiplan Center (3:40 PM) -> Sonali Bank (4:30 PM) -> Home (5:20 PM)",
+            "Military Museum (3:35 PM) -> Multiplan Center (3:50 PM) -> Sonali Bank (4:30 PM) -> Home (5:15 PM)",
+            "Military Museum (3:35 PM) -> Multiplan Center (4:20 PM) -> Sonali Bank (5:45 PM) -> Home (8.10 PM)",
+            "Military Museum (3:05 PM) -> Multiplan Center (5:18 PM) -> Sonali Bank (5:45 PM) -> Home (6:31 PM)"
+        ],
+        "answer": "Military Museum (3:05 PM) -> Multiplan Center (5:18 PM) -> Sonali Bank (5:45 PM) -> Home (6:31 PM)",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "493": {
+        "question": "Find a good coffee shop on the left side of my driving path from my home near Petaling Jaya to my office in Kuala Lumpur.",
+        "choices": [
+            "Dareia Coffee",
+            "Gwaku Coffee",
+            "The Lemon Tree",
+            "Coffeeloca"
+        ],
+        "answer": "Coffeeloca",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "494": {
+        "question": "I am currently at Dublin Castle. Find a nearby atm which is at north of the castle.",
+        "choices": [
+            "AIB ATM Dame Street",
+            "AIB ATM",
+            "Spar ATM",
+            "ATM inside Temple Bar"
+        ],
+        "answer": "ATM inside Temple Bar",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "495": {
+        "question": "What is the best time to go to Gamla Stan from Södermalm? I want to avoid traffic.",
+        "choices": [
+            "5:00 AM - 7:00 AM",
+            "8:00 PM - 11:00 PM",
+            "2:00 PM - 3:00 PM",
+            "10:00 AM - 11:00 AM"
+        ],
+        "answer": "10:00 AM - 11:00 AM",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "496": {
+        "question": "Where is the first gas station on my way from Grunerlokka to Karl Johans gate?",
+        "choices": [
+            "Esso",
+            "SHELL SINSEN",
+            "YX Truck Filipstad",
+            "Uno-X"
+        ],
+        "answer": "Uno-X",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "497": {
+        "question": "Is there any publicly accessible lake around Norreport where people can arrange a program?",
+        "choices": [
+            "Udekørende fysioterapi v/Elie Poulsen",
+            "Haveskriver",
+            "Christian Liljedahl",
+            "Madsen Jørgen Lund"
+        ],
+        "answer": "Madsen Jørgen Lund",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "498": {
+        "question": "I am going from Menteng to Kebayoran Baru by car. Find a good coffee shop based on rating on the left side of the road.",
+        "choices": [
+            "Riau pekanbaru",
+            "BERASA COFFEE",
+            "Mega Cikini Coffee Shop",
+            "Warung Kopi 72"
+        ],
+        "answer": "Warung Kopi 72",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "499": {
+        "question": "How many food stalls are there north of the overbridge at Hakaniemi?",
+        "choices": [
+            "Petitra Oy",
+            "Mäkinen Mika Petteri",
+            "Espresso House Hakaniemi",
+            "Hakaniemen Hallin Kukka"
+        ],
+        "answer": "Hakaniemen Hallin Kukka",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "500": {
+        "question": "Find a good path for a morning walk that avoids busy areas from Kifisia.",
+        "choices": [
+            "Via Mark. Mpotsari ",
+            "Via Leof. Kifisias",
+            "Via Sokratous",
+            ""
+        ],
+        "answer": "",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "501": {
+        "question": "Which road should I follow from Wola to Mokotow to avoid flooded roads in heavy rains?",
+        "choices": [
+            "Via al. Prymasa Tysiąclecia",
+            "Via DK79",
+            "Via al. Niepodległości",
+            ""
+        ],
+        "answer": "",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "503": {
+        "question": "Find a driving route from Old Town to Letna Park that includes a car repair shop.",
+        "choices": [
+            "Truck - Components s.r.o.",
+            "Brzdy Baumrukr S.r.o.",
+            "Pneuzone S.r.o.",
+            "Rameder Tažné zařízení"
+        ],
+        "answer": "Rameder Tažné zařízení",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    },
+    "504": {
+        "question": "What is the most beautiful route from Buda Castle to Heroes' Square for a tourist?",
+        "choices": [
+            "Via Rákóczi út",
+            "Via Andrássy út",
+            "Via Margit körút",
+            ""
+        ],
+        "answer": "",
+        "hint": "",
+        "image": "",
+        "skill": "Fetch context from corresponding google map api and based on the context answer the question ",
+        "solution": "To find the answer, You have to choose one option from the MCQ",
+        "split": "test",
+        "classification": null
+    }
+}

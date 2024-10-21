@@ -95,6 +95,18 @@ def get_place_info(location_address):
             'address': address,
             'rating': rating,
             'types': types,
+            'serves_beer': "YES" if place.get('serves_beer', False) else "NO",
+            "serves_breakfast": "YES" if place.get("serves_breakfast", False) else "NO",
+            "serves_brunch": "YES" if place.get("serves_brunch", False) else "NO",
+            "serves_dinner": "YES" if place.get("serves_dinner", False) else "NO",
+            "serves_lunch": "YES" if place.get("serves_lunch", False) else "NO",
+            "serves_vegetarian_food": "YES" if place.get("serves_vegetarian_food", False) else "NO",
+            "serves_wine": "YES" if place.get("serves_wine", False) else "NO",
+            "reservable": "YES" if place.get("reservable", False) else "NO",
+            "wheelchair_accessible_entrance": "YES" if place.get("wheelchair_accessible_entrance", False) else "NO",
+            "user_ratings_total": place.get("user_ratings_total", 0),
+            "price_level": {1: "Inexpensive", 2: "Moderate", 3: "Expensive", 4: "Very Expensive"}.get(
+                place.get("price_level", 0), "Unknown"),
             'is_open_now': is_open_now,
             'weekdays_opening_hours': weekdays_opening_hours,
         }
@@ -127,31 +139,32 @@ def distance(loc1: dict, loc2: dict) -> float:
     return distance
 
 
-def place(query: str, location: tuple, type: str) -> str:
+def nearby_places(query: str, location: str, type: str) -> str:
     """
     Returns a string containing information on nearby places based on a query and location.
 
     Args:
         query (str): The search term to look for nearby places (e.g. "coffee shop", "restaurant").
-        location (tuple): The latitude and longitude of the current location in the format (lat, lng).
+        location (str): The name of the current location (e.g. Ibn Sina Hospital, Dhaka).
         type (str): The type of place to search for, such as "restaurant", "cafe", or "bar".
 
     Returns:
         str: A string containing information on the nearby places, including the name, rating, number of ratings, and distance from the current location.
     """
+    location_geocode = geocode(location)
     places_results = gmaps.places(
         query=query,
-        location=location,
+        location=location_geocode,
         type=type
     )
     all_poi = places_results["results"]
-    extract_information = f"The following location are the nearest location and all the location has a destination form the current location {location}:\n"
-    location = {'lat': location[0], 'lng': location[1]}
+    extract_information = f"There are some {type} distance from the current location {location} in below:\n"
+    # location_geocode = {'lat': location_geocode[0], 'lng': location_geocode[1]}
     for poi in all_poi:
-        dist = distance(loc1=poi['geometry']['location'], loc2=location)
+        dist = distance(loc1=poi['geometry']['location'], loc2=location_geocode)
         rating = poi['rating'] if 'rating' in poi.keys() else 0
         total_user = poi['user_ratings_total'] if 'user_ratings_total' in poi.keys() else 0
-        extract_information = extract_information + f"{poi['name']} has {rating} rating," + f"where {total_user} people give their rating, " + f"the location distance from current location is {dist} kilometers\n"
+        extract_information = extract_information + f"{poi['name']} ( distance: {dist} kilometers, rating:{rating}, total reviewer:{total_user})\n"
     return extract_information
 
 
@@ -185,6 +198,8 @@ def directions(origin: str, destination: str, mode: str = None, waypoints: list 
         str: A string containing information on the directions, including the number of routes and details on each route.
     """
     # origin = "D03 Flame Tree Ridge", destination = "Aster Cedars Hospital, Jebel Ali", mode = "driving", waypoints = None, alternatives = True
+    waypoints = None
+    alternatives = True
     all_routes = gmaps.directions(
         origin=origin, destination=destination, mode=mode, waypoints=waypoints, alternatives=alternatives
     )
@@ -195,7 +210,7 @@ def directions(origin: str, destination: str, mode: str = None, waypoints: list 
         dist = route["legs"][0]["distance"]["text"]
         duration = route["legs"][0]["duration"]["text"]
         via = route["summary"]
-        extract_information += f"Route {num}: VIA {via} will cover {dist} in {duration}\nDetails steps are provided below: \n"
+        extract_information += f"Route {num}:(VIA) {via} ({dist}, {duration})\nDetails steps are provided below: \n"
         for step in route["legs"][0]["steps"]:
             s_dist = step["distance"]["text"]
             s_duration = step["duration"]["text"]
@@ -203,7 +218,7 @@ def directions(origin: str, destination: str, mode: str = None, waypoints: list 
             soup = BeautifulSoup(html_content, 'html.parser')
             # Extract the text from the HTML content
             s_text = soup.get_text()
-            extract_information += f"{s_text} will cover {s_dist} in {s_duration} \n"
+            extract_information += f"{s_text} ({s_dist}, {s_duration}) \n"
         extract_information += "\n"
     return extract_information
 
@@ -256,7 +271,7 @@ def run_conversation(query):
         {
             "type": "function",
             "function": {
-                "name": "place",
+                "name": "nearby_places",
                 "description": "Get information on nearby places based on a query and location",
                 "parameters": {
                     "type": "object",
@@ -266,11 +281,8 @@ def run_conversation(query):
                             "description": "The search term to look for nearby places (e.g. 'coffee shop', 'restaurant')",
                         },
                         "location": {
-                            "type": "array",
-                            "items": {
-                                "type": "number"
-                            },
-                            "description": "The latitude and longitude of the current location in the format [lat, lng].",
+                            "type": "string",
+                            "description": "The name of the current location (e.g. Ibn Sina Hospital, Dhaka).",
                         },
                         "region": {
                             "type": "string",
@@ -361,6 +373,23 @@ def run_conversation(query):
                     "description": "A string containing the location information and travel time and distance between the locations."
                 }
             }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "get_place_info",
+                "description": "Get details of a place, including its name, address, rating, types, opening hours, and whether it is currently open.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "location_address": {
+                            "type": "string",
+                            "description": "The address or name of the location to search for.",
+                        }
+                    },
+                    "required": ["location_address"]
+                },
+            }
         }
     ]
 
@@ -387,8 +416,8 @@ def run_conversation(query):
             print(f"Function call: {function_name}")
             print(f"Function arguments: {function_args}")
 
-            if function_name == "place":
-                function_response = place(
+            if function_name == "nearby_places":
+                function_response = nearby_places(
                     query=function_args.get("query"),
                     location=function_args.get("location"),
                     # region=function_args.get("region"),
@@ -409,6 +438,11 @@ def run_conversation(query):
                     current_location=function_args.get("current_location"),
                     visiting_places=function_args.get("visiting_places"),
                     travel_mode=function_args.get("travel_mode"),
+                )
+
+            elif function_name == "get_place_info":
+                function_response = get_place_info(
+                    location_address=function_args.get("location_address")
                 )
 
             else:
@@ -435,152 +469,4 @@ def run_conversation(query):
 
 
 if __name__ == "__main__":
-    # current_loc = 'Khaosan Tokyo Origami in Asakusa, Tokyo'
-    # visiting_place_list = ['Sensō-ji Temple', 'Shibuya Crossing', ' Ueno Park', ' Tokyo Skytree']
-    # place_info_str= trip(current_loc, visiting_place_list)
-    # print(place_info_str)
-    # Run the conversation and print the result
-    # print(run_conversation("Where is Dhaka "))
-    # place = directions(origin="Obelisco de Buenos Aires", destination="Caminito in La Boca")
-    # print(place)
-    # print( get_travel_info(origin_address='King Kong Hostel, Rotterdam', destination_address="Market Hall,Markthal", mode=None))
-    print(directions('The Farmville Regional Airport, Farmville',  'High Rock Baptist Church',  'bicycling', waypoints= ['Jamestown Rd', 'High Bridge Trail']))
-
-# Run the conversation and print the result
-# print(run_conversation())
-
-# def get_current_weather(location, unit=None):
-#     """Get the current weather for a given location"""
-#     print(f"get_current_weather called with location: {location}, unit: {unit}")
-#     location_lower = location.lower()
-#
-#     for key in WEATHER_DATA:
-#         if key in location_lower:
-#             print(f"Weather data found for {key}")
-#             weather = WEATHER_DATA[key]
-#             return json.dumps({
-#                 "location": location,
-#                 "temperature": weather["temperature"],
-#                 "unit": unit if unit else weather["unit"]
-#             })
-#
-#     print(f"No weather data found for {location_lower}")
-#     return json.dumps({"location": location, "temperature": "unknown"})
-#
-#
-# def get_current_time(location):
-#     """Get the current time for a given location"""
-#     print(f"get_current_time called with location: {location}")
-#     location_lower = location.lower()
-#
-#     for key, timezone in TIMEZONE_DATA.items():
-#         if key in location_lower:
-#             print(f"Timezone found for {key}")
-#             current_time = datetime.now(ZoneInfo(timezone)).strftime("%I:%M %p")
-#             return json.dumps({
-#                 "location": location,
-#                 "current_time": current_time
-#             })
-#
-#     print(f"No timezone data found for {location_lower}")
-#     return json.dumps({"location": location, "current_time": "unknown"})
-#
-#
-# def run_conversation():
-#     # Initial user message
-#     messages = [{"role": "user", "content": "What's the weather and current time in San Francisco, Tokyo, and Paris?"}]
-#
-#     # Define the functions for the model
-#     tools = [
-#         {
-#             "type": "function",
-#             "function": {
-#                 "name": "get_current_weather",
-#                 "description": "Get the current weather in a given location",
-#                 "parameters": {
-#                     "type": "object",
-#                     "properties": {
-#                         "location": {
-#                             "type": "string",
-#                             "description": "The city name, e.g. San Francisco",
-#                         },
-#                         "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]},
-#                     },
-#                     "required": ["location"],
-#                 },
-#             }
-#         },
-#         {
-#             "type": "function",
-#             "function": {
-#                 "name": "get_current_time",
-#                 "description": "Get the current time in a given location",
-#                 "parameters": {
-#                     "type": "object",
-#                     "properties": {
-#                         "location": {
-#                             "type": "string",
-#                             "description": "The city name, e.g. San Francisco",
-#                         },
-#                     },
-#                     "required": ["location"],
-#                 },
-#             }
-#         }
-#     ]
-#
-#     # First API call: Ask the model to use the functions
-#     response = client.chat.completions.create(
-#         model=deployment_name,
-#         messages=messages,
-#         tools=tools,
-#         tool_choice="auto",
-#     )
-#
-#     # Process the model's response
-#     response_message = response.choices[0].message
-#     messages.append(response_message)
-#
-#     print("Model's response:")
-#     print(response_message)
-#
-#     # Handle function calls
-#     if response_message.tool_calls:
-#         for tool_call in response_message.tool_calls:
-#             function_name = tool_call.function.name
-#             function_args = json.loads(tool_call.function.arguments)
-#             print(f"Function call: {function_name}")
-#             print(f"Function arguments: {function_args}")
-#
-#             if function_name == "get_current_weather":
-#                 function_response = get_current_weather(
-#                     location=function_args.get("location"),
-#                     unit=function_args.get("unit")
-#                 )
-#             elif function_name == "get_current_time":
-#                 function_response = get_current_time(
-#                     location=function_args.get("location")
-#                 )
-#             else:
-#                 function_response = json.dumps({"error": "Unknown function"})
-#
-#             messages.append({
-#                 "tool_call_id": tool_call.id,
-#                 "role": "tool",
-#                 "name": function_name,
-#                 "content": function_response,
-#             })
-#     else:
-#         print("No tool calls were made by the model.")
-#
-#         # Second API call: Get the final response from the model
-#     final_response = client.chat.completions.create(
-#         model=deployment_name,
-#         messages=messages,
-#     )
-#
-#     return final_response.choices[0].message.content
-#
-#
-# # Run the conversation and print the result
-# print(run_conversation())
+    print(run_conversation("I'm currently in Vancouver, BC, Canada and interested in outdoor activities. What is the nearest park or nature reserve in this area ?"))

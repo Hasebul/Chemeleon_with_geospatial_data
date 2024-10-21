@@ -24,75 +24,121 @@ Solution: Compare the properties of each substance to the properties of minerals
 
 # chameleon
 prompt_chameleon = """
-Given the question (and the context), select the answer from the options ["A", "B", "C", "D", "E"]. You should give consice and step-by-step solutions. Finally, conclude the answer in the format of "the answer is [ANSWER]", where [ANSWER] is one from the options ["A", "B", "C", "D", "E"]. For example, "the answer is A", "the answer is B", "the answer is C", "the answer is D", or "the answer is E". If the answer is not in the options, select the most possible option.
+Given the question (and the context), select the answer from the options ["A", "B", "C", "D"]. You should give consice and step-by-step solutions. Finally, conclude the answer in the format of "the answer is [ANSWER]", where [ANSWER] is one from the options ["A", "B", "C", "D"]. For example, "the answer is A", "the answer is B", "the answer is C", or "the answer is D". If the answer is not in the options, select the most possible option.
 
 #Example 1
+Question: What is the address of Multiplan Center?
+
+Options: (A) 69, 71 New Elephant Rd, Dhaka 1205, Bangladesh  (B) 38/1/C BC DAS Street Lalbagh  (C)Polashi,BUET  (D) Central Road, USA
+
+Metadata: {"skill":"Fetch context from corresponding google map api and based on the context answer the question"}
+
+google maps response: Multiplan Center
+Name: Multiplan Center
+Address: 69, 71 New Elephant Rd, Dhaka 1205, Bangladesh
+Rating: 4.4
+Types: point_of_interest, establishment
+Is Open Now: False
+Weekday Opening Hours:
+- Monday: 10:00AM–8:00PM
+- Tuesday: Closed
+- Wednesday: 10:00AM–8:00PM
+- Thursday: 10:00AM–8:00PM
+- Friday: 10:00AM–8:00PM
+- Saturday: 10:00AM–8:00PM
+- Sunday: 10:00AM–8:00PM
+
+Solution: If you look at the context and search, then after reaching The address of Multiplan Center is 69, 71 New Elephant Rd, Dhaka 1205, Bangladesh. Therefore, the answer is B.
+
+#Example 2
+Question: I am going from Indira Road to Chillox Dhanmondi by car via mirpur road.After reaching manik mia avenue where should I go next?
+
+Options: (A) 'Turn right onto Road no 16'  (B)'Turn left onto Mirpur road'  (C)'Turn left onto indira road'  (D)'Turn right onto new elephant road'
+
+Metadata: {"skill":"Fetch context from corresponding google map api and based on the context answer the question"}
+
+google maps response:
+There are total 1 routes from Indira Road to Chillox Dhanmondi. The route information is provided below:
+Route 1: VIA Satmasjid Road will cover 3.9 km in 11 mins
+Details steps are provided below: 
+Head west on Indira Rd toward W Raza Bazar Rd will cover 40 m in 1 min 
+Turn right at the 1st cross street onto W Raza Bazar Rd will cover 14 m in 1 min 
+Turn left onto Indira Rd will cover 82 m in 1 min 
+At the roundabout, take the 2nd exit will cover 73 m in 1 min 
+Continue onto Manik Mia Ave will cover 0.8 km in 2 mins 
+Turn left onto Mirpur Rd will cover 0.3 km in 1 min 
+Turn right onto Road No 16 will cover 1.0 km in 3 mins 
+Turn left onto Satmasjid Road will cover 1.5 km in 5 mins 
+Make a U-turn at Road No. 3ADestination will be on the left will cover 66 m in 1 min 
+
+Solution: If you look at the context and search, then after reaching Manik Mia Avenue, you should turn left onto Mirpur Rd because it is the next step after reaching Manik Mia Avenue. Therefore, the answer is B.
+
+#Example 3
 Question: Find the nearest hospital from Green Delta AIMS Tower, Mohakhali?
 
-Options: (A) MOHAKHALI CANCER AND GENERAL HOSPITAL (B) Square Hospitals Limited (c) United Hospital Limited (d) Millennium Specialized Hospital
+Options: (A) MOHAKHALI CANCER AND GENERAL HOSPITAL (B) National Institute of Diseases of the Chest and Hospital (c) United Hospital Limited (d) Millennium Specialized Hospital
 
 Metadata: {"skill":"Fetch Information from map and mention the POI"}
 
-google maps response: The following locations are the nearest locations, and all of them have a destination form from the current location {'lat': 23.7804576, 'lng': 90.407769} :\n
-Bangladesh Specialized Hospital has 3.3 rating, where 1162 people give their rating, the location distance from current location is 4.597114747999699 kilometers
-Square Hospital has 4.1 rating, where 2544 people give their rating, the location distance from current location is 4.068450279284913 kilometers
-Badda General Hospital Pvt. Ltd. has 3.7 rating, where 116 people give their rating, the location distance from current location is 1.8612444354946194 kilometers
-United Hospital Limited has 3.9 rating, where 1779 people give their rating, the location distance from current location is 2.810382237654217 kilometers
-AMZ Hospital Ltd. has 4 rating, where 252 people give their rating, the location distance from current location is 1.905227966928624 kilometers
-Samorita Hospital Ltd. has 4 rating, where 503 people give their rating, the location distance from current location is 3.8567577415160033 kilometers
-Bangladesh Medical College Hospital has 4.1 rating, where 948 people give their rating, the location distance from current location is 5.1090398832567345 kilometers
-Impulse Hospital has 3.8 rating, where 512 people give their rating, the location distance from current location is 1.65810016123089 kilometers
-Rushmono Specialized Hospital has 3.5 rating, where 130 people give their rating, the location distance from current location is 3.486003020569616 kilometers
-BIRDEM General Hospital has 4.2 rating, where 1425 people give their rating, the location distance from current location is 4.762908619455911 kilometers
-CARe Medical College & Hospital has 3.5 rating, where 230 people give their rating, the location distance from current location is 4.189530628079116 kilometers
-Farazy Hospital has 3.9 rating, where 535 people give their rating, the location distance from current location is 3.5189082157655864 kilometers
-Cure Medical Center & Hospital has 4.3 rating, where 8 people give their rating, the location distance from current location is 1.2565995048550593 kilometers
-Universal Medical College Hospital Ltd. has 3.8 rating, where 397 people give their rating, the location distance from current location is 1.3204718608663173 kilometers
-Institute Of Leprosy Control Hospital has 4.3 rating, where 17 people give their rating, the location distance from current location is 0.16820194272999434 kilometers
-Shaheed Suhrawardy Medical College and Hospital has 4.2 rating, where 1601 people give their rating, the location distance from current location is 3.9091223069781225 kilometers
-York Hospital has 4 rating, where 49 people give their rating, the location distance from current location is 1.7652153462492584 kilometers
-Square Hospitals Limited | Corporate Office has 5 rating, where 1 people give their rating, the location distance from current location is 0.06693517850470752 kilometers
-ZAINUL HAQUE SIKDER WOMEN'S MEDICAL COLLEGE & HOSPITAL (PVT.) LTD. has 4 rating, where 24 people give their rating, the location distance from current location is 1.7593999301308518 kilometers
-Better Life Hospital has 3.4 rating, where 248 people give their rating, the location distance from current location is 2.6071595159429655 kilometers
+google maps response: There are some hospital distance from the current location Green Delta AIMS Tower, Mohakhali in below:
+Impulse Hospital (rating:3.8, number of people gives review: 528, distance from Green Delta AIMS Tower, Mohakhali: 1.65810016123089 kilometers)
+AMZ Hospital Ltd. (rating:4, number of people gives review: 268, distance from Green Delta AIMS Tower, Mohakhali: 1.905227966928624 kilometers)
+Square Hospital (rating:4.1, number of people gives review: 2639, distance from Green Delta AIMS Tower, Mohakhali: 4.068450279284913 kilometers)
+United Hospital Limited (rating:3.9, number of people gives review: 1835, distance from Green Delta AIMS Tower, Mohakhali: 2.810382237654217 kilometers)
+BIRDEM General Hospital (rating:4.2, number of people gives review: 1472, distance from Green Delta AIMS Tower, Mohakhali: 4.762908619455911 kilometers)
+Central Hospital Limited (rating:3.9, number of people gives review: 705, distance from Green Delta AIMS Tower, Mohakhali: 4.774653552567642 kilometers)
+Bangladesh Specialized Hospital (rating:3.4, number of people gives review: 1236, distance from Green Delta AIMS Tower, Mohakhali: 4.597114747999699 kilometers)
+City Hospital & Diagnostic Center (rating:3.8, number of people gives review: 374, distance from Green Delta AIMS Tower, Mohakhali: 5.213372421229639 kilometers)
+National Institute of Diseases of the Chest and Hospital (rating:4.2, number of people gives review: 584, distance from Green Delta AIMS Tower, Mohakhali: 0.544022687017918 kilometers)
+Badda General Hospital Pvt. Ltd. (rating:3.7, number of people gives review: 118, distance from Green Delta AIMS Tower, Mohakhali: 1.8612444354946194 kilometers)
+Hitech Multicare Hospital ltd (rating:3.7, number of people gives review: 377, distance from Green Delta AIMS Tower, Mohakhali: 2.172025093284416 kilometers)
+Al Helal Specialized Hospital, Dhaka (rating:3.5, number of people gives review: 261, distance from Green Delta AIMS Tower, Mohakhali: 4.506883674695464 kilometers)
+Better Life Hospital (rating:3.4, number of people gives review: 259, distance from Green Delta AIMS Tower, Mohakhali: 2.6071595159429655 kilometers)
+AL-MANAR HOSPITAL LTD. (rating:4, number of people gives review: 337, distance from Green Delta AIMS Tower, Mohakhali: 5.298530088879729 kilometers)
+Samorita Hospital Ltd. (rating:4, number of people gives review: 507, distance from Green Delta AIMS Tower, Mohakhali: 3.8567577415160033 kilometers)
+Metropolitan Medical Centre Ltd. (rating:3.8, number of people gives review: 169, distance from Green Delta AIMS Tower, Mohakhali: 1.1906969840899404 kilometers)
+Monowara Hospital (Pvt.) Ltd. (rating:3.8, number of people gives review: 368, distance from Green Delta AIMS Tower, Mohakhali: 4.139612397567985 kilometers)
+Sheikh Russel National Gastroliver Institute & Hospital (rating:4.2, number of people gives review: 513, distance from Green Delta AIMS Tower, Mohakhali: 0.6135741921102021 kilometers)
+Shaheed Suhrawardy Medical College and Hospital (rating:4.2, number of people gives review: 1617, distance from Green Delta AIMS Tower, Mohakhali: 3.9091223069781225 kilometers)
+DNCC Dedicated Covid-19 Hospital, Mohakhali, Dhaka-1212 (rating:4.2, number of people gives review: 419, distance from Green Delta AIMS Tower, Mohakhali: 0.9847498438704613 kilometers)
 
 Solution: Compared to all the hospitals near your current location at Green Delta AIMS Tower, Mohakhali,
-we found Square Hospitals Limited | Corporate Office to be the closest. We can confirm that Square Hospitals Limited Corporate Office is indeed the nearest option.\n
+we found National Institute of Diseases of the Chest and Hospital to be the closest. We can confirm that National Institute of Diseases of the Chest and Hospital is indeed the nearest option.\n
 Therefore, the answer is B.
 
-#Example 2
+#Example 4
 Question: Find the nearest Restaurant from West End School, Lalbagh, Dhaka?
 
 Options: (A) Cafe Jannat Hotel & Restaurant (B) PIZZA Garage (C) Water Garden Restaurant & Convention Hall (D) Bhooter Bari Restaurant
 
-Metadata: {"skill":"Fetch Information from map and mention the POI"}
+Metadata: {"skill":"Fetch context from corresponding google map api and based on the context answer the question"}
 
-google maps response: The following locations are the nearest locations, and all of them have a destination form from the current location {'lat': 23.7216189, 'lng': 90.38535639999999} :\n
-Royal Restaurant has 4 rating, where 5173 people give their rating, the location distance from current location is 0.5750237305248831 kilometers
-Bhooter Bari Restaurant has 4 rating, where 2117 people give their rating, the location distance from current location is 0.3571511328124262 kilometers
-Mughal Darbar Restaurant has 3.9 rating, where 97 people give their rating, the location distance from current location is 0.28708285974538417 kilometers
-Cafe Jannat Hotel & Restaurant (ক্যাফে জান্নাত হোটেল এন্ড রেস্টুরেন্ট) has 4.1 rating, where 163 people give their rating, the location distance from current location is 0.27615569809162305 kilometers
-Cafe Jagannath has 4.4 rating, where 97 people give their rating, the location distance from current location is 0.46119628354183817 kilometers
-Pafin Chinese Restaurant Lalbagh has 4 rating, where 424 people give their rating, the location distance from current location is 0.5283389241397418 kilometers
-Green Leaf Restaurant has 3.9 rating, where 88 people give their rating, the location distance from current location is 0.37361583555914313 kilometers
-Dark House Restaurant has 4.1 rating, where 199 people give their rating, the location distance from current location is 0.3605159063814061 kilometers
-Lalbagh Restaurant & Party Center has 4.1 rating, where 62 people give their rating, the location distance from current location is 0.2714729648541973 kilometers
-PIZZA Garage Lalbagh has 4.1 rating, where 257 people give their rating, the location distance from current location is 0.31143652843856084 kilometers
-Jomidari Bhoj Restaurant has 4.2 rating, where 1686 people give their rating, the location distance from current location is 0.8876292897386362 kilometers
-Vhorta Bari Restaurant has 4 rating, where 452 people give their rating, the location distance from current location is 1.0954230058865428 kilometers
-Al Razzak Restaurant has 3.9 rating, where 9169 people give their rating, the location distance from current location is 2.3961387921469464 kilometers
-Water Garden Restaurant & Convention Hall has 3.9 rating, where 140 people give their rating, the location distance from current location is 0.2446427209784578 kilometers
-Pinewood Cafe n' Restaurant has 4.3 rating, where 4042 people give their rating, the location distance from current location is 3.556721745255204 kilometers
-B cafe or Take a bite restaurent & party center has 3.5 rating, where 134 people give their rating, the location distance from current location is 0.437305811091622 kilometers
-Vorta Vaji Restaurant has 4.2 rating, where 646 people give their rating, the location distance from current location is 1.9694382680213218 kilometers
-Shader Bahar Hotel & Restaurant has 3.9 rating, where 47 people give their rating, the location distance from current location is 0.3364312934136029 kilometers
-Xinxian Restaurant has 4.1 rating, where 4346 people give their rating, the location distance from current location is 2.6704769208018524 kilometers
-Khaje Dewan Restaurant has 3.8 rating, where 37 people give their rating, the location distance from current location is 0.6752691881527221 kilometers
+google maps response: There are some restaurant distance from the current location West End School, Lalbagh, Dhaka in below:
+New Dhanmondi Restora (rating:3.9, number of people gives review: 116, distance from West End School, Lalbagh, Dhaka: 3.0413553623267346 kilometers)
+Zaytun Restaurant (rating:3.9, number of people gives review: 1285, distance from West End School, Lalbagh, Dhaka: 6.3839113657480695 kilometers)
+Khaje Dewan Restaurant (rating:3.8, number of people gives review: 37, distance from West End School, Lalbagh, Dhaka: 0.6752691881527221 kilometers)
+The Dinning Hall (rating:4.1, number of people gives review: 351, distance from West End School, Lalbagh, Dhaka: 0.41313362772319384 kilometers)
+Bhooter Bari Restaurant (rating:4, number of people gives review: 2125, distance from West End School, Lalbagh, Dhaka: 0.3571511328124262 kilometers)
+Pafin Chinese Restaurant Lalbagh (rating:4, number of people gives review: 428, distance from West End School, Lalbagh, Dhaka: 0.5283389241397418 kilometers)
+Royal Restaurant (rating:4, number of people gives review: 5225, distance from West End School, Lalbagh, Dhaka: 0.5750237305248831 kilometers)
+Mughal Darbar Restaurant (rating:4, number of people gives review: 105, distance from West End School, Lalbagh, Dhaka: 0.28708285974538417 kilometers)
+Cafe Jannat Hotel & Restaurant (ক্যাফে জান্নাত হোটেল এন্ড রেস্টুরেন্ট) (rating:4.1, number of people gives review: 187, distance from West End School, Lalbagh, Dhaka: 0.27615569809162305 kilometers)
+স্বাদের খাবার রেষ্টুরেন্ট (rating:4.8, number of people gives review: 6, distance from West End School, Lalbagh, Dhaka: 2.7487849956619743 kilometers)
+Farook Hotel & Restaurant (rating:3.6, number of people gives review: 39, distance from West End School, Lalbagh, Dhaka: 1.8919381159012683 kilometers)
+Park View Restaurant & Cafe (rating:4.4, number of people gives review: 7, distance from West End School, Lalbagh, Dhaka: 0.8970974676376949 kilometers)
+Water Garden Restaurant & Convention Hall (rating:3.9, number of people gives review: 141, distance from West End School, Lalbagh, Dhaka: 0.2446427209784578 kilometers)
+Shadhin Restaurant (rating:3.5, number of people gives review: 216, distance from West End School, Lalbagh, Dhaka: 2.246019915190759 kilometers)
+SIDE KITCHEN (rating:4.6, number of people gives review: 9, distance from West End School, Lalbagh, Dhaka: 4.338917960755217 kilometers)
+Food Corner Restaurant (rating:4.8, number of people gives review: 4, distance from West End School, Lalbagh, Dhaka: 3.37627183120816 kilometers)
+Ghorowa Hotel & Restaurant (rating:3.5, number of people gives review: 64, distance from West End School, Lalbagh, Dhaka: 1.9709185385820103 kilometers)
+B cafe or Take a bite restaurent & party center (rating:3.5, number of people gives review: 134, distance from West End School, Lalbagh, Dhaka: 0.437305811091622 kilometers)
+Thirty3 Restaurant Dhanmondi (rating:4.1, number of people gives review: 53, distance from West End School, Lalbagh, Dhaka: 3.264829777424044 kilometers)
 
-Solution: Compared to all the hospitals near your current location at Green Delta AIMS Tower, Mohakhali,
+Solution: Compared to all the restaurant near your current location at West End School, Lalbagh, Dhaka,
 we found Water Garden Restaurant & Convention Hall to be the closest. We can confirm that Water Garden Restaurant & Convention Hall is indeed the nearest option.\n
 Therefore, the answer is C.
 
-#Example 3
+#Example 5
 Question: I live on Indira Road. I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine Jigatola. I will have my dinner there, which will take approximately an hour. If I leave home at 8:30 pm, where should I go first? LABAID or Sultan's Dine. I will go by car.
 
 Options: (A) "Sultan's Dine" (B)'LABAID Specialized Hospital'
@@ -129,13 +175,13 @@ Rating: 4.2
 Types: restaurant, food, point_of_interest, establishment
 Is Open Now: True
 Weekday Opening Hours:
-- Monday: 12:00 PM – 4:00 AM
-- Tuesday: 12:00 PM – 4:00 AM
-- Wednesday: 12:00 PM – 4:00 AM
-- Thursday: 12:00 PM – 4:00 AM
-- Friday: 12:00 PM – 4:00 AM
-- Saturday: 12:00 PM – 4:00 AM
-- Sunday: 12:00 PM – 4:00 AM
+- Monday: 12:00PM–4:00AM
+- Tuesday: 12:00PM–4:00AM
+- Wednesday: 12:00PM–4:00AM
+- Thursday: 12:00PM–4:00AM
+- Friday: 12:00PM–4:00AM
+- Saturday: 12:00PM–4:00AM
+- Sunday: 12:00PM–4:00AM
 The travel time(distance) from Indira Road to LABAID Specialized hospital is 9 mins (3.2 km)
 The travel time(distance) from Indira Road to Sultan's Dine Jigatola is 12 mins (4.2 km)
 The travel time(distance) from LABAID Specialized hospital to Indira Road is 11 mins (2.6 km)
@@ -148,50 +194,6 @@ If you leave home at 8:30 pm and go to LABAID Specialized Hospital first, it wil
 On the other hand, if you leave home at 8:30 pm and go to Sultan's Dine Jigatola first, it will take you 12 minutes to get there. Then, you will have dinner for approximately an hour. After that, you have to go to LABAID Specialized Hospital, which will take you 15 minutes, and you will stay there for 30 minutes. From LABAID, you need 11 minutes to get back home. This means you will have spent a total of 128 minutes (12 + 60 + 15 + 30 + 11).
 Based on the total time it will take to visit both places, it is better to go to LABAID Specialized Hospital first.
 Therefore, the answer is B.
-
-#Example 4
-Question: I live in Indira Road. At tomorrow 2 pm I will leave my house. I need to go to Military Museum Dhaka to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). In which order I should visit the places so that I reach there on time and come back home as early as possible. I will use public transport.
-
-Options: (A) Home -> Military Museum -> Multiplan Center -> Sonali Bank -> Home  (B) Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home   (C) Home -> Sonali Bank -> Multiplan Center -> Military Museum -> Home  (D) Home -> Military Museum -> Sonali Bank -> Multiplan Center -> Home
-
-Metadata: {"skill":"Fetch context from corresponding google map api and based on the context answer the question"}
-
-All Location Info: 
-Multiplan Center 
-Name: Multiplan Center
-Address: 69, 71 New Elephant Rd, Dhaka 1205, Bangladesh
-Rating: 4.4
-Types: point_of_interest, establishment
-Is Open Now: False
-Weekday Opening Hours:
-- Monday: 10:00 AM – 8:00 PM
-- Tuesday: Closed
-- Wednesday: 10:00 AM – 8:00 PM
-- Thursday: 10:00 AM – 8:00 PM
-- Friday: 10:00 AM – 8:00 PM
-- Saturday: 10:00 AM – 8:00 PM
-- Sunday: 10:00 AM – 8:00 PM
-Sonali Bank, BUET 
-Name: Sonali Bank PLC, BUET Branch
-Address: DSW office, BUET, Dhaka 1000, Bangladesh
-Rating: 3.2
-Types: bank, finance, point_of_interest, establishment
-Is Open Now: False
-Weekday Opening Hours:
-- Monday: 10:00 AM – 3:30 PM
-- Tuesday: 10:00 AM – 3:30 PM
-- Wednesday: 10:00 AM – 3:30 PM
-- Thursday: 10:00 AM – 3:30 PM
-- Friday: Closed
-- Saturday: Closed
-- Sunday: 10:00 AM – 3:30 PM
-The travel time(distance) from Multiplan Center to Sonali Bank, BUET is 24 mins (2.2 km)
-The travel time(distance) from Sonali Bank, BUET to Multiplan Center is 30 mins (2.2 km)
-
-Solution: 
-You obtain this order by considering all the spatial locations, their distance, and finally calculating the best route for which the total travel time is less. To reach all the places on time and come back home as early as possible, you should visit the places in the following order: 
-Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home. 
-This order ensures that you visit the Multiplan Center first, then go to Sonali Bank, and finally to Military Museum. This way, you can visit all the places on time and come back home as early as possible. Therefore, the answer is B.
 
 Now Answer the question following.
 #Question
